@@ -1,0 +1,15 @@
+{
+  "name": "msnews",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Microsoft 365 and Copilot news river built from X, YouTube, Reddit and Microsoft blogs",
+  "scripts": {
+    "fetch": "node scripts/fetch.mjs",
+    "test": "node --test \"scripts/*.test.mjs\"",
+    "serve": "npx --yes http-server@14.1.1 public -p 4173 -c-1"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.2.5"
+  }
+}

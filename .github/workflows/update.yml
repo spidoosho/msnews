@@ -1,0 +1,51 @@
+name: Update news
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: node scripts/fetch.mjs
+      - name: Save new posts to the archive
+        run: |
+          git add public/data/feed.json
+          if git diff --cached --quiet; then
+            echo "No new posts"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update news archive"
+          git pull --rebase origin main
+          git push
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+      - id: deploy
+        uses: actions/deploy-pages@v5

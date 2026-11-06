@@ -1,0 +1,37 @@
+{
+  "settings": {
+    "maxAgeDays": 180,
+    "maxItems": 2500
+  },
+  "relevance": "copilot|microsoft 365|\\bm365\\b|office 365|\\bo365\\b|\\bcowork\\b|sharepoint|onedrive|outlook|\\bTeams\\b|\\bExcel\\b|\\bPowerPoint\\b|power platform|power automate|power apps|\\bagents?\\b|frontier|purview|\\bentra\\b",
+  "sources": [
+    { "id": "ms-365-blog", "type": "blog", "name": "Microsoft Copilot Blog", "url": "https://www.microsoft.com/en-us/microsoft-365/blog/feed/" },
+    { "id": "ms-copilot-studio-blog", "type": "blog", "name": "Copilot Studio Blog", "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/feed/", "topics": ["Copilot Studio"] },
+    { "id": "tc-copilot", "type": "blog", "name": "Tech Community: Copilot", "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-copilot-blog" },
+    { "id": "tc-copilot-studio", "type": "blog", "name": "Tech Community: Copilot Studio", "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=copilot-studio-blog", "topics": ["Copilot Studio"] },
+    { "id": "tc-m365", "type": "blog", "name": "Tech Community: Microsoft 365", "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft_365blog" },
+    { "id": "tc-teams", "type": "blog", "name": "Tech Community: Teams", "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog", "topics": ["Teams"] },
+    { "id": "m365-dev-blog", "type": "blog", "name": "Microsoft 365 Developer Blog", "url": "https://devblogs.microsoft.com/microsoft365dev/feed/" },
+    { "id": "ms-official-blog", "type": "blog", "name": "Official Microsoft Blog", "url": "https://blogs.microsoft.com/feed/", "filter": true },
+
+    { "id": "yt-copilot", "type": "youtube", "name": "Microsoft Copilot", "channelId": "UCc3pNIRzIZ8ynI38GO6H01Q", "filter": true },
+    { "id": "yt-mechanics", "type": "youtube", "name": "Microsoft Mechanics", "channelId": "UCJ9905MRHxwLZ2jeNQGIWxA", "filter": true },
+    { "id": "yt-community-learning", "type": "youtube", "name": "Microsoft Community Learning", "channelId": "UC_mKdhw-V6CeCM7gTo_Iy7w", "filter": true },
+    { "id": "yt-microsoft", "type": "youtube", "name": "Microsoft", "channelId": "UCVGOyzms_XJNk_DHqrffXCw", "filter": true },
+    { "id": "yt-reza", "type": "youtube", "name": "Reza Dorrani", "channelId": "UCvBYTqRx-n_8KzFO0MJlUVw" },
+    { "id": "yt-shane", "type": "youtube", "name": "Shane Young", "channelId": "UC7_OGRP8BYvtGB8eZdPG6Ng" },
+    { "id": "yt-lisa", "type": "youtube", "name": "Lisa Crosbie", "channelId": "UCvxCGKv4WSq49LfNIfZEEtg" },
+    { "id": "yt-kevin", "type": "youtube", "name": "Kevin Stratvert", "channelId": "UCfJT_eYDTmDE-ovKaxVE1ig", "filter": true },
+
+    { "id": "reddit-m365", "type": "reddit", "name": "Reddit: Microsoft 365", "subreddits": ["microsoft365", "Office365", "copilotstudio", "MicrosoftCopilot", "Copilot", "PowerPlatform"] },
+    { "id": "reddit-broad", "type": "reddit", "name": "Reddit: Microsoft", "subreddits": ["microsoft", "MicrosoftTeams", "sharepoint"], "filter": true },
+
+    { "id": "x-msftcopilot", "type": "x", "name": "@MSFTCopilot", "handle": "MSFTCopilot" },
+    { "id": "x-microsoft", "type": "x", "name": "@Microsoft", "handle": "Microsoft", "filter": true },
+    { "id": "x-powerplat", "type": "x", "name": "@MSPowerPlat", "handle": "MSPowerPlat" },
+    { "id": "x-teams", "type": "x", "name": "@MicrosoftTeams", "handle": "MicrosoftTeams", "topics": ["Teams"] },
+    { "id": "x-m365dev", "type": "x", "name": "@Microsoft365Dev", "handle": "Microsoft365Dev" },
+    { "id": "x-satya", "type": "x", "name": "@satyanadella", "handle": "satyanadella", "filter": true },
+    { "id": "x-clamanna", "type": "x", "name": "@clamanna", "handle": "clamanna", "filter": true }
+  ]
+}

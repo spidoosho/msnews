@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MS News</title>
+  <meta name="description" content="Microsoft 365 and Copilot news from X, YouTube, Reddit and Microsoft blogs, newest first.">
+  <meta name="robots" content="noindex">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='7' height='7' fill='%23f25022'/%3E%3Crect x='9' width='7' height='7' fill='%237fba00'/%3E%3Crect y='9' width='7' height='7' fill='%2300a4ef'/%3E%3Crect x='9' y='9' width='7' height='7' fill='%23ffb900'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top" id="top">
+    <div class="wrap">
+      <div class="masthead">
+        <h1>MS News</h1>
+        <button class="status-link" id="status-button" type="button">Loading…</button>
+      </div>
+      <div class="controls">
+        <div class="types" id="types" role="group" aria-label="Filter by source type"></div>
+        <input class="search" id="search" type="search" placeholder="Search" aria-label="Search the news" autocomplete="off">
+      </div>
+      <div class="topics" id="topics" role="group" aria-label="Filter by topic"></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p class="summary" id="summary" aria-live="polite"></p>
+    <div id="feed"></div>
+    <div id="sentinel" aria-hidden="true"></div>
+    <p class="end" id="end" hidden>That's everything in the archive.</p>
+  </main>
+
+  <dialog id="status-dialog" aria-labelledby="status-title">
+    <div class="dialog-head">
+      <h2 id="status-title">Sources</h2>
+      <form method="dialog"><button type="submit">Close</button></form>
+    </div>
+    <p class="dialog-note" id="status-note"></p>
+    <div id="status-table"></div>
+    <p class="dialog-note">X posts come from a public embed that can lag behind the live account or stop for a while. To change the list, edit <code>sources.json</code> in the repository.</p>
+  </dialog>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
