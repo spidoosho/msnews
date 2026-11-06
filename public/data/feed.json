@@ -1454,6 +1454,22 @@
   ]
  },
  {
+  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/copilot-studio/the-github-copilot-harness-in-copilot-studio-is-now-the-microsoft-copilot-harness",
+  "type": "blog",
+  "sourceId": "ms-copilot-studio-blog",
+  "source": "Copilot Studio Blog",
+  "title": "The GitHub Copilot harness in Copilot Studio is now the Microsoft Copilot harness",
+  "text": "See how the Microsoft Copilot harness is helping Copilot Studio makers build more capable, reliable agents for complex business challenges. The post The GitHub Copilot harness in Copilot Studio is now the Microsoft Copilot harness appeared first on Microsoft Copilot Blog .",
+  "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/the-github-copilot-harness-in-copilot-studio-is-now-the-microsoft-copilot-harness/",
+  "image": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/wp-content/uploads/2026/10/CLO23_Collaboration_016_600.jpg",
+  "publishedAt": "2026-10-28T17:00:00.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents"
+  ]
+ },
+ {
   "id": "blog:https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work",
   "type": "blog",
   "sourceId": "ms-official-blog",
@@ -1740,6 +1756,20 @@
   ]
  },
  {
+  "id": "blog:https://www.microsoft.com/en-us/power-platform/blog/2026/10/22/microsoft-named-a-leader-in-two-evaluations-of-next-generation-app-development-platforms",
+  "type": "blog",
+  "sourceId": "ms-copilot-studio-blog",
+  "source": "Copilot Studio Blog",
+  "title": "Microsoft named a Leader in two evaluations of next-generation app development platforms",
+  "text": "In this evolving market, we’re proud that Microsoft has been named a Leader in two analyst evaluations, each with its own market definition and assessment criteria. The post Microsoft named a Leader in two evaluations of next-generation app development platforms appeared first…",
+  "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/22/microsoft-named-a-leader-in-two-evaluations-of-next-generation-app-development-platforms/",
+  "image": null,
+  "publishedAt": "2026-10-22T18:00:00.000Z",
+  "topics": [
+   "Copilot Studio"
+  ]
+ },
+ {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/explore-user-feedback-with-microsoft-365-insights-agent/ba-p/4565981",
   "type": "blog",
   "sourceId": "tc-copilot",
@@ -1821,6 +1851,22 @@
    "Copilot",
    "Cowork",
    "Word"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/blog/copilot-studio-blog/introducing-the-customer-conversation-harness-in-microsoft-copilot-studio/4563954",
+  "type": "blog",
+  "sourceId": "ms-copilot-studio-blog",
+  "source": "Copilot Studio Blog",
+  "title": "Introducing the customer conversation harness in Microsoft Copilot Studio",
+  "text": "Build customer-facing agents in Copilot Studio with a new conversation harness that connects voice, chat, business knowledge, and contact data. The post Introducing the customer conversation harness in Microsoft Copilot Studio appeared first on Microsoft Copilot Blog .",
+  "url": "https://techcommunity.microsoft.com/blog/copilot-studio-blog/introducing-the-customer-conversation-harness-in-microsoft-copilot-studio/4563954",
+  "image": null,
+  "publishedAt": "2026-10-21T17:30:00.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents"
   ]
  },
  {
@@ -2035,7 +2081,7 @@
   "text": "Reposted @msexcel: Earn a 1-on-1 dinner with a finance legend. Visit plsfixthnx.com.\n\nNo purchase necessary. Legal residents of greater NYC metro area (NY, NJ & CT), 21+ & employed as a financial professional at time of Entry who utilizes Microsoft Excel & Copilot as part of their work as",
   "url": "https://x.com/msexcel/status/2111444294548763047",
   "image": "https://pbs.twimg.com/media/HUy0P3RXIAAlNd5.png",
-  "publishedAt": "2026-10-17T15:15:20.000Z",
+  "publishedAt": "2026-10-17T13:21:07.000Z",
   "topics": [
    "Copilot",
    "Excel"
@@ -2088,6 +2134,22 @@
    "Copilot",
    "Cowork",
    "Word"
+  ]
+ },
+ {
+  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/copilot-studio/delegate-shared-business-processes-to-agents-that-are-more-persistent-and-proactive-with-microsoft-copilot-studio",
+  "type": "blog",
+  "sourceId": "ms-copilot-studio-blog",
+  "source": "Copilot Studio Blog",
+  "title": "Delegate shared business processes to agents that are more persistent and proactive with Microsoft Copilot Studio",
+  "text": "Delegate shared business processes to persistent agents that work across your organization, carry context forward, and improve over time. The post Delegate shared business processes to agents that are more persistent and proactive with Microsoft Copilot Studio appeared first on…",
+  "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/delegate-shared-business-processes-to-agents-that-are-more-persistent-and-proactive-with-microsoft-copilot-studio/",
+  "image": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/wp-content/uploads/2026/10/Give-an-agent-an-account.gif",
+  "publishedAt": "2026-10-15T15:05:00.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents"
   ]
  },
  {
@@ -2490,6 +2552,22 @@
   ]
  },
  {
+  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-build-apps-extend-agents-and-transform-business-processes-in-microsoft-copilot-studio",
+  "type": "blog",
+  "sourceId": "ms-copilot-studio-blog",
+  "source": "Copilot Studio Blog",
+  "title": "New and improved: Build apps, extend agents, and transform business processes in Microsoft Copilot Studio",
+  "text": "Discover what's new in Copilot Studio, September 2026: new capabilities that bring apps, workflows, and agents together to transform business processes. The post New and improved: Build apps, extend agents, and transform business processes in Microsoft Copilot Studio appeared…",
+  "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-build-apps-extend-agents-and-transform-business-processes-in-microsoft-copilot-studio/",
+  "image": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/wp-content/uploads/2045/12/One-system-for-business-processes.gif",
+  "publishedAt": "2026-10-07T15:30:00.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents"
+  ]
+ },
+ {
   "id": "youtube:FIFgYCbM1Jg",
   "type": "youtube",
   "sourceId": "yt-mechanics",
@@ -2591,6 +2669,21 @@
   "publishedAt": "2026-10-01T17:43:45.000Z",
   "topics": [
    "Copilot"
+  ]
+ },
+ {
+  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/copilot-studio/4-ways-to-learn-how-to-build-with-microsoft-copilot-studio",
+  "type": "blog",
+  "sourceId": "ms-copilot-studio-blog",
+  "source": "Copilot Studio Blog",
+  "title": "4 ways to learn how to build with Microsoft Copilot Studio",
+  "text": "Find your path to Copilot Studio skills with guided learning, hands-on training, community events, and resources for your role and your goals. The post 4 ways to learn how to build with Microsoft Copilot Studio appeared first on Microsoft Copilot Blog .",
+  "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/4-ways-to-learn-how-to-build-with-microsoft-copilot-studio/",
+  "image": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/wp-content/uploads/2026/10/Learn-to-build-with-Copilot-Studio-1024x365.webp",
+  "publishedAt": "2026-10-01T15:30:00.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio"
   ]
  },
  {
@@ -2797,11 +2890,13 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": []
+  "topics": [
+   "Copilot"
+  ]
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -3025,7 +3120,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -3071,7 +3166,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -3164,7 +3259,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -3559,7 +3654,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -3728,7 +3823,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
