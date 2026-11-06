@@ -66,6 +66,20 @@
   ]
  },
  {
+  "id": "reddit:t3_1xpaga9",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Teams Questions PDF",
+  "text": "Hi all, Two things are bugging us and I'm curious how others deal with them. Our users regularly need to fill out PDF forms and save the completed version back to the channel. They already have Acrobat Reader installed and want to use it for that. But Teams always opens PDFs in…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xpaga9/teams_questions_pdf/",
+  "image": null,
+  "publishedAt": "2026-11-06T11:24:41.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
   "id": "reddit:t3_1xpa4bs",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -1247,6 +1261,20 @@
   "publishedAt": "2026-10-31T00:09:48.000Z",
   "topics": [
    "Copilot"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xjtv97",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/sharepoint",
+  "title": "Hyperlink column - 255 character limit?",
+  "text": "I'm trying to create a Sharepoint list with a hyperlink column, that will link to other SP sites. I go to one of the other sites and get the URL from the \"share\" button, try to paste it into the hyperlink column...and it won't take it because it's longer than 255 characters. Am…",
+  "url": "https://www.reddit.com/r/sharepoint/comments/1xjtv97/hyperlink_column_255_character_limit/",
+  "image": null,
+  "publishedAt": "2026-10-30T22:49:29.000Z",
+  "topics": [
+   "SharePoint"
   ]
  },
  {
