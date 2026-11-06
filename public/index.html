@@ -15,10 +15,16 @@
     <div class="wrap">
       <div class="masthead">
         <h1>MS News</h1>
-        <button class="status-link" id="status-button" type="button">Loading…</button>
+        <div class="masthead-links">
+          <button class="status-link" id="sync-button" type="button">Sync code</button>
+          <button class="status-link" id="status-button" type="button">Loading…</button>
+        </div>
       </div>
       <div class="controls">
-        <div class="types" id="types" role="group" aria-label="Filter by source type"></div>
+        <div class="types-row">
+          <div class="types" id="types" role="group" aria-label="Filter by source type"></div>
+          <button class="saved-button" id="saved-button" type="button" aria-pressed="false">Saved</button>
+        </div>
         <input class="search" id="search" type="search" placeholder="Search" aria-label="Search the news" autocomplete="off">
       </div>
       <div class="topics-filter" id="topics-filter" hidden>
@@ -30,9 +36,10 @@
 
   <main class="wrap">
     <p class="summary" id="summary" aria-live="polite"></p>
+    <p class="notice" id="notice" role="status" hidden></p>
     <div id="feed"></div>
     <div id="sentinel" aria-hidden="true"></div>
-    <p class="end" id="end" hidden>That's everything in the archive.</p>
+    <p class="end" id="end" hidden>That's everything here.</p>
   </main>
 
   <dialog id="status-dialog" aria-labelledby="status-title">
@@ -41,8 +48,17 @@
       <form method="dialog"><button type="submit">Close</button></form>
     </div>
     <p class="dialog-note" id="status-note"></p>
+    <div id="status-personal"></div>
     <div id="status-table"></div>
-    <p class="dialog-note">X posts come from a public embed that can lag behind the live account or stop for a while. To change the list, edit <code>sources.json</code> in the repository.</p>
+    <p class="dialog-note">X posts come from a public embed that can lag behind the live account or stop for a while.</p>
+  </dialog>
+
+  <dialog id="sync-dialog" aria-labelledby="sync-title">
+    <div class="dialog-head">
+      <h2 id="sync-title">Sync code</h2>
+      <form method="dialog"><button type="submit">Close</button></form>
+    </div>
+    <div id="sync-body"></div>
   </dialog>
 
   <script src="app.js" type="module"></script>

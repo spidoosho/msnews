@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { canonicalUrl, excerpt, isRelevant, mergeItems, parseReddit, parseRss, parseXTimeline, parseYouTube, safeUrl, stripHtml, topicsFor } from './lib.mjs';
+import { canonicalUrl, excerpt, isRelevant, mergeItems, parseFeed, parseReddit, parseRss, parseXTimeline, parseYouTube, safeUrl, stripHtml, topicsFor } from './lib.mjs';
 
 const source = { id: 's', name: 'Source', handle: 'acct' };
 
@@ -39,6 +39,17 @@ test('parseRss reads items and skips undated ones', () => {
 
 test('parseRss rejects a non-feed response', () => {
   assert.throws(() => parseRss('<html><body>Blocked</body></html>', source), /not an RSS feed/);
+});
+
+test('parseFeed reads both Atom and RSS', () => {
+  const atom = `<feed><entry><title>Atom post</title><link rel="self" href="https://example.com/self"/><link rel="alternate" href="https://example.com/post"/>
+    <updated>2026-11-06T10:00:00Z</updated><summary>Short summary</summary></entry></feed>`;
+  const [entry] = parseFeed(atom, source);
+  assert.equal(entry.url, 'https://example.com/post');
+  assert.equal(entry.text, 'Short summary');
+  const rss = '<rss><channel><item><title>RSS post</title><link>https://example.com/r</link><pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate></item></channel></rss>';
+  assert.equal(parseFeed(rss, source)[0].title, 'RSS post');
+  assert.throws(() => parseFeed('<html></html>', source), /not an RSS feed/);
 });
 
 test('parseYouTube builds watch links and thumbnails', () => {

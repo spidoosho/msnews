@@ -100,10 +100,46 @@ h1 {
 
 .status-link.warn { color: var(--warn); }
 
+.masthead-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 2px 14px;
+}
+
 .controls {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.types-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.saved-button {
+  flex: none;
+  min-height: 34px;
+  padding: 4px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: none;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.saved-button:hover { color: var(--text); }
+
+.saved-button[aria-pressed="true"] {
+  border-color: transparent;
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
+  color: var(--accent);
 }
 
 .types {
@@ -192,6 +228,12 @@ h1 {
 
 .summary strong { color: var(--new); font-weight: 600; }
 
+.notice {
+  margin: 8px 0 0;
+  color: var(--warn);
+  font-size: 14px;
+}
+
 .day-heading {
   position: sticky;
   top: var(--header-height);
@@ -236,6 +278,36 @@ h1 {
   color: var(--new);
   font-weight: 600;
 }
+
+/* Sits above the link that covers the whole post. */
+.save-button {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin: -6px -8px -6px auto;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.save-button:hover { color: var(--text); background: var(--chip); }
+
+.save-button svg {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+}
+
+.save-button[aria-pressed="true"] { color: var(--accent); }
+.save-button[aria-pressed="true"] svg { fill: currentColor; }
 
 .item h3 {
   margin: 0 0 4px;
@@ -394,9 +466,118 @@ th, td {
 
 th { color: var(--muted); font-size: 12px; font-weight: 600; }
 
-.source-state { white-space: nowrap; }
 .source-state.warn { color: var(--warn); }
 .source-group { padding-top: 16px; font-weight: 600; }
+.source-action { text-align: right; }
+
+.source-detail {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.source-choice {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.source-choice input { margin: 4px 0 0; flex: none; }
+
+dialog h3 {
+  margin: 18px 0 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+dialog button, dialog select, dialog input[type="text"] {
+  min-height: 36px;
+  padding: 4px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 14px;
+}
+
+dialog button { cursor: pointer; }
+dialog button:disabled { cursor: default; opacity: 0.6; }
+dialog input[type="text"] { min-width: 0; }
+
+dialog button.primary {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--on-accent);
+  font-weight: 600;
+}
+
+dialog button.danger { color: var(--warn); }
+
+dialog button.link-button {
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font-size: inherit;
+  text-decoration: underline;
+}
+
+.added-sources {
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+
+.add-source, .code-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.add-source input, .code-form input { flex: 1 1 200px; }
+
+.form-error {
+  margin: 8px 0;
+  color: var(--warn);
+  font-size: 14px;
+}
+
+.sync-intro { margin: 10px 0; font-weight: 600; }
+
+.code-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 10px 0;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background: var(--chip);
+}
+
+.code-box code {
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  overflow-wrap: anywhere;
+  user-select: all;
+}
+
+.code-warning {
+  margin: 10px 0;
+  color: var(--warn);
+  font-size: 14px;
+}
+
+.dialog-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
 
 @media (max-width: 560px) {
   /* The full header would take a fifth of a phone screen, so only the day heading sticks. */
@@ -492,6 +673,8 @@ th { color: var(--muted); font-size: 12px; font-weight: 600; }
   }
 
   .controls { flex-direction: column; align-items: stretch; gap: 8px; }
+  .types { gap: 2px; }
+  .types button, .saved-button { padding: 4px 8px; }
   .search { flex: none; width: 100%; font-size: 16px; }
   .media { border-radius: 4px; }
   .thumb { width: 76px; height: 58px; margin-left: 10px; }

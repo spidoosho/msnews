@@ -1,7 +1,8 @@
 {
   "settings": {
     "maxAgeDays": 180,
-    "maxItems": 2500
+    "maxItems": 2500,
+    "customSourcesApi": "https://msnews-api.vercel.app/api/custom-sources"
   },
   "relevance": "copilot|microsoft 365|\\bm365\\b|office 365|\\bo365\\b|\\bcowork\\b|sharepoint|onedrive|outlook|\\bTeams\\b|\\bExcel\\b|\\bPowerPoint\\b|power platform|power automate|power apps|\\bagents?\\b|frontier|purview|\\bentra\\b",
   "sources": [

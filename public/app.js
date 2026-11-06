@@ -1,3 +1,5 @@
+import { createSync } from './sync.js';
+
 const PAGE_SIZE = 30;
 const QUIET_AFTER_DAYS = 30;
 const LAST_VISIT_KEY = 'msnews:lastVisit';
@@ -12,6 +14,13 @@ const TYPES = [
 ];
 const KIND_LABELS = { blog: 'Blog', youtube: 'YouTube', x: 'X', reddit: 'Reddit' };
 const GROUP_LABELS = { blog: 'Microsoft blogs', youtube: 'YouTube', x: 'X', reddit: 'Reddit' };
+const ADD_SOURCE_TYPES = [
+  ['youtube', 'YouTube', '@MSFTMechanics or channel address'],
+  ['reddit', 'Reddit', 'r/microsoft365'],
+  ['x', 'X', '@MSFTCopilot'],
+  ['blog', 'Blog', 'https://example.com/feed'],
+];
+const BOOKMARK_ICON = '<svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M4 2h8a1 1 0 0 1 1 1v11l-5-3-5 3V3a1 1 0 0 1 1-1z"/></svg>';
 
 const el = {
   top: document.getElementById('top'),
@@ -21,12 +30,18 @@ const el = {
   topicsToggle: document.getElementById('topics-toggle'),
   search: document.getElementById('search'),
   summary: document.getElementById('summary'),
+  notice: document.getElementById('notice'),
   feed: document.getElementById('feed'),
   sentinel: document.getElementById('sentinel'),
   end: document.getElementById('end'),
+  savedButton: document.getElementById('saved-button'),
+  syncButton: document.getElementById('sync-button'),
+  syncDialog: document.getElementById('sync-dialog'),
+  syncBody: document.getElementById('sync-body'),
   statusButton: document.getElementById('status-button'),
   statusDialog: document.getElementById('status-dialog'),
   statusNote: document.getElementById('status-note'),
+  statusPersonal: document.getElementById('status-personal'),
   statusTable: document.getElementById('status-table'),
 };
 
@@ -44,20 +59,36 @@ const state = {
   types: readSelectedTypes(),
   topics: new Set(),
   allTopics: [],
+  topicsReady: false,
   query: params.get('q') ?? '',
+  savedOnly: params.get('saved') === '1',
+  feedItems: [],
+  customFeeds: new Map(),
   items: [],
+  savedItems: [],
   filtered: [],
   shown: 0,
   section: null,
   sectionKey: '',
   lastVisit: null,
   observer: null,
+  status: null,
+  loaded: false,
+  renderedSignature: '',
+  syncIntro: '',
+  syncError: '',
+  addSourceError: '',
+  addSourceType: ADD_SOURCE_TYPES[0][0],
+  addingSource: false,
 };
+
+const sync = createSync({ onChange: profileChanged, onError: showNotice });
 
 const now = () => Date.now();
 const allTypesSelected = () => state.types.size === ALL_TYPE_IDS.length;
 const allTopicsSelected = () => state.topics.size === state.allTopics.length;
 const topicsOf = (item) => (item.topics?.length ? item.topics : [OTHER_TOPIC]);
+const byNewest = (a, b) => b.publishedAt.localeCompare(a.publishedAt);
 
 // Storage can be unavailable in private windows, and "new" marks are only a convenience.
 function readLastVisit() {
@@ -76,6 +107,12 @@ function create(tag, props = {}, ...children) {
     else node.setAttribute(key, value);
   }
   node.append(...children);
+  return node;
+}
+
+function button(label, onClick, props = {}) {
+  const node = create('button', { type: 'button', ...props }, label);
+  node.addEventListener('click', onClick);
   return node;
 }
 
@@ -112,6 +149,41 @@ function pluralize(count, word) {
   return `${count.toLocaleString()} ${word}${count === 1 ? '' : 's'}`;
 }
 
+function showNotice(message) {
+  el.notice.textContent = message;
+  el.notice.hidden = !message;
+}
+
+function isSaved(id) {
+  return sync.profile?.bookmarks.some((item) => item.id === id) ?? false;
+}
+
+function openSyncDialog(intro = '') {
+  state.syncIntro = intro;
+  state.syncError = '';
+  renderSyncDialog();
+  if (!el.syncDialog.open) el.syncDialog.showModal();
+}
+
+function toggleSaved(item) {
+  if (!sync.connected) {
+    openSyncDialog('Saving posts needs a sync code, so they stay available on all your devices.');
+    return;
+  }
+  // The whole post goes along, so a saved post survives after the archive drops it.
+  sync.change(isSaved(item.id) ? { type: 'bookmark.remove', id: item.id } : { type: 'bookmark.add', item });
+}
+
+function saveButton(item) {
+  const node = create('button', { class: 'save-button', type: 'button', title: 'Save post' });
+  node.innerHTML = BOOKMARK_ICON;
+  node.dataset.id = item.id;
+  node.setAttribute('aria-label', 'Save post');
+  node.setAttribute('aria-pressed', String(isSaved(item.id)));
+  node.addEventListener('click', () => toggleSaved(item));
+  return node;
+}
+
 function renderItem(item) {
   const published = new Date(item.publishedAt);
   const isNew = state.lastVisit && item.publishedAt > state.lastVisit;
@@ -123,6 +195,7 @@ function renderItem(item) {
     create('span', {}, item.source),
     create('time', { dateTime: item.publishedAt, title: published.toLocaleString() }, relativeTime(item.publishedAt)));
   if (isNew) meta.append(create('span', { class: 'new-tag' }, 'New'));
+  meta.append(saveButton(item));
 
   const row = create('article', { class: 'item' }, meta);
 
@@ -153,12 +226,10 @@ function renderItem(item) {
   if (item.topics?.length) {
     const tags = create('div', { class: 'tags' });
     for (const topic of item.topics) {
-      const tag = create('button', { class: 'tag', type: 'button' }, topic);
-      tag.addEventListener('click', () => {
+      tags.append(button(topic, () => {
         state.topics = new Set([topic]);
         filtersChanged();
-      });
-      tags.append(tag);
+      }, { class: 'tag' }));
     }
     row.append(tags);
   }
@@ -213,14 +284,16 @@ function clearFilters() {
 function renderSummary() {
   el.summary.replaceChildren();
   const hasFilter = !allTypesSelected() || !allTopicsSelected() || state.query.trim();
-  el.summary.append(hasFilter ? `${pluralize(state.filtered.length, 'post')} match` : pluralize(state.filtered.length, 'post'));
-  const newCount = state.lastVisit ? state.filtered.filter((item) => item.publishedAt > state.lastVisit).length : 0;
+  const noun = state.savedOnly ? 'saved post' : 'post';
+  el.summary.append(hasFilter ? `${pluralize(state.filtered.length, noun)} match` : pluralize(state.filtered.length, noun));
+  const newCount = state.lastVisit && !state.savedOnly ? state.filtered.filter((item) => item.publishedAt > state.lastVisit).length : 0;
   if (newCount) el.summary.append(' · ', create('strong', {}, `${newCount.toLocaleString()} new since your last visit`));
 }
 
 function applyFilters() {
   const terms = state.query.toLowerCase().split(/\s+/).filter(Boolean);
-  state.filtered = state.items.filter((item) => matches(item, terms));
+  const base = state.savedOnly ? state.savedItems : state.items;
+  state.filtered = base.filter((item) => matches(item, terms));
   state.shown = 0;
   state.section = null;
   state.sectionKey = '';
@@ -229,11 +302,14 @@ function applyFilters() {
   syncUrl();
 
   if (!state.filtered.length) {
-    const unselected = !state.types.size ? 'sources' : !state.topics.size ? 'technologies' : null;
-    const action = create('button', { type: 'button' }, unselected ? `Select all ${unselected}` : 'Clear filters');
-    action.addEventListener('click', { sources: selectAllTypes, technologies: selectAllTopics }[unselected] ?? clearFilters);
-    el.feed.append(create('p', { class: 'empty' }, unselected ? `No ${unselected} are selected. ` : 'Nothing matches these filters. ', action));
     el.end.hidden = true;
+    if (state.savedOnly && !state.savedItems.length) {
+      el.feed.append(create('p', { class: 'empty' }, "You haven't saved any posts yet. Use the bookmark icon on a post to save it."));
+      return;
+    }
+    const unselected = !state.types.size ? 'sources' : !state.topics.size ? 'technologies' : null;
+    const action = button(unselected ? `Select all ${unselected}` : 'Clear filters', { sources: selectAllTypes, technologies: selectAllTopics }[unselected] ?? clearFilters);
+    el.feed.append(create('p', { class: 'empty' }, unselected ? `No ${unselected} are selected. ` : 'Nothing matches these filters. ', action));
     return;
   }
   renderNextPage();
@@ -244,6 +320,7 @@ function syncUrl() {
   if (!allTypesSelected()) next.set('types', [...state.types].join(','));
   if (!allTopicsSelected()) next.set('topics', [...state.topics].join(','));
   if (state.query.trim()) next.set('q', state.query.trim());
+  if (state.savedOnly) next.set('saved', '1');
   const search = next.toString();
   history.replaceState(null, '', search ? `?${search}` : location.pathname);
 }
@@ -257,13 +334,12 @@ function filtersChanged() {
 // Buttons stay in place between clicks so keyboard focus and the open dropdown aren't disturbed.
 function renderToggles(container, buttonClass, key, options) {
   const toggle = (label, value, update) => {
-    const button = create('button', { class: buttonClass, type: 'button' }, label);
-    if (value) button.dataset.value = value;
-    button.addEventListener('click', () => {
+    const node = button(label, () => {
       update();
       filtersChanged();
-    });
-    return button;
+    }, { class: buttonClass });
+    if (value) node.dataset.value = value;
+    return node;
   };
   container.replaceChildren(
     toggle('All', null, () => {
@@ -276,9 +352,9 @@ function renderToggles(container, buttonClass, key, options) {
 }
 
 function syncToggleGroup(container, selected, allSelected) {
-  for (const button of container.children) {
-    const { value } = button.dataset;
-    button.setAttribute('aria-pressed', String(value ? selected.has(value) : allSelected));
+  for (const node of container.children) {
+    const { value } = node.dataset;
+    node.setAttribute('aria-pressed', String(value ? selected.has(value) : allSelected));
   }
 }
 
@@ -299,19 +375,93 @@ function setTopicsOpen(open) {
   el.topicsToggle.setAttribute('aria-expanded', String(open));
 }
 
-function setUpTopics() {
+function refreshTopics() {
   const counts = new Map();
-  for (const item of state.items) for (const topic of topicsOf(item)) counts.set(topic, (counts.get(topic) ?? 0) + 1);
+  const everything = [...state.feedItems, ...[...state.customFeeds.values()].flat(), ...state.savedItems];
+  for (const item of everything) for (const topic of topicsOf(item)) counts.set(topic, (counts.get(topic) ?? 0) + 1);
   const hasOther = counts.delete(OTHER_TOPIC);
-  state.allTopics = [...counts.keys()].sort((a, b) => counts.get(b) - counts.get(a));
-  if (hasOther) state.allTopics.push(OTHER_TOPIC);
+  const topics = [...counts.keys()].sort((a, b) => counts.get(b) - counts.get(a));
+  if (hasOther) topics.push(OTHER_TOPIC);
+  if (state.topicsReady && topics.join() === state.allTopics.join()) return;
 
-  // A missing parameter means every topic. An empty one means the user deselected them all.
-  const requested = params.get('topics')?.split(',');
-  state.topics = new Set(requested ? state.allTopics.filter((topic) => requested.includes(topic)) : state.allTopics);
-
-  renderToggles(el.topics, 'chip', 'topics', state.allTopics.map((topic) => [topic, topic]));
+  if (state.topicsReady) {
+    // A technology that first appears later should not vanish from an "everything" view.
+    const hadAll = allTopicsSelected();
+    state.topics = new Set(hadAll ? topics : [...state.topics].filter((topic) => topics.includes(topic)));
+  } else {
+    // A missing parameter means every topic. An empty one means the user deselected them all.
+    const requested = params.get('topics')?.split(',');
+    state.topics = new Set(requested ? topics.filter((topic) => requested.includes(topic)) : topics);
+    state.topicsReady = true;
+  }
+  state.allTopics = topics;
+  renderToggles(el.topics, 'chip', 'topics', topics.map((topic) => [topic, topic]));
   el.topicsFilter.hidden = false;
+}
+
+function rebuildItems() {
+  const hidden = new Set(sync.profile?.hiddenSources ?? []);
+  const byId = new Map();
+  for (const item of state.feedItems) if (!hidden.has(item.sourceId)) byId.set(item.id, item);
+  for (const items of state.customFeeds.values()) for (const item of items) if (!byId.has(item.id)) byId.set(item.id, item);
+  state.items = [...byId.values()].sort(byNewest);
+  state.savedItems = [...(sync.profile?.bookmarks ?? [])].sort(byNewest);
+  refreshTopics();
+}
+
+// Added sources live in their own files, and only people who added one download it.
+async function loadCustomFeeds() {
+  const wanted = sync.profile?.customSources ?? [];
+  const keys = new Set(wanted.map((source) => source.key));
+  for (const key of state.customFeeds.keys()) if (!keys.has(key)) state.customFeeds.delete(key);
+  const missing = wanted.filter((source) => !state.customFeeds.has(source.key));
+  await Promise.all(missing.map(async ({ key }) => {
+    try {
+      const response = await fetch(`data/custom/${encodeURIComponent(key)}.json`, { cache: 'no-cache' });
+      state.customFeeds.set(key, response.ok ? await response.json() : []);
+    } catch {
+      state.customFeeds.set(key, []);
+    }
+  }));
+}
+
+function viewSignature() {
+  return JSON.stringify({
+    hidden: sync.profile?.hiddenSources ?? [],
+    custom: [...state.customFeeds].map(([key, items]) => [key, items.length]),
+    saved: state.savedOnly ? state.savedItems.map((item) => item.id) : [],
+  });
+}
+
+// Saving a post must not reset the page, so the list only redraws when what it shows has changed.
+function redrawIfNeeded() {
+  const signature = viewSignature();
+  if (signature === state.renderedSignature) return;
+  state.renderedSignature = signature;
+  syncToggles();
+  applyFilters();
+}
+
+function syncSavedControls() {
+  const count = sync.profile?.bookmarks.length ?? 0;
+  el.savedButton.textContent = count ? `Saved ${count.toLocaleString()}` : 'Saved';
+  el.savedButton.setAttribute('aria-pressed', String(state.savedOnly));
+  for (const node of el.feed.querySelectorAll('.save-button')) {
+    node.setAttribute('aria-pressed', String(isSaved(node.dataset.id)));
+  }
+}
+
+async function profileChanged() {
+  if (!sync.connected) state.savedOnly = false;
+  rebuildItems();
+  syncSavedControls();
+  renderSyncDialog();
+  renderStatus();
+  if (!state.loaded) return;
+  await loadCustomFeeds();
+  rebuildItems();
+  redrawIfNeeded();
+  renderStatus();
 }
 
 function sourceState(source) {
@@ -322,7 +472,82 @@ function sourceState(source) {
   return { label: 'OK', warn: false };
 }
 
-function renderStatus(status) {
+function sourceNameCell(source, connected) {
+  const name = create('span', {}, source.name);
+  if (source.detail) name.append(create('span', { class: 'source-detail' }, source.detail));
+  if (!connected) return create('td', {}, name);
+  const hidden = sync.profile?.hiddenSources.includes(source.id) ?? false;
+  const box = create('input', { type: 'checkbox', checked: !hidden });
+  box.addEventListener('change', () => sync.change({ type: box.checked ? 'source.show' : 'source.hide', id: source.id }));
+  return create('td', {}, create('label', { class: 'source-choice' }, box, name));
+}
+
+function renderAddedSources() {
+  const added = sync.profile?.customSources ?? [];
+  const reports = new Map((state.status?.customSources ?? []).map((report) => [report.id, report]));
+  const section = create('div', { class: 'added-sources' }, create('h3', {}, 'Your added sources'));
+
+  if (added.length) {
+    const body = create('tbody');
+    for (const source of added) {
+      const report = reports.get(source.key);
+      const { label, warn } = report ? sourceState(report) : { label: 'Waiting for the next refresh', warn: false };
+      body.append(create('tr', {},
+        create('td', {}, source.name, create('span', { class: 'source-detail' }, KIND_LABELS[source.type])),
+        create('td', { class: `source-state${warn ? ' warn' : ''}` }, label),
+        create('td', { class: 'source-action' }, button('Remove', () => {
+          sync.change({ type: 'source.remove', key: source.key });
+        }, { class: 'link-button', 'aria-label': `Remove ${source.name}` }))));
+    }
+    section.append(create('table', {}, body));
+  }
+
+  const select = create('select', { 'aria-label': 'Source type' }, ...ADD_SOURCE_TYPES.map(([id, label]) => create('option', { value: id, selected: id === state.addSourceType }, label)));
+  const placeholder = (id) => ADD_SOURCE_TYPES.find(([type]) => type === id)[2];
+  const input = create('input', { type: 'text', placeholder: placeholder(state.addSourceType), 'aria-label': 'Source to add', autocomplete: 'off', required: true });
+  select.addEventListener('change', () => {
+    state.addSourceType = select.value;
+    input.placeholder = placeholder(select.value);
+  });
+  const submit = create('button', { type: 'submit', disabled: state.addingSource }, state.addingSource ? 'Adding…' : 'Add');
+  const form = create('form', { class: 'add-source' }, select, input, submit);
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    state.addingSource = true;
+    state.addSourceError = '';
+    renderStatus();
+    try {
+      await sync.addSource(select.value, input.value);
+    } catch (error) {
+      state.addSourceError = error.message;
+    }
+    state.addingSource = false;
+    renderStatus();
+  });
+  section.append(form);
+  if (state.addSourceError) section.append(create('p', { class: 'form-error', role: 'alert' }, state.addSourceError));
+  section.append(create('p', { class: 'dialog-note' }, 'Posts from a new source appear after the next hourly refresh. The names of added sources are public, but not who added them.'));
+  return section;
+}
+
+function renderStatus() {
+  const { status } = state;
+  const connected = sync.connected;
+
+  // Redrawing would discard whatever is being typed into the add form.
+  if (el.statusPersonal.contains(document.activeElement) && document.activeElement.matches('input[type="text"]') && !state.addingSource) return;
+
+  if (connected) {
+    el.statusPersonal.replaceChildren(renderAddedSources());
+  } else {
+    el.statusPersonal.replaceChildren(create('p', { class: 'dialog-note' },
+      'Want to hide sources or add your own? ',
+      button('Get a sync code', () => {
+        el.statusDialog.close();
+        openSyncDialog();
+      }, { class: 'link-button' })));
+  }
+
   if (!status) {
     el.statusButton.textContent = 'Sources';
     el.statusNote.textContent = 'Source status is not available right now.';
@@ -334,7 +559,7 @@ function renderStatus(status) {
     ? `Updated ${updated} · ${failed} source${failed === 1 ? '' : 's'} failed`
     : `Updated ${updated}`;
   el.statusButton.classList.toggle('warn', failed > 0);
-  el.statusNote.textContent = `Last refresh: ${new Date(status.generatedAt).toLocaleString()}. ${status.sources.length - failed} of ${status.sources.length} sources responded.`;
+  el.statusNote.textContent = `Last refresh: ${new Date(status.generatedAt).toLocaleString()}. ${status.sources.length - failed} of ${status.sources.length} default sources responded.${connected ? ' Untick a source to hide it.' : ''}`;
 
   const body = create('tbody');
   for (const type of Object.keys(GROUP_LABELS)) {
@@ -344,11 +569,89 @@ function renderStatus(status) {
     for (const source of group) {
       const { label, warn } = sourceState(source);
       body.append(create('tr', {},
-        create('td', {}, source.name),
+        sourceNameCell(source, connected),
         create('td', { class: `source-state${warn ? ' warn' : ''}` }, label)));
     }
   }
   el.statusTable.replaceChildren(create('table', {}, body));
+}
+
+function renderSyncConnected() {
+  const { profile, code } = sync;
+  const copy = button('Copy', async () => {
+    try {
+      await navigator.clipboard.writeText(code);
+      copy.textContent = 'Copied';
+    } catch {
+      copy.textContent = 'Select and copy it';
+    }
+  });
+  return [
+    create('p', { class: 'dialog-note' }, 'Enter this code on another device to get the same saved posts and sources.'),
+    create('div', { class: 'code-box' }, create('code', {}, code), copy),
+    create('p', { class: 'code-warning' }, "Keep this code somewhere safe. It can't be recovered if lost, and anyone who has it can see and change your saved posts and sources."),
+    create('p', { class: 'dialog-note' },
+      `${pluralize(profile?.bookmarks.length ?? 0, 'saved post')} · ${pluralize(profile?.hiddenSources.length ?? 0, 'hidden source')} · ${pluralize(profile?.customSources.length ?? 0, 'added source')}`),
+    create('div', { class: 'dialog-actions' },
+      button('Manage sources', () => {
+        el.syncDialog.close();
+        el.statusDialog.showModal();
+      }),
+      button('Forget on this device', async () => {
+        await sync.forgetDevice();
+      }),
+      button('Delete my data', async () => {
+        if (!window.confirm('Delete your saved posts and sources permanently? This cannot be undone, on any device.')) return;
+        try {
+          await sync.deleteProfile();
+          showNotice('Your data was deleted.');
+        } catch (error) {
+          state.syncError = error.message;
+          renderSyncDialog();
+        }
+      }, { class: 'danger' })),
+  ];
+}
+
+function renderSyncDisconnected() {
+  const input = create('input', { type: 'text', placeholder: 'xxxxx-xxxxx-xxxxx-xxxxx', 'aria-label': 'Your sync code', autocomplete: 'off', spellcheck: false, required: true });
+  const form = create('form', { class: 'code-form' }, input, create('button', { type: 'submit' }, 'Use code'));
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    state.syncError = '';
+    try {
+      await sync.connect(input.value);
+    } catch (error) {
+      state.syncError = error.message;
+      renderSyncDialog();
+    }
+  });
+  const createCode = button('Create a sync code', async () => {
+    createCode.disabled = true;
+    state.syncError = '';
+    try {
+      await sync.create();
+    } catch (error) {
+      state.syncError = error.message;
+      renderSyncDialog();
+    }
+  }, { class: 'primary' });
+  return [
+    ...(state.syncIntro ? [create('p', { class: 'sync-intro' }, state.syncIntro)] : []),
+    create('p', { class: 'dialog-note' }, 'The news is free to read without one. A sync code lets you save posts, hide sources and add your own, and keeps all of that the same on every device. No account or email needed.'),
+    createCode,
+    create('h3', {}, 'Already have a code?'),
+    form,
+  ];
+}
+
+function renderSyncDialog() {
+  // Redrawing would discard a code that is being typed.
+  if (el.syncBody.contains(document.activeElement) && document.activeElement.matches('input') && !state.syncError) return;
+  el.syncBody.replaceChildren(
+    ...(sync.connected ? renderSyncConnected() : renderSyncDisconnected()),
+    ...(state.syncError ? [create('p', { class: 'form-error', role: 'alert' }, state.syncError)] : []),
+  );
 }
 
 async function loadJson(path) {
@@ -359,9 +662,7 @@ async function loadJson(path) {
 
 function showLoadError() {
   el.summary.textContent = '';
-  const retry = create('button', { type: 'button' }, 'Try again');
-  retry.addEventListener('click', () => location.reload());
-  el.feed.replaceChildren(create('p', { class: 'empty' }, 'The news could not be loaded. ', retry));
+  el.feed.replaceChildren(create('p', { class: 'empty' }, 'The news could not be loaded. ', button('Try again', () => location.reload())));
   el.statusButton.textContent = 'Sources';
 }
 
@@ -376,6 +677,9 @@ async function init() {
   el.search.value = state.query;
   renderToggles(el.types, '', 'types', TYPES);
   syncToggleGroup(el.types, state.types, allTypesSelected());
+  if (!sync.connected) state.savedOnly = false;
+  syncSavedControls();
+  renderSyncDialog();
 
   el.topicsToggle.addEventListener('click', () => setTopicsOpen(!el.topicsFilter.classList.contains('open')));
   document.addEventListener('click', (event) => {
@@ -395,28 +699,50 @@ async function init() {
       applyFilters();
     }, 150);
   });
-  el.statusButton.addEventListener('click', () => el.statusDialog.showModal());
-  el.statusDialog.addEventListener('click', (event) => {
-    if (event.target === el.statusDialog) el.statusDialog.close();
+  el.statusButton.addEventListener('click', () => {
+    state.addSourceError = '';
+    renderStatus();
+    el.statusDialog.showModal();
   });
+  el.syncButton.addEventListener('click', () => openSyncDialog());
+  el.savedButton.addEventListener('click', () => {
+    if (!sync.connected) {
+      openSyncDialog('Saving posts needs a sync code, so they stay available on all your devices.');
+      return;
+    }
+    state.savedOnly = !state.savedOnly;
+    state.renderedSignature = viewSignature();
+    syncSavedControls();
+    filtersChanged();
+  });
+  for (const dialog of [el.statusDialog, el.syncDialog]) {
+    dialog.addEventListener('click', (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+  }
 
   state.lastVisit = readLastVisit();
 
   const [feed, status] = await Promise.allSettled([loadJson('data/feed.json'), loadJson('data/status.json')]);
-  renderStatus(status.status === 'fulfilled' ? status.value : null);
+  state.status = status.status === 'fulfilled' ? status.value : null;
+  renderStatus();
   if (feed.status === 'rejected') {
     showLoadError();
     return;
   }
 
-  state.items = feed.value;
+  state.feedItems = feed.value;
   saveLastVisit();
   state.observer = new IntersectionObserver((entries) => {
     if (entries.some((entry) => entry.isIntersecting) && state.shown < state.filtered.length) renderNextPage();
   }, { rootMargin: '1000px' });
-  setUpTopics();
+  await loadCustomFeeds();
+  rebuildItems();
+  state.loaded = true;
+  state.renderedSignature = viewSignature();
   syncToggles();
   applyFilters();
+  sync.refresh();
 }
 
 init();

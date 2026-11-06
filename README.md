@@ -2,12 +2,30 @@
 
 A personal news river for Microsoft 365 and Copilot (Copilot Chat, Copilot Studio, Cowork, agents and more), built from Microsoft blogs, YouTube, Reddit and X, newest first.
 
-It runs entirely on free services, with no server or database:
+It runs entirely on free services:
 
 - **GitHub Actions** fetches every source once an hour and adds new posts to `public/data/feed.json`.
 - **GitHub Pages** hosts the static site in `public/`.
+- **Vercel** (`server/`) runs the optional sync code API, with a private Vercel Blob store behind it.
 
-## Change the sources
+## Sync codes
+
+The news can be read without a code. A sync code lets someone save posts, hide default sources and add their own, with the same result on every device. There are no accounts or emails.
+
+- Codes are random and only their SHA-256 hash is stored. A lost code can't be recovered, and anyone holding a code can read and change that profile.
+- Posts from added sources are fetched by the hourly job, after the default sources, into `public/data/custom/`. These files and the list of added sources are public, but nothing links a source to the person who added it.
+- Each person can add 10 sources, and the site allows 40 added sources and 100 codes in total. Change these in `LIMITS` in `server/lib/core.js`.
+- The free Blob plan allows about 2,000 writes and 10,000 reads a month. Vercel never charges for going over, but the store stops working until the 30-day period resets. Until then the news keeps working and only sync features fail.
+
+To deploy the API after changing `server/`, run this from that folder:
+
+```bash
+npx vercel deploy --prod
+```
+
+The API address appears in `public/sync.js` and `sources.json`. Its allowed site address is in `server/lib/vercel.js`.
+
+## Change the default sources
 
 Edit [`sources.json`](sources.json) and push. The site rebuilds automatically.
 
@@ -41,4 +59,4 @@ npm run fetch
 npm run serve
 ```
 
-Then open http://localhost:4173.
+Then open http://localhost:4173. To try sync codes locally, also run `node scripts/dev-api.mjs`, which keeps its data in memory.

@@ -113,6 +113,35 @@ export function parseRss(xml, source) {
   });
 }
 
+function parseAtom(feed, source) {
+  return asArray(feed.entry).flatMap((entry) => {
+    const links = asArray(entry.link);
+    const link = links.find((candidate) => !candidate['@rel'] || candidate['@rel'] === 'alternate') ?? links[0];
+    const url = safeUrl(link?.['@href']);
+    const publishedAt = toIso(text(entry.published) || text(entry.updated));
+    if (!url || !publishedAt) return [];
+    const body = text(entry.content) || text(entry.summary);
+    return [{
+      id: `blog:${canonicalUrl(url)}`,
+      type: 'blog',
+      sourceId: source.id,
+      source: source.name,
+      title: stripHtml(text(entry.title)),
+      text: excerpt(stripHtml(text(entry.summary) || body)),
+      url,
+      image: firstImage(body),
+      publishedAt,
+    }];
+  });
+}
+
+// Feeds people add themselves can be either format.
+export function parseFeed(xml, source) {
+  const parsed = parser.parse(xml);
+  if (parsed?.feed) return parseAtom(parsed.feed, source);
+  return parseRss(xml, source);
+}
+
 export function parseYouTube(xml, source) {
   const feed = parser.parse(xml)?.feed;
   if (!feed) throw new Error('Response is not a YouTube feed');

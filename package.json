@@ -6,7 +6,7 @@
   "description": "Microsoft 365 and Copilot news river built from X, YouTube, Reddit and Microsoft blogs",
   "scripts": {
     "fetch": "node scripts/fetch.mjs",
-    "test": "node --test \"scripts/*.test.mjs\"",
+    "test": "node --test \"scripts/*.test.mjs\" \"server/lib/*.test.js\"",
     "serve": "npx --yes http-server@14.1.1 public -p 4173 -c-1"
   },
   "dependencies": {
