@@ -2797,13 +2797,11 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": [
-   "Copilot"
-  ]
+  "topics": []
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -2903,6 +2901,21 @@
    "Copilot",
    "Copilot Studio",
    "Cowork"
+  ]
+ },
+ {
+  "id": "blog:https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead",
+  "type": "blog",
+  "sourceId": "ms-365-blog",
+  "source": "Microsoft Copilot Blog",
+  "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+  "text": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead appeared first on AI at Work Blog .",
+  "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+  "image": null,
+  "publishedAt": "2026-09-15T15:00:00.000Z",
+  "topics": [
+   "Copilot",
+   "Agents"
   ]
  },
  {
@@ -3012,7 +3025,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -3058,7 +3071,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -3151,7 +3164,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -3546,7 +3559,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -3715,7 +3728,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
@@ -3769,6 +3782,22 @@
   "topics": [
    "Copilot",
    "Copilot Studio",
+   "Agents"
+  ]
+ },
+ {
+  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/2026/06/16/copilot-cowork-is-now-generally-available",
+  "type": "blog",
+  "sourceId": "ms-365-blog",
+  "source": "Microsoft Copilot Blog",
+  "title": "Copilot Cowork is now generally available",
+  "text": "Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we have shipped. The post Copilot Cowork is now generally available appeared first on AI at Work Blog .",
+  "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+  "image": null,
+  "publishedAt": "2026-06-16T15:00:00.000Z",
+  "topics": [
+   "Copilot",
+   "Cowork",
    "Agents"
   ]
  },
@@ -3887,6 +3916,20 @@
   "url": "https://www.youtube.com/watch?v=X5IvkUxfqms",
   "image": "https://i.ytimg.com/vi/X5IvkUxfqms/hqdefault.jpg",
   "publishedAt": "2026-06-03T00:38:58.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
+  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent",
+  "type": "blog",
+  "sourceId": "ms-365-blog",
+  "source": "Microsoft Copilot Blog",
+  "title": "Introducing Microsoft Scout: Your always-on personal agent",
+  "text": "Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work. The post Introducing Microsoft Scout: Your always-on personal agent appeared first on AI at Work Blog .",
+  "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
+  "image": null,
+  "publishedAt": "2026-06-02T18:00:00.000Z",
   "topics": [
    "Agents"
   ]
@@ -4103,6 +4146,22 @@
   "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/work-iq-api-public-preview-build-copilot-powered-agents-with-a2a/ba-p/4516286",
   "image": null,
   "publishedAt": "2026-05-11T19:44:43.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents"
+  ]
+ },
+ {
+  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences",
+  "type": "blog",
+  "sourceId": "ms-copilot-studio-blog",
+  "source": "Copilot Studio Blog",
+  "title": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
+  "text": "See what's new in Copilot Studio, April 2026: updates to workflows, increased control over agent operations, and an expanded agent usage estimator. The post New and improved: Agent governance, intelligent workflows, and connected app experiences appeared first on Microsoft…",
+  "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/",
+  "image": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/wp-content/uploads/2024/08/Analytics-Viewer-2-1024x479.webp",
+  "publishedAt": "2026-05-11T16:00:00.000Z",
   "topics": [
    "Copilot",
    "Copilot Studio",
