@@ -12,7 +12,8 @@ It runs entirely on free services:
 
 The news can be read without a code. A sync code lets someone save posts, hide default sources and add their own, with the same result on every device. There are no accounts or emails.
 
-- Codes are random and only their SHA-256 hash is stored. A lost code can't be recovered, and anyone holding a code can read and change that profile.
+- Codes are random by default, or chosen by the person, from 4 to 64 characters. Case, spaces and hyphens are ignored. Only a SHA-256 hash is stored.
+- A lost code can't be recovered, and anyone holding or guessing a code can read and change that profile. Nothing limits how many guesses someone can make, so short chosen codes are weak, and each guess also uses up the free read allowance.
 - Posts from added sources are fetched by the hourly job, after the default sources, into `public/data/custom/`. These files and the list of added sources are public, but nothing links a source to the person who added it.
 - Each person can add 10 sources, and the site allows 40 added sources and 100 codes in total. Change these in `LIMITS` in `server/lib/core.js`.
 - The free Blob plan allows about 2,000 writes and 10,000 reads a month. Vercel never charges for going over, but the store stops working until the 30-day period resets. Until then the news keeps working and only sync features fail.

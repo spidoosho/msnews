@@ -29,11 +29,6 @@ function readStoredProfile() {
   try { return JSON.parse(readStored(PROFILE_KEY)); } catch { return null; }
 }
 
-function formatCode(input) {
-  const raw = input.toLowerCase().replace(/[\s-]/g, '');
-  return raw.match(/.{1,5}/g)?.join('-') ?? '';
-}
-
 function applyLocally(profile, op) {
   if (op.type === 'bookmark.add' && !profile.bookmarks.some((item) => item.id === op.item.id)) profile.bookmarks.push(op.item);
   if (op.type === 'bookmark.remove') profile.bookmarks = profile.bookmarks.filter((item) => item.id !== op.id);
@@ -56,7 +51,8 @@ export function createSync({ onChange, onError }) {
         method,
         keepalive,
         headers: {
-          ...(withCode ? { Authorization: `Bearer ${withCode}` } : {}),
+          // Headers can't carry characters such as č, so the code is percent-encoded.
+          ...(withCode ? { Authorization: `Bearer ${encodeURIComponent(withCode)}` } : {}),
           ...(body ? { 'Content-Type': 'application/json' } : {}),
         },
         body: body ? JSON.stringify(body) : undefined,
@@ -153,17 +149,25 @@ export function createSync({ onChange, onError }) {
       onChange();
     },
 
-    async create() {
-      const data = await request('codes', { method: 'POST', withCode: null });
+    // With no chosen code, the server makes a random one.
+    async create(chosen) {
+      const data = await request('codes', { method: 'POST', withCode: null, body: chosen ? { code: chosen } : undefined });
       setCode(data.code);
       setProfile(data.profile);
       onChange();
     },
 
     async connect(input) {
-      const candidate = formatCode(input);
-      const data = await request('profile', { withCode: candidate });
-      setCode(candidate);
+      const data = await request('profile', { withCode: input.trim() });
+      setCode(data.code);
+      setProfile(data.profile);
+      onChange();
+    },
+
+    async changeCode(next) {
+      await flush();
+      const data = await request('profile', { method: 'PUT', body: { code: next } });
+      setCode(data.code);
       setProfile(data.profile);
       onChange();
     },

@@ -539,6 +539,8 @@ dialog button.link-button {
 
 .add-source input, .code-form input { flex: 1 1 200px; }
 
+.code-form + .dialog-note { margin-top: 8px; }
+
 .form-error {
   margin: 8px 0;
   color: var(--warn);

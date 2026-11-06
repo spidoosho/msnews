@@ -1,4 +1,4 @@
-import { createSync } from './sync.js';
+import { createSync } from './sync.js?v=__VERSION__';
 
 const PAGE_SIZE = 30;
 const QUIET_AFTER_DAYS = 30;
@@ -77,6 +77,8 @@ const state = {
   renderedSignature: '',
   syncIntro: '',
   syncError: '',
+  syncNote: '',
+  codeDrafts: { create: '', use: '', change: '' },
   addSourceError: '',
   addSourceType: ADD_SOURCE_TYPES[0][0],
   addingSource: false,
@@ -161,7 +163,8 @@ function isSaved(id) {
 function openSyncDialog(intro = '') {
   state.syncIntro = intro;
   state.syncError = '';
-  renderSyncDialog();
+  state.syncNote = '';
+  renderSyncDialog({ force: true });
   if (!el.syncDialog.open) el.syncDialog.showModal();
 }
 
@@ -576,6 +579,29 @@ function renderStatus() {
   el.statusTable.replaceChildren(create('table', {}, body));
 }
 
+// One form per way of entering a code. Whatever was typed survives an error, so it can be corrected.
+function codeForm({ draft, placeholder, label, submitLabel, required = true, primary = false, action, note = '' }) {
+  const input = create('input', { type: 'text', placeholder, value: state.codeDrafts[draft], 'aria-label': label, autocomplete: 'off', spellcheck: false, required });
+  const submit = create('button', { type: 'submit', class: primary ? 'primary' : '' }, submitLabel);
+  const form = create('form', { class: 'code-form' }, input, submit);
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    state.syncError = '';
+    state.syncNote = '';
+    state.codeDrafts[draft] = input.value;
+    submit.disabled = true;
+    try {
+      await action(input.value.trim());
+      state.codeDrafts[draft] = '';
+      state.syncNote = note;
+    } catch (error) {
+      state.syncError = error.message;
+    }
+    renderSyncDialog({ force: true });
+  });
+  return form;
+}
+
 function renderSyncConnected() {
   const { profile, code } = sync;
   const copy = button('Copy', async () => {
@@ -592,6 +618,15 @@ function renderSyncConnected() {
     create('p', { class: 'code-warning' }, "Keep this code somewhere safe. It can't be recovered if lost, and anyone who has it can see and change your saved posts and sources."),
     create('p', { class: 'dialog-note' },
       `${pluralize(profile?.bookmarks.length ?? 0, 'saved post')} · ${pluralize(profile?.hiddenSources.length ?? 0, 'hidden source')} · ${pluralize(profile?.customSources.length ?? 0, 'added source')}`),
+    create('h3', {}, 'Change your code'),
+    codeForm({
+      draft: 'change',
+      placeholder: 'New code, at least 4 characters',
+      label: 'New sync code',
+      submitLabel: 'Change code',
+      action: (next) => sync.changeCode(next),
+      note: 'Your code has changed. Enter the new one on your other devices.',
+    }),
     create('div', { class: 'dialog-actions' },
       button('Manage sources', () => {
         el.syncDialog.close();
@@ -607,50 +642,46 @@ function renderSyncConnected() {
           showNotice('Your data was deleted.');
         } catch (error) {
           state.syncError = error.message;
-          renderSyncDialog();
         }
+        renderSyncDialog({ force: true });
       }, { class: 'danger' })),
   ];
 }
 
 function renderSyncDisconnected() {
-  const input = create('input', { type: 'text', placeholder: 'xxxxx-xxxxx-xxxxx-xxxxx', 'aria-label': 'Your sync code', autocomplete: 'off', spellcheck: false, required: true });
-  const form = create('form', { class: 'code-form' }, input, create('button', { type: 'submit' }, 'Use code'));
-  form.addEventListener('submit', async (event) => {
-    event.preventDefault();
-    state.syncError = '';
-    try {
-      await sync.connect(input.value);
-    } catch (error) {
-      state.syncError = error.message;
-      renderSyncDialog();
-    }
-  });
-  const createCode = button('Create a sync code', async () => {
-    createCode.disabled = true;
-    state.syncError = '';
-    try {
-      await sync.create();
-    } catch (error) {
-      state.syncError = error.message;
-      renderSyncDialog();
-    }
-  }, { class: 'primary' });
   return [
     ...(state.syncIntro ? [create('p', { class: 'sync-intro' }, state.syncIntro)] : []),
     create('p', { class: 'dialog-note' }, 'The news is free to read without one. A sync code lets you save posts, hide sources and add your own, and keeps all of that the same on every device. No account or email needed.'),
-    createCode,
+    create('h3', {}, 'Create a code'),
+    codeForm({
+      draft: 'create',
+      placeholder: 'Your own code, or leave empty',
+      label: 'Choose a sync code, or leave empty for a random one',
+      submitLabel: 'Create code',
+      required: false,
+      primary: true,
+      action: (chosen) => sync.create(chosen),
+    }),
+    create('p', { class: 'dialog-note' }, 'Leave it empty for a random code, which is the safest choice. Your own code needs at least 4 characters. Anyone who guesses it can see and change your data, so avoid short or common ones.'),
     create('h3', {}, 'Already have a code?'),
-    form,
+    codeForm({
+      draft: 'use',
+      placeholder: 'Your sync code',
+      label: 'Your sync code',
+      submitLabel: 'Use code',
+      action: (input) => sync.connect(input),
+    }),
   ];
 }
 
-function renderSyncDialog() {
-  // Redrawing would discard a code that is being typed.
-  if (el.syncBody.contains(document.activeElement) && document.activeElement.matches('input') && !state.syncError) return;
+// Background updates must not discard a code being typed. A finished action always redraws, because
+// the input usually still has focus after pressing Enter.
+function renderSyncDialog({ force = false } = {}) {
+  if (!force && el.syncBody.contains(document.activeElement) && document.activeElement.matches('input')) return;
   el.syncBody.replaceChildren(
     ...(sync.connected ? renderSyncConnected() : renderSyncDisconnected()),
     ...(state.syncError ? [create('p', { class: 'form-error', role: 'alert' }, state.syncError)] : []),
+    ...(state.syncNote ? [create('p', { class: 'sync-intro', role: 'status' }, state.syncNote)] : []),
   );
 }
 

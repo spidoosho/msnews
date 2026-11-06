@@ -1,11 +1,14 @@
 // Request handling. Storage and network access are passed in so this can run in tests and in a local dev server.
 import {
-  applyOps, generateCode, hashCode, LIMITS, newProfile, normalizeCode, profilePath, publicSourceList, sourcesChanged, updateSourceIndex,
+  applyOps, generateCode, hashCode, LIMITS, MAX_CODE_LENGTH, MIN_CODE_LENGTH, newProfile, normalizeCode, profilePath, publicSourceList,
+  renameSourceUser, sourcesChanged, updateSourceIndex,
 } from './core.js';
 import { InputError, resolveSource } from './sources.js';
 
 const INDEX_PATH = 'index/custom-sources.json';
 const WRITE_ATTEMPTS = 4;
+const CODE_RULE = `Codes need ${MIN_CODE_LENGTH} to ${MAX_CODE_LENGTH} characters, not counting spaces and hyphens`;
+const CODE_TAKEN = 'That code is already taken. Try a different one.';
 
 export class ConflictError extends Error {}
 
@@ -27,17 +30,23 @@ export function createApi({ storage, resolveOptions = {}, allowedOrigins = [] })
     if (!origin || !allowedOrigins.includes(origin)) return { Vary: 'Origin' };
     return {
       'Access-Control-Allow-Origin': origin,
-      'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS',
+      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
       'Access-Control-Allow-Headers': 'Authorization, Content-Type',
       'Access-Control-Max-Age': '86400',
       Vary: 'Origin',
     };
   }
 
-  function requireHash(request) {
-    const code = normalizeCode(request.headers.get('authorization')?.replace(/^Bearer\s+/i, ''));
+  // The site percent-encodes the code, because request headers can't carry characters such as č.
+  function requireCode(request) {
+    const sent = request.headers.get('authorization')?.replace(/^Bearer\s+/i, '') ?? '';
+    let decoded = sent;
+    try {
+      decoded = decodeURIComponent(sent);
+    } catch { /* not encoded, so it is used as it arrived */ }
+    const code = normalizeCode(decoded);
     if (!code) throw new NotFoundError();
-    return hashCode(code);
+    return code;
   }
 
   async function readJsonBody(request) {
@@ -59,14 +68,50 @@ export function createApi({ storage, resolveOptions = {}, allowedOrigins = [] })
     });
   }
 
-  async function createCode() {
+  // Fails rather than overwrites, so choosing a code that exists can never replace someone's data.
+  async function claimCode(code, profile) {
+    const path = profilePath(hashCode(code));
+    if (await storage.read(path)) throw new InputError(CODE_TAKEN);
+    try {
+      await storage.write(path, profile, {});
+    } catch (error) {
+      if (error instanceof ConflictError) throw new InputError(CODE_TAKEN);
+      throw error;
+    }
+  }
+
+  function parseChosenCode(value) {
+    const code = normalizeCode(value);
+    if (!code) throw new InputError(CODE_RULE);
+    return code;
+  }
+
+  async function createCode(request) {
+    const hasBody = request.headers.get('content-type')?.includes('json');
+    const chosen = hasBody ? (await readJsonBody(request))?.code : null;
     if (await storage.count('profiles/') >= LIMITS.profiles) {
       return Response.json({ error: 'This site is not accepting new sync codes right now' }, { status: 503 });
     }
-    const code = generateCode();
+    const code = chosen ? parseChosenCode(chosen) : generateCode();
     const profile = newProfile();
-    await storage.write(profilePath(hashCode(code)), profile, {});
+    await claimCode(code, profile);
     return Response.json({ code, profile }, { status: 201 });
+  }
+
+  async function changeCode(request, oldCode) {
+    const code = parseChosenCode((await readJsonBody(request))?.code);
+    const oldHash = hashCode(oldCode);
+    const stored = await readProfile(oldHash);
+    if (code === oldCode) return Response.json({ code, profile: stored.data });
+    await claimCode(code, stored.data);
+    if (stored.data.customSources.length) {
+      await withRetry(async () => {
+        const current = await storage.read(INDEX_PATH);
+        await storage.write(INDEX_PATH, renameSourceUser(current?.data, oldHash, hashCode(code)), { etag: current?.etag });
+      });
+    }
+    await storage.remove(profilePath(oldHash));
+    return Response.json({ code, profile: stored.data });
   }
 
   async function readProfile(hash) {
@@ -107,15 +152,17 @@ export function createApi({ storage, resolveOptions = {}, allowedOrigins = [] })
 
   async function route(request, name) {
     const { method } = request;
-    if (name === 'codes' && method === 'POST') return createCode();
+    if (name === 'codes' && method === 'POST') return createCode(request);
     if (name === 'custom-sources' && method === 'GET') {
       const index = await storage.read(INDEX_PATH);
       return Response.json({ sources: publicSourceList(index?.data) }, { headers: { 'Cache-Control': 'public, s-maxage=60' } });
     }
     if (name === 'profile') {
-      if (method === 'GET') return Response.json({ profile: (await readProfile(requireHash(request))).data });
-      if (method === 'POST') return changeProfile(request, requireHash(request));
-      if (method === 'DELETE') return deleteProfile(requireHash(request));
+      const code = requireCode(request);
+      if (method === 'GET') return Response.json({ code, profile: (await readProfile(hashCode(code))).data });
+      if (method === 'POST') return changeProfile(request, hashCode(code));
+      if (method === 'PUT') return changeCode(request, code);
+      if (method === 'DELETE') return deleteProfile(hashCode(code));
     }
     return Response.json({ error: 'Not found' }, { status: 404 });
   }

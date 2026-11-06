@@ -18,7 +18,7 @@ const storage = {
         ...(etag ? { ifMatch: etag } : {}),
       });
     } catch (error) {
-      if (error instanceof BlobPreconditionFailedError) throw new ConflictError();
+      if (error instanceof BlobPreconditionFailedError || /already exists/i.test(error?.message ?? '')) throw new ConflictError();
       throw error;
     }
   },

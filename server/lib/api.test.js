@@ -12,7 +12,11 @@ function setup() {
   const api = createApi({ storage, allowedOrigins: [ORIGIN] });
   const call = (name, method, { code, body, origin } = {}) => api.handle(new Request(`https://api.test/${name}`, {
     method,
-    headers: { ...(code ? { Authorization: `Bearer ${code}` } : {}), ...(origin ? { Origin: origin } : {}) },
+    headers: {
+      ...(code ? { Authorization: `Bearer ${code}` } : {}),
+      ...(origin ? { Origin: origin } : {}),
+      ...(body === undefined ? {} : { 'Content-Type': 'application/json' }),
+    },
     body: body === undefined ? undefined : JSON.stringify(body),
   }), name);
   const create = async () => (await (await call('codes', 'POST')).json()).code;
@@ -25,7 +29,83 @@ test('generated codes are readable, unique and accepted when retyped loosely', (
   assert.match(code, /^[a-hjkmnp-z2-9i]{5}(-[a-hjkmnp-z2-9i]{5}){3}$/);
   assert.notEqual(code, generateCode());
   assert.equal(normalizeCode(` ${code.toUpperCase().replaceAll('-', ' ')} `), code);
-  assert.equal(normalizeCode('too-short'), null);
+  assert.equal(normalizeCode('a-b c'), null);
+  assert.equal(normalizeCode('x'.repeat(65)), null);
+});
+
+test('chosen codes ignore case, spaces and hyphens', () => {
+  assert.equal(normalizeCode('Team One'), 'teamone');
+  assert.equal(normalizeCode('team-one'), 'teamone');
+  assert.equal(normalizeCode('abcd'), 'abcd');
+  assert.equal(normalizeCode('Příliš'), 'příliš');
+  assert.equal(normalizeCode('ab\u0000cd'), null);
+});
+
+test('a chosen code can be created and then used', async () => {
+  const { call } = setup();
+  const created = await call('codes', 'POST', { body: { code: 'Team One' } });
+  assert.equal(created.status, 201);
+  assert.equal((await created.json()).code, 'teamone');
+  const read = await call('profile', 'GET', { code: 'TEAM-ONE' });
+  assert.equal(read.status, 200);
+  assert.equal((await read.json()).code, 'teamone');
+});
+
+test('a percent-encoded code with accents reaches the same profile', async () => {
+  const { call } = setup();
+  await call('codes', 'POST', { body: { code: 'Příliš' } });
+  assert.equal((await call('profile', 'GET', { code: encodeURIComponent('příliš') })).status, 200);
+});
+
+test('a malformed request to create a code gets a clean error', async () => {
+  const { api } = setup();
+  const response = await api.handle(new Request('https://api.test/codes', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: '{not json',
+  }), 'codes');
+  assert.equal(response.status, 400);
+});
+
+test('a code that is too short is refused with the rule', async () => {
+  const { call } = setup();
+  const response = await call('codes', 'POST', { body: { code: 'abc' } });
+  assert.equal(response.status, 400);
+  assert.match((await response.json()).error, /4 to 64 characters/);
+});
+
+test('choosing a taken code never replaces the existing data', async () => {
+  const { call, change } = setup();
+  await call('codes', 'POST', { body: { code: 'shared' } });
+  await change('shared', { type: 'bookmark.add', item: post });
+  const again = await call('codes', 'POST', { body: { code: 'SHARED' } });
+  assert.equal(again.status, 400);
+  assert.match((await again.json()).error, /already taken/);
+  assert.equal((await (await call('profile', 'GET', { code: 'shared' })).json()).profile.bookmarks.length, 1);
+});
+
+test('a code can be changed, keeping the data and retiring the old code', async () => {
+  const { call, create, change } = setup();
+  const code = await create();
+  await change(code, { type: 'bookmark.add', item: post }, { type: 'source.add', sourceType: 'x', value: 'someone' });
+  const moved = await call('profile', 'PUT', { code, body: { code: 'My Code' } });
+  assert.equal(moved.status, 200);
+  assert.equal((await moved.json()).code, 'mycode');
+  assert.equal((await call('profile', 'GET', { code })).status, 404);
+  assert.equal((await (await call('profile', 'GET', { code: 'mycode' })).json()).profile.bookmarks.length, 1);
+  // The new code still owns the added source, so removing it there stops it being fetched.
+  await change('mycode', { type: 'source.remove', key: 'x-someone' });
+  assert.deepEqual((await (await call('custom-sources', 'GET')).json()).sources, []);
+});
+
+test('changing to a taken code leaves both profiles alone', async () => {
+  const { call, create } = setup();
+  const code = await create();
+  await call('codes', 'POST', { body: { code: 'taken' } });
+  const response = await call('profile', 'PUT', { code, body: { code: 'taken' } });
+  assert.equal(response.status, 400);
+  assert.match((await response.json()).error, /already taken/);
+  assert.equal((await call('profile', 'GET', { code })).status, 200);
 });
 
 test('a new code works, and the code itself is never stored', async () => {

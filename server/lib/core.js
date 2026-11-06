@@ -16,6 +16,8 @@ export const LIMITS = {
 // Leaves out l, o, 0 and 1, which are easy to misread. Exactly 32 characters keep the random pick unbiased.
 const CODE_ALPHABET = 'abcdefghijkmnpqrstuvwxyz23456789';
 const CODE_LENGTH = 20;
+export const MIN_CODE_LENGTH = 4;
+export const MAX_CODE_LENGTH = 64;
 const ITEM_TYPES = new Set(['blog', 'youtube', 'x', 'reddit']);
 const TEXT_LIMITS = { id: 300, source: 80, title: 400, text: 1200 };
 
@@ -26,10 +28,14 @@ export function generateCode() {
   return formatCode(Array.from(bytes, (byte) => CODE_ALPHABET[byte % CODE_ALPHABET.length]).join(''));
 }
 
+// Case, spaces and hyphens don't matter, so a code still works when retyped from memory.
 export function normalizeCode(input) {
-  const raw = String(input ?? '').toLowerCase().replace(/[\s-]/g, '');
-  if (raw.length !== CODE_LENGTH || [...raw].some((char) => !CODE_ALPHABET.includes(char))) return null;
-  return formatCode(raw);
+  const raw = String(input ?? '').normalize('NFC').toLowerCase().replace(/[\s-]/g, '');
+  const length = [...raw].length;
+  if (length < MIN_CODE_LENGTH || length > MAX_CODE_LENGTH || /\p{C}/u.test(raw)) return null;
+  // Generated codes keep their grouped form, so codes created before custom ones were allowed still match.
+  if (length === CODE_LENGTH && [...raw].every((char) => CODE_ALPHABET.includes(char))) return formatCode(raw);
+  return raw;
 }
 
 // Only the hash is stored, so reading the store does not reveal anyone's code.
@@ -142,6 +148,14 @@ export function updateSourceIndex(index, hash, before, after) {
     next.sources[source.key] = { source: entry?.source ?? source, users: [...new Set([...(entry?.users ?? []), hash])] };
   }
   return next;
+}
+
+export function renameSourceUser(index, oldHash, newHash) {
+  const sources = Object.fromEntries(Object.entries(index?.sources ?? {}).map(([key, entry]) => [
+    key,
+    { ...entry, users: entry.users.map((user) => (user === oldHash ? newHash : user)) },
+  ]));
+  return { sources };
 }
 
 export const publicSourceList = (index) => Object.values(index?.sources ?? {}).map((entry) => entry.source);

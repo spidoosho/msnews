@@ -44,6 +44,11 @@ jobs:
           git commit -m "Update news archive"
           git pull --rebase origin main
           git push
+      # Browsers cache these files for 10 minutes. Versioned addresses stop a new page running an old script.
+      - name: Stamp file versions
+        run: |
+          version=$(cat public/app.js public/sync.js public/styles.css | sha1sum | cut -c1-12)
+          sed -i "s/__VERSION__/$version/g" public/index.html public/app.js
       - uses: actions/upload-pages-artifact@v5
         with:
           path: public
