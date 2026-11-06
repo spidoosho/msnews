@@ -267,7 +267,7 @@ function renderToggles(container, buttonClass, key, options) {
   };
   container.replaceChildren(
     toggle('All', null, () => {
-      state[key] = new Set(options.map(([id]) => id));
+      state[key] = new Set(state[key].size === options.length ? [] : options.map(([id]) => id));
     }),
     ...options.map(([id, label]) => toggle(label, id, () => {
       if (!state[key].delete(id)) state[key].add(id);
