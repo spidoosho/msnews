@@ -21,7 +21,10 @@
         <div class="types" id="types" role="group" aria-label="Filter by source type"></div>
         <input class="search" id="search" type="search" placeholder="Search" aria-label="Search the news" autocomplete="off">
       </div>
-      <div class="topics" id="topics" role="group" aria-label="Filter by topic"></div>
+      <div class="topics-filter" id="topics-filter" hidden>
+        <button class="topics-toggle" id="topics-toggle" type="button" aria-expanded="false" aria-controls="topics"><span>Technologies: All</span></button>
+        <div class="topics" id="topics" role="group" aria-label="Filter by technology"></div>
+      </div>
     </div>
   </header>
 

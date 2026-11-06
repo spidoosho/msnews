@@ -1,9 +1,10 @@
 const PAGE_SIZE = 30;
 const QUIET_AFTER_DAYS = 30;
 const LAST_VISIT_KEY = 'msnews:lastVisit';
+// Stands in for posts that mention no tracked technology, so deselecting one topic doesn't hide them.
+const OTHER_TOPIC = 'Other';
 
 const TYPES = [
-  ['all', 'All'],
   ['blog', 'Blogs'],
   ['youtube', 'YouTube'],
   ['x', 'X'],
@@ -16,6 +17,8 @@ const el = {
   top: document.getElementById('top'),
   types: document.getElementById('types'),
   topics: document.getElementById('topics'),
+  topicsFilter: document.getElementById('topics-filter'),
+  topicsToggle: document.getElementById('topics-toggle'),
   search: document.getElementById('search'),
   summary: document.getElementById('summary'),
   feed: document.getElementById('feed'),
@@ -27,10 +30,20 @@ const el = {
   statusTable: document.getElementById('status-table'),
 };
 
+const ALL_TYPE_IDS = TYPES.map(([id]) => id);
 const params = new URLSearchParams(location.search);
+
+// A missing parameter means every source. An empty one means the user deselected them all.
+function readSelectedTypes() {
+  if (!params.has('types')) return new Set(ALL_TYPE_IDS);
+  const requested = params.get('types').split(',');
+  return new Set(ALL_TYPE_IDS.filter((id) => requested.includes(id)));
+}
+
 const state = {
-  type: TYPES.some(([id]) => id === params.get('type')) ? params.get('type') : 'all',
-  topic: params.get('topic') ?? '',
+  types: readSelectedTypes(),
+  topics: new Set(),
+  allTopics: [],
   query: params.get('q') ?? '',
   items: [],
   filtered: [],
@@ -42,6 +55,9 @@ const state = {
 };
 
 const now = () => Date.now();
+const allTypesSelected = () => state.types.size === ALL_TYPE_IDS.length;
+const allTopicsSelected = () => state.topics.size === state.allTopics.length;
+const topicsOf = (item) => (item.topics?.length ? item.topics : [OTHER_TOPIC]);
 
 // Storage can be unavailable in private windows, and "new" marks are only a convenience.
 function readLastVisit() {
@@ -96,13 +112,6 @@ function pluralize(count, word) {
   return `${count.toLocaleString()} ${word}${count === 1 ? '' : 's'}`;
 }
 
-function setTopic(topic) {
-  state.topic = topic;
-  renderTopics();
-  applyFilters();
-  scrollTo({ top: 0 });
-}
-
 function renderItem(item) {
   const published = new Date(item.publishedAt);
   const isNew = state.lastVisit && item.publishedAt > state.lastVisit;
@@ -145,7 +154,10 @@ function renderItem(item) {
     const tags = create('div', { class: 'tags' });
     for (const topic of item.topics) {
       const tag = create('button', { class: 'tag', type: 'button' }, topic);
-      tag.addEventListener('click', () => setTopic(topic));
+      tag.addEventListener('click', () => {
+        state.topics = new Set([topic]);
+        filtersChanged();
+      });
       tags.append(tag);
     }
     row.append(tags);
@@ -173,26 +185,34 @@ function renderNextPage() {
 }
 
 function matches(item, terms) {
-  if (state.type !== 'all' && item.type !== state.type) return false;
-  if (state.topic && !item.topics?.includes(state.topic)) return false;
+  if (!state.types.has(item.type)) return false;
+  if (!allTopicsSelected() && !topicsOf(item).some((topic) => state.topics.has(topic))) return false;
   if (!terms.length) return true;
   const haystack = `${item.title ?? ''} ${item.text ?? ''} ${item.source}`.toLowerCase();
   return terms.every((term) => haystack.includes(term));
 }
 
+function selectAllTypes() {
+  state.types = new Set(ALL_TYPE_IDS);
+  filtersChanged();
+}
+
+function selectAllTopics() {
+  state.topics = new Set(state.allTopics);
+  filtersChanged();
+}
+
 function clearFilters() {
-  state.type = 'all';
-  state.topic = '';
+  state.types = new Set(ALL_TYPE_IDS);
+  state.topics = new Set(state.allTopics);
   state.query = '';
   el.search.value = '';
-  renderTypes();
-  renderTopics();
-  applyFilters();
+  filtersChanged();
 }
 
 function renderSummary() {
   el.summary.replaceChildren();
-  const hasFilter = state.type !== 'all' || state.topic || state.query.trim();
+  const hasFilter = !allTypesSelected() || !allTopicsSelected() || state.query.trim();
   el.summary.append(hasFilter ? `${pluralize(state.filtered.length, 'post')} match` : pluralize(state.filtered.length, 'post'));
   const newCount = state.lastVisit ? state.filtered.filter((item) => item.publishedAt > state.lastVisit).length : 0;
   if (newCount) el.summary.append(' · ', create('strong', {}, `${newCount.toLocaleString()} new since your last visit`));
@@ -209,9 +229,10 @@ function applyFilters() {
   syncUrl();
 
   if (!state.filtered.length) {
-    const clear = create('button', { type: 'button' }, 'Clear filters');
-    clear.addEventListener('click', clearFilters);
-    el.feed.append(create('p', { class: 'empty' }, 'Nothing matches these filters. ', clear));
+    const unselected = !state.types.size ? 'sources' : !state.topics.size ? 'technologies' : null;
+    const action = create('button', { type: 'button' }, unselected ? `Select all ${unselected}` : 'Clear filters');
+    action.addEventListener('click', { sources: selectAllTypes, technologies: selectAllTopics }[unselected] ?? clearFilters);
+    el.feed.append(create('p', { class: 'empty' }, unselected ? `No ${unselected} are selected. ` : 'Nothing matches these filters. ', action));
     el.end.hidden = true;
     return;
   }
@@ -220,37 +241,77 @@ function applyFilters() {
 
 function syncUrl() {
   const next = new URLSearchParams();
-  if (state.type !== 'all') next.set('type', state.type);
-  if (state.topic) next.set('topic', state.topic);
+  if (!allTypesSelected()) next.set('types', [...state.types].join(','));
+  if (!allTopicsSelected()) next.set('topics', [...state.topics].join(','));
   if (state.query.trim()) next.set('q', state.query.trim());
   const search = next.toString();
   history.replaceState(null, '', search ? `?${search}` : location.pathname);
 }
 
-function renderTypes() {
-  el.types.replaceChildren(...TYPES.map(([id, label]) => {
-    const button = create('button', { type: 'button' }, label);
-    button.setAttribute('aria-pressed', String(state.type === id));
-    button.addEventListener('click', () => {
-      state.type = id;
-      renderTypes();
-      applyFilters();
-      scrollTo({ top: 0 });
-    });
-    return button;
-  }));
+function filtersChanged() {
+  syncToggles();
+  applyFilters();
+  scrollTo({ top: 0 });
 }
 
-function renderTopics() {
+// Buttons stay in place between clicks so keyboard focus and the open dropdown aren't disturbed.
+function renderToggles(container, buttonClass, key, options) {
+  const toggle = (label, value, update) => {
+    const button = create('button', { class: buttonClass, type: 'button' }, label);
+    if (value) button.dataset.value = value;
+    button.addEventListener('click', () => {
+      update();
+      filtersChanged();
+    });
+    return button;
+  };
+  container.replaceChildren(
+    toggle('All', null, () => {
+      state[key] = new Set(options.map(([id]) => id));
+    }),
+    ...options.map(([id, label]) => toggle(label, id, () => {
+      if (!state[key].delete(id)) state[key].add(id);
+    })),
+  );
+}
+
+function syncToggleGroup(container, selected, allSelected) {
+  for (const button of container.children) {
+    const { value } = button.dataset;
+    button.setAttribute('aria-pressed', String(value ? selected.has(value) : allSelected));
+  }
+}
+
+function topicsToggleLabel() {
+  if (allTopicsSelected()) return 'All';
+  if (state.topics.size === 0) return 'None';
+  return state.topics.size === 1 ? [...state.topics][0] : `${state.topics.size} selected`;
+}
+
+function syncToggles() {
+  syncToggleGroup(el.types, state.types, allTypesSelected());
+  syncToggleGroup(el.topics, state.topics, allTopicsSelected());
+  el.topicsToggle.firstElementChild.textContent = `Technologies: ${topicsToggleLabel()}`;
+}
+
+function setTopicsOpen(open) {
+  el.topicsFilter.classList.toggle('open', open);
+  el.topicsToggle.setAttribute('aria-expanded', String(open));
+}
+
+function setUpTopics() {
   const counts = new Map();
-  for (const item of state.items) for (const topic of item.topics ?? []) counts.set(topic, (counts.get(topic) ?? 0) + 1);
-  const topics = [...counts.keys()].sort((a, b) => counts.get(b) - counts.get(a));
-  el.topics.replaceChildren(...topics.map((topic) => {
-    const chip = create('button', { class: 'chip', type: 'button' }, topic);
-    chip.setAttribute('aria-pressed', String(state.topic === topic));
-    chip.addEventListener('click', () => setTopic(state.topic === topic ? '' : topic));
-    return chip;
-  }));
+  for (const item of state.items) for (const topic of topicsOf(item)) counts.set(topic, (counts.get(topic) ?? 0) + 1);
+  const hasOther = counts.delete(OTHER_TOPIC);
+  state.allTopics = [...counts.keys()].sort((a, b) => counts.get(b) - counts.get(a));
+  if (hasOther) state.allTopics.push(OTHER_TOPIC);
+
+  // A missing parameter means every topic. An empty one means the user deselected them all.
+  const requested = params.get('topics')?.split(',');
+  state.topics = new Set(requested ? state.allTopics.filter((topic) => requested.includes(topic)) : state.allTopics);
+
+  renderToggles(el.topics, 'chip', 'topics', state.allTopics.map((topic) => [topic, topic]));
+  el.topicsFilter.hidden = false;
 }
 
 function sourceState(source) {
@@ -313,7 +374,18 @@ function watchHeaderHeight() {
 async function init() {
   watchHeaderHeight();
   el.search.value = state.query;
-  renderTypes();
+  renderToggles(el.types, '', 'types', TYPES);
+  syncToggleGroup(el.types, state.types, allTypesSelected());
+
+  el.topicsToggle.addEventListener('click', () => setTopicsOpen(!el.topicsFilter.classList.contains('open')));
+  document.addEventListener('click', (event) => {
+    if (!el.topicsFilter.contains(event.target)) setTopicsOpen(false);
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape' || !el.topicsFilter.classList.contains('open')) return;
+    setTopicsOpen(false);
+    el.topicsToggle.focus();
+  });
 
   let searchTimer;
   el.search.addEventListener('input', () => {
@@ -342,7 +414,8 @@ async function init() {
   state.observer = new IntersectionObserver((entries) => {
     if (entries.some((entry) => entry.isIntersecting) && state.shown < state.filtered.length) renderNextPage();
   }, { rootMargin: '1000px' });
-  renderTopics();
+  setUpTopics();
+  syncToggles();
   applyFilters();
 }
 
