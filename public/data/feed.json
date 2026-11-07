@@ -137,6 +137,23 @@
   "topics": []
  },
  {
+  "id": "reddit:t3_1xpg0hd",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/copilotstudio",
+  "title": "Copilot Studio SharePoint knowledge retrieval works for the agent owner but intermittently fails for other users",
+  "text": "I’m experiencing a strange issue with a Copilot Studio Premium agent that uses SharePoint documents as knowledge sources. The agent works perfectly when I test it using my own account in the Copilot Studio test panel. It retrieves the required documents and successfully…",
+  "url": "https://www.reddit.com/r/copilotstudio/comments/1xpg0hd/copilot_studio_sharepoint_knowledge_retrieval/",
+  "image": null,
+  "publishedAt": "2026-11-06T15:44:44.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents",
+   "SharePoint"
+  ]
+ },
+ {
   "id": "reddit:t3_1xpfolf",
   "type": "reddit",
   "sourceId": "reddit-broad",
@@ -3085,13 +3102,11 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": [
-   "Copilot"
-  ]
+  "topics": []
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -3315,7 +3330,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -3361,7 +3376,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -3454,7 +3469,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -3849,7 +3864,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -4018,7 +4033,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
@@ -4453,33 +4468,5 @@
    "Copilot Studio",
    "Agents"
   ]
- },
- {
-  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences",
-  "type": "blog",
-  "sourceId": "ms-copilot-studio-blog",
-  "source": "Copilot Studio Blog",
-  "title": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
-  "text": "See what's new in Copilot Studio, April 2026: updates to workflows, increased control over agent operations, and an expanded agent usage estimator. The post New and improved: Agent governance, intelligent workflows, and connected app experiences appeared first on Microsoft…",
-  "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/",
-  "image": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/wp-content/uploads/2024/08/Analytics-Viewer-2-1024x479.webp",
-  "publishedAt": "2026-05-11T16:00:00.000Z",
-  "topics": [
-   "Copilot",
-   "Copilot Studio",
-   "Agents"
-  ]
- },
- {
-  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-365-blog/new-investments-to-accelerate-your-migration-to-microsoft-365/ba-p/4518349",
-  "type": "blog",
-  "sourceId": "tc-m365",
-  "source": "Tech Community: Microsoft 365",
-  "title": "New investments to accelerate your migration to Microsoft 365",
-  "text": "Microsoft continues to power the digital transformation of customers with cutting edge, AI-enhanced productivity and collaboration tools. That's why we're excited to announce new investments to make it easier than ever to migrate your data to Microsoft 365 so you can take full…",
-  "url": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/new-investments-to-accelerate-your-migration-to-microsoft-365/ba-p/4518349",
-  "image": null,
-  "publishedAt": "2026-05-11T14:44:52.000Z",
-  "topics": []
  }
 ]
