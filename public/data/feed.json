@@ -1,5 +1,47 @@
 [
  {
+  "id": "reddit:t3_1xpvcg8",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "Has anyone not had there daily limit reset today.",
+  "text": "Mine was supposed to reset at 12am. I logged in at 1.30am, so an hour and a half after it was meant to reset and I am still locked out.",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xpvcg8/has_anyone_not_had_there_daily_limit_reset_today/",
+  "image": null,
+  "publishedAt": "2026-11-07T02:36:59.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xptd7a",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/copilotstudio",
+  "title": "I tested the new Microsoft Copilot Studio. Here are 2 workflows that actually work (and my verdict vs the old version).",
+  "text": "I've been teaching Microsoft Copilot Studio to corporate teams, and one of the biggest problems I've noticed is that people understand what AI agents are supposed to do, but struggle to build anything genuinely useful. The old Copilot Studio harness didn't help. There were so…",
+  "url": "https://www.reddit.com/r/copilotstudio/comments/1xptd7a/i_tested_the_new_microsoft_copilot_studio_here/",
+  "image": null,
+  "publishedAt": "2026-11-07T00:58:45.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xpsafr",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Intermittent high round trip time, high jitter",
+  "text": "We are experiencing intermittent issues with Teams meetings. When things are good, round trip time is between 20-40ms and jitter is < 9ms. But sometimes meetings are laggy, with round trip time anywhere from 300ms to 3,000ms, and jitter above 50ms. It doesn't seem like it's…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xpsafr/intermittent_high_round_trip_time_high_jitter/",
+  "image": null,
+  "publishedAt": "2026-11-07T00:06:35.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
   "id": "reddit:t3_1xpngzg",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -2962,11 +3004,13 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": []
+  "topics": [
+   "Copilot"
+  ]
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -3190,7 +3234,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -3236,7 +3280,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -3329,7 +3373,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -3724,7 +3768,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -3893,7 +3937,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
