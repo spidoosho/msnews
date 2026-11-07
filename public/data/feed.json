@@ -1,5 +1,19 @@
 [
  {
+  "id": "youtube:A1FOT8UYRCg",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Supporting WebMCP within an SPFx extension",
+  "text": "📺 This demo shows how to expose existing SharePoint Framework extension functionality as WebMCP tools so browser assistants can interact with SharePoint without clicking through the interface. Elio Struyf explains how tools are registered with names, descriptions, JSON input…",
+  "url": "https://www.youtube.com/watch?v=A1FOT8UYRCg",
+  "image": "https://i.ytimg.com/vi/A1FOT8UYRCg/hqdefault.jpg",
+  "publishedAt": "2026-11-07T08:10:28.000Z",
+  "topics": [
+   "SharePoint"
+  ]
+ },
+ {
   "id": "reddit:t3_1xpvcg8",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -39,6 +53,21 @@
   "publishedAt": "2026-11-07T00:06:35.000Z",
   "topics": [
    "Teams"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xps0gy",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/sharepoint",
+  "title": "Best way to manually import a specific Outlook email (with attachments and metadata) into SharePoint?",
+  "text": "I'm looking for a Microsoft 365 solution for a fairly common records-management scenario. I have already set up several working flows that process every email that comes into a specified shared Outlook email box, and copy the attachment(s) to SharePoint. Then, they apply…",
+  "url": "https://www.reddit.com/r/sharepoint/comments/1xps0gy/best_way_to_manually_import_a_specific_outlook/",
+  "image": null,
+  "publishedAt": "2026-11-06T23:55:00.000Z",
+  "topics": [
+   "SharePoint",
+   "Outlook"
   ]
  },
  {
@@ -94,6 +123,18 @@
   "topics": [
    "Copilot"
   ]
+ },
+ {
+  "id": "reddit:t3_1xphos4",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Microsoft CSP reseller asking for Global Reader to issue Server 2025 license and CALs",
+  "text": "We're trying to purchase Microsoft Server 2025 through a licensed microsoft reseller. After signing the quote, they then requested broad GDAP access. I pushed back and said that none of what they're asking seems necessary for the purchase of a server license. They then replied…",
+  "url": "https://www.reddit.com/r/Office365/comments/1xphos4/microsoft_csp_reseller_asking_for_global_reader/",
+  "image": null,
+  "publishedAt": "2026-11-06T16:50:10.000Z",
+  "topics": []
  },
  {
   "id": "reddit:t3_1xpfolf",
@@ -233,6 +274,20 @@
   "publishedAt": "2026-11-06T02:30:25.000Z",
   "topics": [
    "SharePoint"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xp16m4",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "What we'd decide in the first 30 days of a M365 Copilot rollout (checklist, no fluff)",
+  "text": "I've seen a lot of \"we bought Copilot, now what?\" threads, so here's the short list of decisions that seem to separate rollouts that stick from the ones that fizzle: Pilot group: pick it deliberately (email-, meeting- and document-heavy roles, plus a couple of skeptics). Assign…",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xp16m4/what_wed_decide_in_the_first_30_days_of_a_m365/",
+  "image": null,
+  "publishedAt": "2026-11-06T02:14:58.000Z",
+  "topics": [
+   "Copilot"
   ]
  },
  {
@@ -624,6 +679,18 @@
   ]
  },
  {
+  "id": "reddit:t3_1xn9zpu",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "Hi ya'll",
+  "text": "I am having a terrible time using co-pilot basic. I enter \"create magazine style newsletter\" in the prompt and after so much time, it doesn't add what I say. I am hopeless and need to so a newsletter for my job. YT videos didn't help. Anyone can give me tips please?",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xn9zpu/hi_yall/",
+  "image": null,
+  "publishedAt": "2026-11-04T00:26:48.000Z",
+  "topics": []
+ },
+ {
   "id": "reddit:t3_1xn9rf0",
   "type": "reddit",
   "sourceId": "reddit-broad",
@@ -755,6 +822,20 @@
    "Copilot",
    "Copilot Studio",
    "Agents"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xn3khx",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Does leaving a Teams or Channel alert others and give notifications like when you leave a chat?",
+  "text": "Hi all, I'm looking to leave a Teams channel that I am a part of but wanted to know if it gives the others members a notification similar to when you leave a chat? Or is it more private?",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xn3khx/does_leaving_a_teams_or_channel_alert_others_and/",
+  "image": null,
+  "publishedAt": "2026-11-03T20:04:47.000Z",
+  "topics": [
+   "Teams"
   ]
  },
  {
@@ -4400,20 +4481,5 @@
   "image": null,
   "publishedAt": "2026-05-11T14:44:52.000Z",
   "topics": []
- },
- {
-  "id": "youtube:FQq89qpwDpU",
-  "type": "youtube",
-  "sourceId": "yt-lisa",
-  "source": "Lisa Crosbie",
-  "title": "Copilot Cowork: Tutorial for Beginners",
-  "text": "In this video, I show you how to use Microsoft 365 Copilot Cowork, the new Copilot experience that can actually DO work for you instead of just chatting about it. After using Copilot Cowork in my real day-to-day job for several weeks, I genuinely think this is the biggest leap…",
-  "url": "https://www.youtube.com/watch?v=FQq89qpwDpU",
-  "image": "https://i.ytimg.com/vi/FQq89qpwDpU/hqdefault.jpg",
-  "publishedAt": "2026-05-11T10:30:12.000Z",
-  "topics": [
-   "Copilot",
-   "Cowork"
-  ]
  }
 ]
