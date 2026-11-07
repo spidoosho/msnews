@@ -1,5 +1,21 @@
 [
  {
+  "id": "reddit:t3_1xpngzg",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/copilotstudio",
+  "title": "why is agent builder better than copilot studio for advanced agents?",
+  "text": "i’ve been spending a lot of time trying to get the standard copilot studio agent harness working properly for more advanced use cases, and i’m struggling to understand why agent builder now seems so much more capable. for context, i’m building agents for a department where…",
+  "url": "https://www.reddit.com/r/copilotstudio/comments/1xpngzg/why_is_agent_builder_better_than_copilot_studio/",
+  "image": null,
+  "publishedAt": "2026-11-06T20:37:10.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents"
+  ]
+ },
+ {
   "id": "reddit:t3_1xpi243",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -147,6 +163,20 @@
   "publishedAt": "2026-11-06T06:18:59.000Z",
   "topics": [
    "Copilot"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xp1kcj",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "How can I tell who sent a file invitation message via SharePoint?",
+  "text": "One of my users just got an email saying: \"You've been invited to access a file\" The e-mail comes from no-reply@sharepointonline.com . The message has a body text: [Redacted Greeting with User's Name] Do we have an updated Directory? It then links to an outdated file of the…",
+  "url": "https://www.reddit.com/r/Office365/comments/1xp1kcj/how_can_i_tell_who_sent_a_file_invitation_message/",
+  "image": null,
+  "publishedAt": "2026-11-06T02:33:49.000Z",
+  "topics": [
+   "SharePoint"
   ]
  },
  {
@@ -549,6 +579,20 @@
   "topics": [
    "Copilot",
    "Agents"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xn9rf0",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Why does sharing screen use so much battery on macOS?",
+  "text": "Brand new 2026 MBP 14”, M5 Pro 18-core, 48GB RAM. While I’m on Teams for an hour meeting with my screen shared, Teams is eating up 20% of my battery. Why is screen sharing so inefficient on macOS?",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xn9rf0/why_does_sharing_screen_use_so_much_battery_on/",
+  "image": null,
+  "publishedAt": "2026-11-04T00:16:17.000Z",
+  "topics": [
+   "Teams"
   ]
  },
  {
@@ -2918,13 +2962,11 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": [
-   "Copilot"
-  ]
+  "topics": []
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -3148,7 +3190,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -3194,7 +3236,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -3287,7 +3329,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -3682,7 +3724,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -3851,7 +3893,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
@@ -4056,6 +4098,18 @@
   "topics": [
    "Agents"
   ]
+ },
+ {
+  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/2026/06/02/announcing-the-new-work-iq-apis",
+  "type": "blog",
+  "sourceId": "ms-365-blog",
+  "source": "Microsoft Copilot Blog",
+  "title": "Announcing the new Work IQ APIs",
+  "text": "Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your organizations. The post Announcing the new Work IQ APIs appeared first on AI at Work Blog .",
+  "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/02/announcing-the-new-work-iq-apis/",
+  "image": null,
+  "publishedAt": "2026-06-02T17:00:15.000Z",
+  "topics": []
  },
  {
   "id": "blog:https://devblogs.microsoft.com/microsoft365dev/frontier-tuning-teaching-ai-to-work-the-way-you-do",
