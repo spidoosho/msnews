@@ -1,5 +1,17 @@
 [
  {
+  "id": "reddit:t3_1xqxvwc",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "What's a Microsoft 365 feature you use all the time that more people should know about?",
+  "text": "Hey there! I've been using Microsoft 365 for a while now, but I still feel like there's so much I haven't discovered yet. Every now and then I come across a little feature or shortcut that makes everyday work so much easier. I'm curious if you guys have any hidden gems you use…",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xqxvwc/whats_a_microsoft_365_feature_you_use_all_the/",
+  "image": null,
+  "publishedAt": "2026-11-08T13:00:24.000Z",
+  "topics": []
+ },
+ {
   "id": "reddit:t3_1xqwbbp",
   "type": "reddit",
   "sourceId": "reddit-broad",
@@ -4582,21 +4594,6 @@
   "publishedAt": "2026-05-13T17:28:08.000Z",
   "topics": [
    "Copilot",
-   "Copilot Studio",
-   "Agents"
-  ]
- },
- {
-  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/4-ways-to-build-a-curated-agent-store-and-scale-agent-adoption/ba-p/4518575",
-  "type": "blog",
-  "sourceId": "tc-copilot-studio",
-  "source": "Tech Community: Copilot Studio",
-  "title": "4 ways to build a curated Agent Store and scale agent adoption",
-  "text": "The agent adoption gap is real Agents are quickly becoming a core part of enterprise AI strategy. The 2026 Work Trend Index shows 58% of employees are now producing work they couldn’t do a year ago, and AI is increasingly used for analysis, reasoning, and decision-making—not…",
-  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/4-ways-to-build-a-curated-agent-store-and-scale-agent-adoption/ba-p/4518575",
-  "image": null,
-  "publishedAt": "2026-05-12T17:00:00.000Z",
-  "topics": [
    "Copilot Studio",
    "Agents"
   ]
