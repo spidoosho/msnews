@@ -1,5 +1,74 @@
 [
  {
+  "id": "youtube:kqXkxGL8mec",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Ask Copilot how your agents are being used - Introduction to Insights Agent",
+  "text": "📺 How can you tell whether your deployed Microsoft 365 agents are actually being used? Fabian Williams introduces the Insights Agent and Microsoft 365 Agent Observability, showing how to ask Copilot for usage metrics such as daily, weekly, and monthly active users, compare…",
+  "url": "https://www.youtube.com/watch?v=kqXkxGL8mec",
+  "image": "https://i.ytimg.com/vi/kqXkxGL8mec/hqdefault.jpg",
+  "publishedAt": "2026-11-08T08:10:31.000Z",
+  "topics": [
+   "Copilot",
+   "Agents"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xqn0im",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Microsoft Teams Phone – Do We Really Need a PSTN Routing Licence for Every User?",
+  "text": "Hi We are evaluating a migration to Microsoft Teams Phone using Direct Routing as a Service (DRaaS) and would appreciate input from organizations that have implemented this at scale. Here is our scenario: Approximately 800 employees would have Microsoft Teams Phone licences.…",
+  "url": "https://www.reddit.com/r/Office365/comments/1xqn0im/microsoft_teams_phone_do_we_really_need_a_pstn/",
+  "image": null,
+  "publishedAt": "2026-11-08T01:58:19.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xqn06z",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "Microsoft Teams Phone – Do We Really Need a PSTN Routing Licence for Every User?",
+  "text": "Hi We are evaluating a migration to Microsoft Teams Phone using Direct Routing as a Service (DRaaS) and would appreciate input from organizations that have implemented this at scale. Here is our scenario: Approximately 800 employees would have Microsoft Teams Phone licences.…",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xqn06z/microsoft_teams_phone_do_we_really_need_a_pstn/",
+  "image": null,
+  "publishedAt": "2026-11-08T01:57:49.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xqmzpd",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Microsoft Teams Phone – Do We Really Need a PSTN Routing Licence for Every User?",
+  "text": "Hi We are evaluating a migration to Microsoft Teams Phone using Direct Routing as a Service (DRaaS) and would appreciate input from organizations that have implemented this at scale. Here is our scenario: Approximately 800 employees would have Microsoft Teams Phone licences.…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xqmzpd/microsoft_teams_phone_do_we_really_need_a_pstn/",
+  "image": null,
+  "publishedAt": "2026-11-08T01:57:05.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xqmacx",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "There is no way Microslop is making any money off the crappy new update.",
+  "text": "Now that all workarounds have been patched we have to live with the new update but corpora has to realize that the majority of users are not gonna pay $120-1,200 per year just to do what Claude or any generic $1 tool can do",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xqmacx/there_is_no_way_microslop_is_making_any_money_off/",
+  "image": null,
+  "publishedAt": "2026-11-08T01:21:03.000Z",
+  "topics": []
+ },
+ {
   "id": "reddit:t3_1xqjlgm",
   "type": "reddit",
   "sourceId": "reddit-broad",
