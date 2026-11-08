@@ -1,5 +1,20 @@
 [
  {
+  "id": "reddit:t3_1xqwbbp",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/sharepoint",
+  "title": "Requirements for creating knowledge bases in SharePoint? (besides usage-based billing)",
+  "text": "Here it says \"Knowledge Base is currently available only to users enabled for usage-based billing\". Three days ago, I enabled usage-based billing for a M365 group that I am a member of. But I still do not see the option in SharePoint. Do I also need a Copilot License or are…",
+  "url": "https://www.reddit.com/r/sharepoint/comments/1xqwbbp/requirements_for_creating_knowledge_bases_in/",
+  "image": null,
+  "publishedAt": "2026-11-08T11:27:46.000Z",
+  "topics": [
+   "Copilot",
+   "SharePoint"
+  ]
+ },
+ {
   "id": "youtube:kqXkxGL8mec",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -1133,6 +1148,20 @@
   ]
  },
  {
+  "id": "reddit:t3_1xmi3iv",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/PowerPlatform",
+  "title": "There has been no guide to moving Power Platform solutions with code. 100% free on Github",
+  "text": "Two posts ago I shared a JSON knowledge base of PAD ROBIN actions, so models stop writing desktop flows that PAD rejects. Last week I followed up with a guide to getting one flow into an environment and running it from code: The piece that was still missing is moving a whole…",
+  "url": "https://www.reddit.com/r/PowerPlatform/comments/1xmi3iv/there_has_been_no_guide_to_moving_power_platform/",
+  "image": null,
+  "publishedAt": "2026-11-03T03:19:06.000Z",
+  "topics": [
+   "Power Platform"
+  ]
+ },
+ {
   "id": "youtube:eKDCAJ5dVKs",
   "type": "youtube",
   "sourceId": "yt-copilot",
@@ -1282,6 +1311,24 @@
   "publishedAt": "2026-11-02T12:00:28.000Z",
   "topics": [
    "Copilot"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xlrux3",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/copilotstudio",
+  "title": "Building an AI agent",
+  "text": "I’m looking for architecture ideas for proactive 1:1 notifications in Microsoft Teams using Copilot Studio and Power Automate. The ideal flow would be: A user installs or enables a Teams/app The user is automatically registered as a notification recepient A scheduled flow later…",
+  "url": "https://www.reddit.com/r/copilotstudio/comments/1xlrux3/building_an_ai_agent/",
+  "image": null,
+  "publishedAt": "2026-11-02T08:32:36.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents",
+   "Teams",
+   "Power Platform"
   ]
  },
  {
