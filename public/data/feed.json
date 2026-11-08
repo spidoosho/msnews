@@ -1,5 +1,35 @@
 [
  {
+  "id": "reddit:t3_1xqjlgm",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/sharepoint",
+  "title": "Migrating from network share to SP; Excel macros being a problem",
+  "text": "I've been tasked with shifting several very large folders going back 16 years+ from a network share drive to SharePoint Online. I have ShareGate to help with the actual data transfer (and is working well so far) and Linktek's Linkchecker software which is supposed to help fix…",
+  "url": "https://www.reddit.com/r/sharepoint/comments/1xqjlgm/migrating_from_network_share_to_sp_excel_macros/",
+  "image": null,
+  "publishedAt": "2026-11-07T23:09:20.000Z",
+  "topics": [
+   "SharePoint",
+   "Excel"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/paper-how-utilizing-the-microsoft-copilot-harness-in-copilot/ba-p/4571157",
+  "type": "blog",
+  "sourceId": "tc-copilot-studio",
+  "source": "Tech Community: Copilot Studio",
+  "title": "Paper: How utilizing the Microsoft Copilot harness in Copilot Studio enabled complex task execution",
+  "text": "Abstract: Copilot Studio's Standard harness is built for conversation: several isolated model calls per turn, a reply within seconds, and control handed back to the user as soon as a step needs input. Many business tasks are not simple Q&A. They run for many turns, touch…",
+  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/paper-how-utilizing-the-microsoft-copilot-harness-in-copilot/ba-p/4571157",
+  "image": null,
+  "publishedAt": "2026-11-07T17:42:49.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio"
+  ]
+ },
+ {
   "id": "youtube:A1FOT8UYRCg",
   "type": "youtube",
   "sourceId": "yt-community-learning",
