@@ -1,5 +1,19 @@
 [
  {
+  "id": "reddit:t3_1xr9com",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/microsoft",
+  "title": "Futuro do Power Platform",
+  "text": "​ 2026 está acabando e as IAs dominando. Vibe CODE e todo mundo agora é Dev. Qual o futuro do Power plataform? Gostaria da opinião de quem atua hoje com Apps, Automate e até BI. Vi que o Claude está lançando um ecossistema office. Ainda vale a pena investir no ecossistema NoCode…",
+  "url": "https://www.reddit.com/r/microsoft/comments/1xr9com/futuro_do_power_platform/",
+  "image": null,
+  "publishedAt": "2026-11-08T21:15:26.000Z",
+  "topics": [
+   "Power Platform"
+  ]
+ },
+ {
   "id": "reddit:t3_1xqxvwc",
   "type": "reddit",
   "sourceId": "reddit-m365",
