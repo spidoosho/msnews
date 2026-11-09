@@ -14,6 +14,21 @@
   ]
  },
  {
+  "id": "reddit:t3_1xqy1bh",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "PSA: Copilot won't grant new SharePoint access, but it will make oversharing easy to find",
+  "text": "If you're heading into a Copilot pilot, the permission model is straightforward and easy to underestimate: Copilot works with each signed-in user's existing permissions. It doesn't give people new access to sites or files. What it does do is make content they can already open…",
+  "url": "https://www.reddit.com/r/Office365/comments/1xqy1bh/psa_copilot_wont_grant_new_sharepoint_access_but/",
+  "image": null,
+  "publishedAt": "2026-11-08T13:08:15.000Z",
+  "topics": [
+   "Copilot",
+   "SharePoint"
+  ]
+ },
+ {
   "id": "reddit:t3_1xqxvwc",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -667,6 +682,20 @@
   "publishedAt": "2026-11-04T23:34:37.000Z",
   "topics": [
    "OneDrive"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xo1ef0",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/sharepoint",
+  "title": "Help fam- SharePoint custom search vertical not following .url shortcut target",
+  "text": "​ I have a SharePoint Online document library containing `.url` Internet Shortcut files. The shortcuts point to documents stored in an external document management system. The `.url` files are indexed by SharePoint Search, so users can search by document title/number. The…",
+  "url": "https://www.reddit.com/r/sharepoint/comments/1xo1ef0/help_fam_sharepoint_custom_search_vertical_not/",
+  "image": null,
+  "publishedAt": "2026-11-04T22:05:23.000Z",
+  "topics": [
+   "SharePoint"
   ]
  },
  {
