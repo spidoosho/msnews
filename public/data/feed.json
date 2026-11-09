@@ -1,5 +1,134 @@
 [
  {
+  "id": "youtube:4vCbQMUVV-I",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "New Microsoft Copilot Harness | More power, token efficiency & control for agents in Foundry",
+  "text": "Build agents you can trust with your company’s data, apps, and resources using Microsoft Foundry. Start with a fully managed prompt agent and move it onto the Microsoft Copilot harness so it plans, loops, calls subagents, and delivers finished reports. You can also bring your…",
+  "url": "https://www.youtube.com/watch?v=4vCbQMUVV-I",
+  "image": "https://i.ytimg.com/vi/4vCbQMUVV-I/hqdefault.jpg",
+  "publishedAt": "2026-11-09T16:05:51.000Z",
+  "topics": [
+   "Copilot",
+   "Agents"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xrrtab",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/sharepoint",
+  "title": "SPFx team here: how is SPFx working for you? Our developer survey is open",
+  "text": "Hi r/sharepoint , I'm on the SPFx team at Microsoft. We're running our SPFx developer survey and want to hear from people who build with SPFx day to day: what works, what slows you down, and what you'd like us to focus on next. Our blog post explains why we run the survey, how…",
+  "url": "https://www.reddit.com/r/sharepoint/comments/1xrrtab/spfx_team_here_how_is_spfx_working_for_you_our/",
+  "image": null,
+  "publishedAt": "2026-11-09T13:35:41.000Z",
+  "topics": [
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xrqzic",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/sharepoint",
+  "title": "SharePoint has gone over quota and read only now",
+  "text": "Can I add temp storage and remove later. I'm an admin and I want to add it to the tenant Cheers",
+  "url": "https://www.reddit.com/r/sharepoint/comments/1xrqzic/sharepoint_has_gone_over_quota_and_read_only_now/",
+  "image": null,
+  "publishedAt": "2026-11-09T12:57:39.000Z",
+  "topics": [
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "youtube:RqV_rGHVcpY",
+  "type": "youtube",
+  "sourceId": "yt-reza",
+  "source": "Reza Dorrani",
+  "title": "Power Apps Just Got 4 NEW Modern Controls - Card Gallery, Metrics Card & More",
+  "text": "🚀 Power Apps just got 4 NEW Modern Controls — Card Gallery, Metrics Card, Avatar Group & Persona! Four brand-new modern controls have arrived for Canvas Power Apps! In this Power Apps tutorial, I show how each control works, then use all four to build a complete modern app…",
+  "url": "https://www.youtube.com/watch?v=RqV_rGHVcpY",
+  "image": "https://i.ytimg.com/vi/RqV_rGHVcpY/hqdefault.jpg",
+  "publishedAt": "2026-11-09T12:30:31.000Z",
+  "topics": [
+   "Power Platform"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xrp7b8",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "How to make it show message in situ when clicking on notification, not in isolation?",
+  "text": "I get a lot of messages from different people/channels that I need to keep on top of. When I get a notification and click on the text it takes me to the teams app showing that message only. This is the most pointless thing ever. I have read that message in the preview so its…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xrp7b8/how_to_make_it_show_message_in_situ_when_clicking/",
+  "image": null,
+  "publishedAt": "2026-11-09T11:23:20.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xroryv",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/sharepoint",
+  "title": "SharePoint Sharegate requirement",
+  "text": "Hi, our organization has decided to migrate SharePoint 2016 sites to SPO. We have around 1600 sites and 24 TB of overall data. Sharegate pro migratory (5 machine) has been requested. I would like to know what are server specifications required to run the migration? Eg Cpu cores,…",
+  "url": "https://www.reddit.com/r/sharepoint/comments/1xroryv/sharepoint_sharegate_requirement/",
+  "image": null,
+  "publishedAt": "2026-11-09T10:58:54.000Z",
+  "topics": [
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "youtube:Ho9IKsVnkVQ",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Understanding Copilot Credits in Copilot Cowork and Work IQ",
+  "text": "📺 This demo explains how to manage Copilot Credits for Copilot Cowork and Work IQ APIs in the Microsoft 365 admin center. Kevin Ly shows how usage-based billing differs from per-user licensing, then walks through spending policies, tenant and group budgets, per-user hard…",
+  "url": "https://www.youtube.com/watch?v=Ho9IKsVnkVQ",
+  "image": "https://i.ytimg.com/vi/Ho9IKsVnkVQ/hqdefault.jpg",
+  "publishedAt": "2026-11-09T08:10:18.000Z",
+  "topics": [
+   "Copilot",
+   "Cowork",
+   "Security & Admin"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xre6ut",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "Found a way to access my personal copilot on Android",
+  "text": "Open an in private window (I'm using Brave). Search for copilot chat. Click on the link and request the desktop version. Login and voila, my chat history and access to copilot restored. Having to zoom in and out kinda sucks and I'd prefer the mobile version, but until a fix…",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xre6ut/found_a_way_to_access_my_personal_copilot_on/",
+  "image": null,
+  "publishedAt": "2026-11-09T00:56:28.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Chat"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xrdgf5",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "Your not eligible for copilot chat due to your age or location",
+  "text": "Unless they stopped letting in 54 yos I think there's something wrong with copilot chat on Android. I used to access it through §ing browser, and I have the app installed on my phone. Everytime I try and go through §ing to chat it routes me to the app. The app will let me chat…",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xrdgf5/your_not_eligible_for_copilot_chat_due_to_your/",
+  "image": null,
+  "publishedAt": "2026-11-09T00:21:06.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Chat"
+  ]
+ },
+ {
   "id": "reddit:t3_1xr9com",
   "type": "reddit",
   "sourceId": "reddit-broad",
@@ -361,6 +490,20 @@
   "image": null,
   "publishedAt": "2026-11-06T11:04:11.000Z",
   "topics": []
+ },
+ {
+  "id": "reddit:t3_1xp8nao",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "PSA: Outlook.com/Hotmail now rejecting M365 mail with “550 5.7.1 Message lacks SPF/DKIM/DMARC Auth Records” — even with valid SPF",
+  "text": "",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xp8nao/psa_outlookcomhotmail_now_rejecting_m365_mail/",
+  "image": null,
+  "publishedAt": "2026-11-06T09:30:40.000Z",
+  "topics": [
+   "Outlook"
+  ]
  },
  {
   "id": "blog:https://devblogs.microsoft.com/microsoft365dev/work-iq-sharepoint-mcp-tools",
@@ -3318,13 +3461,11 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": [
-   "Copilot"
-  ]
+  "topics": []
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -3548,7 +3689,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -3594,7 +3735,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -3687,7 +3828,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -4082,7 +4223,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -4251,7 +4392,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
@@ -4623,22 +4764,6 @@
   "publishedAt": "2026-05-15T12:00:00.000Z",
   "topics": [
    "Power Platform"
-  ]
- },
- {
-  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/computer-using-agents-in-microsoft-copilot-studio-are-now/ba-p/4519427",
-  "type": "blog",
-  "sourceId": "tc-copilot-studio",
-  "source": "Tech Community: Copilot Studio",
-  "title": "Computer-using agents in Microsoft Copilot Studio are now generally available",
-  "text": "The next chapter of enterprise AI isn't about chatting with assistants—it's about agents that actually do the work. Until now, automating long-tail, UI-driven business processes meant either building and maintaining brittle RPA scripts or waiting on APIs that legacy systems were…",
-  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/computer-using-agents-in-microsoft-copilot-studio-are-now/ba-p/4519427",
-  "image": null,
-  "publishedAt": "2026-05-13T17:28:08.000Z",
-  "topics": [
-   "Copilot",
-   "Copilot Studio",
-   "Agents"
   ]
  }
 ]
