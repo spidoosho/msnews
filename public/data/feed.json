@@ -1,5 +1,75 @@
 [
  {
+  "id": "reddit:t3_1xs4bur",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Teams Webinar: combine open registration with direct calendar invites for mandatory attendees?",
+  "text": "Is there a reliable way to support both of these audiences in a single Teams webinar? ● Mandatory attendees: Invite a group of 300–400 employees directly, so they receive a normal calendar invitation and can join without registering. ● Optional attendees: Keep registration open…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xs4bur/teams_webinar_combine_open_registration_with/",
+  "image": null,
+  "publishedAt": "2026-11-09T21:28:17.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xrzdy6",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/sharepoint",
+  "title": "Contact Directory(7000 entries)",
+  "text": "I’m asked as the only IT hire to build a contact directory that can sync to teams and outlook, user friendly, accessible on mobile(on the go). I thought well, Sharepoint list can do this, now the former directory(sits on just a laptop) has 7000 entries on Microsoft access(which…",
+  "url": "https://www.reddit.com/r/sharepoint/comments/1xrzdy6/contact_directory7000_entries/",
+  "image": null,
+  "publishedAt": "2026-11-09T18:23:36.000Z",
+  "topics": [
+   "SharePoint",
+   "Outlook"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xryztt",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Turn off others photos in meeting",
+  "text": "I've tried googling but found conflicting information - is there any way to turn off others peoples photos in my view during a teams meeting? I known you can turn off incoming video but haven't found an option for photos. Very long story short - I have a coworker that has been…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xryztt/turn_off_others_photos_in_meeting/",
+  "image": null,
+  "publishedAt": "2026-11-09T18:09:15.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xryknf",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "Copilot US only from now on?",
+  "text": "Heya, whats going on with Copilot? The new iOS app is terrible and it seems like its US only now? Before it was possible to switch to different voices and stuff and now you are stuck with an US only voice. Sometimes she is able to say a few German words but then switches to…",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xryknf/copilot_us_only_from_now_on/",
+  "image": null,
+  "publishedAt": "2026-11-09T17:54:15.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "x:2119837421449674935",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Your first draft isn't going to write itself. That doesn't mean you have to do it alone.\n\nCopilot in Word will take context from your emails, meetings, and chats to create an initial draft you can work with, which means you're already one step closer to your final draft.",
+  "url": "https://x.com/MSFTCopilot/status/2119837421449674935",
+  "image": "https://pbs.twimg.com/media/HWskUNpWwAAQ-Z_.png",
+  "publishedAt": "2026-11-09T17:00:00.000Z",
+  "topics": [
+   "Copilot",
+   "Word"
+  ]
+ },
+ {
   "id": "youtube:4vCbQMUVV-I",
   "type": "youtube",
   "sourceId": "yt-mechanics",
@@ -12,6 +82,20 @@
   "topics": [
    "Copilot",
    "Agents"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xrv6b0",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "Copilot substitutes",
+  "text": "I know that copilot is changing and this specific industry is getting greedier now that \"it\" is introduced to people, and its getting obvious with these updates cause they want us to mourn for it. The copilot model keeps changing a lot and the daily limit has already hit us but…",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xrv6b0/copilot_substitutes/",
+  "image": null,
+  "publishedAt": "2026-11-09T15:50:07.000Z",
+  "topics": [
+   "Copilot"
   ]
  },
  {
@@ -96,6 +180,21 @@
    "Copilot",
    "Cowork",
    "Security & Admin"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xrjm8p",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "Has anyone started hitting daily limits in Copilot Chat (Basic)?",
+  "text": "I'm using Copilot Chat (Basic) through Microsoft 365 Apps for Business. Last week I started receiving: \"You've reached your daily chat limit.\" My timeline: - Nov 5: first hit the limit - Nov 6 morning: access restored - Nov 6 afternoon: hit the limit again - Nov 9: access…",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xrjm8p/has_anyone_started_hitting_daily_limits_in/",
+  "image": null,
+  "publishedAt": "2026-11-09T05:39:49.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Chat"
   ]
  },
  {
@@ -740,6 +839,20 @@
   "image": "https://external-preview.redd.it/loQqFakhjTnX0oULL98XYtPJss66An23yySjWf8rur8.jpeg?width=640&crop=smart&auto=webp&s=f203de8970eae01dd8135931833f9c4bd1581cf9",
   "publishedAt": "2026-11-05T13:04:23.000Z",
   "topics": []
+ },
+ {
+  "id": "reddit:t3_1xof561",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Teams Rooms on Windows (4.17.51.0) “Couldn’t sign in to Microsoft Teams”, but Exchange is connected and the calendar syncs. Join button is greyed out",
+  "text": "Hi all, I’m hitting a sign-in problem on a Teams Rooms on Windows device, logitech NUC. The console shows “Couldn’t sign in to Microsoft Teams” The calendar syncs and meetings appear, but the Join button is greyed out The same account signs in fine in the Teams desktop client on…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xof561/teams_rooms_on_windows_417510_couldnt_sign_in_to/",
+  "image": "https://preview.redd.it/02zc6d41srzh1.jpeg?width=640&crop=smart&auto=webp&s=2ec9f6316080c64aa0604a6640bb5cd031c82e73",
+  "publishedAt": "2026-11-05T10:18:16.000Z",
+  "topics": [
+   "Teams"
+  ]
  },
  {
   "id": "reddit:t3_1xoesmr",
@@ -2652,7 +2765,7 @@
   "text": "Reposted @msexcel: Earn a 1-on-1 dinner with a finance legend. Visit plsfixthnx.com.\n\nNo purchase necessary. Legal residents of greater NYC metro area (NY, NJ & CT), 21+ & employed as a financial professional at time of Entry who utilizes Microsoft Excel & Copilot as part of their work as",
   "url": "https://x.com/msexcel/status/2111444294548763047",
   "image": "https://pbs.twimg.com/media/HUy0P3RXIAAlNd5.png",
-  "publishedAt": "2026-10-17T15:15:20.000Z",
+  "publishedAt": "2026-10-17T13:21:07.000Z",
   "topics": [
    "Copilot",
    "Excel"
