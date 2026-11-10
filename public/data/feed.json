@@ -1,5 +1,33 @@
 [
  {
+  "id": "reddit:t3_1xsuzb8",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "Is there any workaround to return to the old Copilot?",
+  "text": "Perferably something not too complicated?",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xsuzb8/is_there_any_workaround_to_return_to_the_old/",
+  "image": null,
+  "publishedAt": "2026-11-10T18:42:14.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xstt3n",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Disable 'Set up your Teams meeting' when creating a Teams meeting",
+  "text": "When users create a Teams meeting this screen always pops up next to the Room finder. Is it possible to have this disabled as policy or a different way? I was not able to find anything about this online, so hopefully someone here knows the answer.…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xstt3n/disable_set_up_your_teams_meeting_when_creating_a/",
+  "image": "https://preview.redd.it/1ybr1q0dqt0i1.png?width=140&height=97&auto=webp&s=f4cb160fd98e1f43e1a1215f9fe848223c75f2f8",
+  "publishedAt": "2026-11-10T17:59:45.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
   "id": "youtube:bs0ApxrLDI0",
   "type": "youtube",
   "sourceId": "yt-copilot",
@@ -39,6 +67,20 @@
   "image": null,
   "publishedAt": "2026-11-10T15:17:52.000Z",
   "topics": []
+ },
+ {
+  "id": "reddit:t3_1xsnaob",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "[Outlook New] Reply to all adds Shared Mailbox to \"To:\"",
+  "text": "A customer of mine recently has this issue since a few days. The mailbox is sales@, it's a Shared Mailbox with multiple people in it. All of them Read/Manage and Send As (no Send on Behalf) They use Outlook New, the mailbox uses the option 'Convert to full account' so that…",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xsnaob/outlook_new_reply_to_all_adds_shared_mailbox_to_to/",
+  "image": null,
+  "publishedAt": "2026-11-10T13:46:10.000Z",
+  "topics": [
+   "Outlook"
+  ]
  },
  {
   "id": "youtube:WD94I1hfdYA",
@@ -312,6 +354,18 @@
   ]
  },
  {
+  "id": "reddit:t3_1xrmyy8",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Using .pgn with transparency as custom background",
+  "text": "I'm trying to create a background for teams that has a logo in the corner, sitting over the blurred camera view behind it. I've created this as a .png with 100% transparency over most of the image. It exports nice and crisp, 1920x1080, uploads fine. However, when tested, it…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xrmyy8/using_pgn_with_transparency_as_custom_background/",
+  "image": null,
+  "publishedAt": "2026-11-09T09:06:47.000Z",
+  "topics": []
+ },
+ {
   "id": "youtube:Ho9IKsVnkVQ",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -442,6 +496,18 @@
    "Copilot",
    "Agents"
   ]
+ },
+ {
+  "id": "reddit:t3_1xqn9yt",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "Can no longer use upload images and files button",
+  "text": "Over the last few months ive been uploading loads of screenshots to excel with no issues, but today I tried and it doesnt work, I click 'upload images and files' and nothing happens.",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xqn9yt/can_no_longer_use_upload_images_and_files_button/",
+  "image": null,
+  "publishedAt": "2026-11-08T02:12:07.000Z",
+  "topics": []
  },
  {
   "id": "reddit:t3_1xqn0im",
@@ -3704,13 +3770,11 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": [
-   "Copilot"
-  ]
+  "topics": []
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -3934,7 +3998,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -3980,7 +4044,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -4073,7 +4137,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -4468,7 +4532,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -4637,7 +4701,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
