@@ -1,5 +1,36 @@
 [
  {
+  "id": "youtube:BBpwXlXN-aI",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Building Skills in the new Copilot Studio experience",
+  "text": "📺 This demo explores how to build and use skills in the new Copilot Studio experience powered by the GitHub Copilot harness. Remi Dyon explains how skills differ from top-level agent instructions, how progressive loading works through metadata, task-specific instructions, and…",
+  "url": "https://www.youtube.com/watch?v=BBpwXlXN-aI",
+  "image": "https://i.ytimg.com/vi/BBpwXlXN-aI/hqdefault.jpg",
+  "publishedAt": "2026-11-10T08:10:12.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents"
+  ]
+ },
+ {
+  "id": "youtube:ATvR8jCgqSQ",
+  "type": "youtube",
+  "sourceId": "yt-copilot",
+  "source": "Microsoft Copilot",
+  "title": "Beat Procrastination with Copilot in Word",
+  "text": "Beat writer's block and create a first draft based on previous work with Copilot in Word. #Microsoft #copilot #microsoftcopilot",
+  "url": "https://www.youtube.com/watch?v=ATvR8jCgqSQ",
+  "image": "https://i.ytimg.com/vi/ATvR8jCgqSQ/hqdefault.jpg",
+  "publishedAt": "2026-11-10T01:55:59.000Z",
+  "topics": [
+   "Copilot",
+   "Word"
+  ]
+ },
+ {
   "id": "reddit:t3_1xs4bur",
   "type": "reddit",
   "sourceId": "reddit-broad",
