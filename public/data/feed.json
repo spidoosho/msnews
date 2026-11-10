@@ -1,5 +1,88 @@
 [
  {
+  "id": "youtube:bs0ApxrLDI0",
+  "type": "youtube",
+  "sourceId": "yt-copilot",
+  "source": "Microsoft Copilot",
+  "title": "A last-minute ask answered with Copilot",
+  "text": "Keep calm and open Copilot. Jump into Chat for everyday help, or hand off complex tasks to Cowork. It’s all in Home, your new starting point in the Copilot app. #MicrosoftCopilot #Copilot #CopilotAI",
+  "url": "https://www.youtube.com/watch?v=bs0ApxrLDI0",
+  "image": "https://i.ytimg.com/vi/bs0ApxrLDI0/hqdefault.jpg",
+  "publishedAt": "2026-11-10T17:00:59.000Z",
+  "topics": [
+   "Copilot",
+   "Cowork"
+  ]
+ },
+ {
+  "id": "youtube:1vUnEBsooCo",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "Prompt Agent vs. Agent Harness",
+  "text": "Why does an AI agent give up on complex tasks? Asked for a quarterly spend forecast and an executive PDF report, a prompt agent on the Microsoft Foundry (formerly Azure AI Foundry) Responses API takes one pass and stops. It has no agent loop, no persistence, and no skills or…",
+  "url": "https://www.youtube.com/watch?v=1vUnEBsooCo",
+  "image": "https://i.ytimg.com/vi/1vUnEBsooCo/hqdefault.jpg",
+  "publishedAt": "2026-11-10T16:42:27.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xspiul",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "\"Daily\" chat limit",
+  "text": "I began chatting at around 9am and finished at around 4:30pm. I resumed at roughly 10pm only to be told \"You've used your daily chat limit. Please try again tomorrow.\" 3am? \"You've used your daily chat limit. Please try again tomorrow.\" 10:16am? \"You've used your daily chat…",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xspiul/daily_chat_limit/",
+  "image": null,
+  "publishedAt": "2026-11-10T15:17:52.000Z",
+  "topics": []
+ },
+ {
+  "id": "youtube:WD94I1hfdYA",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Copilot UX Components in Action: Transform Your Deal-Making Process",
+  "text": "📺 Bring the UX your users need directly into Copilot. See Copilot UX components in action as we turn a deal-making process into an interactive experience, from exploring the sales pipeline to modeling an offer and moving to the next step without leaving the conversation. This…",
+  "url": "https://www.youtube.com/watch?v=WD94I1hfdYA",
+  "image": "https://i.ytimg.com/vi/WD94I1hfdYA/hqdefault.jpg",
+  "publishedAt": "2026-11-10T11:45:46.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "youtube:EhtnFVFOPz4",
+  "type": "youtube",
+  "sourceId": "yt-lisa",
+  "source": "Lisa Crosbie",
+  "title": "So You Just Got a Copilot License: Here's What You Need to Know",
+  "text": "If you've just been given a Copilot license at work, or you've had it for a while but still aren't quite sure what to do with it, this video is for you. I'll take you through what you actually have with a Copilot license, how Copilot works across your work, and some practical…",
+  "url": "https://www.youtube.com/watch?v=EhtnFVFOPz4",
+  "image": "https://i.ytimg.com/vi/EhtnFVFOPz4/hqdefault.jpg",
+  "publishedAt": "2026-11-10T10:13:44.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xsihhb",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Teams volume suddenly max in every meeting",
+  "text": "I'm wondering if anyone's faced this before. There seems to be a recent update and now whenever i join a teams meeting the volume is at max. It's only started in the last few days. It's happened to a few others I work with. It's a bit inconsistent but seems to happen about 80%…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xsihhb/teams_volume_suddenly_max_in_every_meeting/",
+  "image": null,
+  "publishedAt": "2026-11-10T09:23:54.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
   "id": "youtube:BBpwXlXN-aI",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -42,6 +125,22 @@
   "publishedAt": "2026-11-09T21:28:17.000Z",
   "topics": [
    "Teams"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/turn-copilot-insights-into-action-with-connector-write/ba-p/4571160",
+  "type": "blog",
+  "sourceId": "tc-copilot",
+  "source": "Tech Community: Copilot",
+  "title": "Turn Copilot insights into action with connector write capabilities",
+  "text": "Copilot connectors write actions are now generally available across Copilot Chat and Cowork, helping you turn insights from your conversations into action in connected applications. With hundreds of Microsoft-, partner- and custom-built connectors available, you can ask Copilot…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/turn-copilot-insights-into-action-with-connector-write/ba-p/4571160",
+  "image": null,
+  "publishedAt": "2026-11-09T20:51:51.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Chat",
+   "Cowork"
   ]
  },
  {
@@ -98,6 +197,21 @@
   "topics": [
    "Copilot",
    "Word"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/paper-how-utilizing-the-microsoft-copilot-harness-in-copilot/ba-p/4571157",
+  "type": "blog",
+  "sourceId": "tc-copilot-studio",
+  "source": "Tech Community: Copilot Studio",
+  "title": "Paper: How utilizing the Microsoft Copilot harness in Copilot Studio enabled complex task execution",
+  "text": "Abstract: Copilot Studio's Standard harness is built for conversation: several isolated model calls per turn, a reply within seconds, and control handed back to the user as soon as a step needs input. Many business tasks are not simple Q&A. They run for many turns, touch…",
+  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/paper-how-utilizing-the-microsoft-copilot-harness-in-copilot/ba-p/4571157",
+  "image": null,
+  "publishedAt": "2026-11-09T16:30:00.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio"
   ]
  },
  {
@@ -396,21 +510,6 @@
   "topics": [
    "SharePoint",
    "Excel"
-  ]
- },
- {
-  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/paper-how-utilizing-the-microsoft-copilot-harness-in-copilot/ba-p/4571157",
-  "type": "blog",
-  "sourceId": "tc-copilot-studio",
-  "source": "Tech Community: Copilot Studio",
-  "title": "Paper: How utilizing the Microsoft Copilot harness in Copilot Studio enabled complex task execution",
-  "text": "Abstract: Copilot Studio's Standard harness is built for conversation: several isolated model calls per turn, a reply within seconds, and control handed back to the user as soon as a step needs input. Many business tasks are not simple Q&A. They run for many turns, touch…",
-  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/paper-how-utilizing-the-microsoft-copilot-harness-in-copilot/ba-p/4571157",
-  "image": null,
-  "publishedAt": "2026-11-07T17:42:49.000Z",
-  "topics": [
-   "Copilot",
-   "Copilot Studio"
   ]
  },
  {
@@ -3605,11 +3704,13 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": []
+  "topics": [
+   "Copilot"
+  ]
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -3833,7 +3934,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -3879,7 +3980,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -3972,7 +4073,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -4367,7 +4468,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -4536,7 +4637,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
