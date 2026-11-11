@@ -1,5 +1,94 @@
 [
  {
+  "id": "youtube:-bv9WLqJsEE",
+  "type": "youtube",
+  "sourceId": "yt-shane",
+  "source": "Shane Young",
+  "title": "I Built an Entire Power Platform Solution in One Afternoon",
+  "text": "What if you could build an entire Power Platform solution in one afternoon instead of spending days or weeks on it? That’s exactly what I did. I started with a 480-word prompt and gave it to GitHub Copilot. About 44 minutes and less than $7 in credits later, I had a working…",
+  "url": "https://www.youtube.com/watch?v=-bv9WLqJsEE",
+  "image": "https://i.ytimg.com/vi/-bv9WLqJsEE/hqdefault.jpg",
+  "publishedAt": "2026-11-11T13:30:15.000Z",
+  "topics": [
+   "Power Platform"
+  ]
+ },
+ {
+  "id": "youtube:F3aCpDeoDBM",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Learn the new Microsoft Copilot Harness in Copilot Studio with Agent Academy",
+  "text": "📺 Learn the new Microsoft Copilot Harness in Copilot Studio with Agent Academy. Scott Durow introduces the hands-on Recruit NextGen learning path and shows how to build a Contoso IT concierge agent using instructions, SharePoint knowledge, reusable skills, tools, and workflows.…",
+  "url": "https://www.youtube.com/watch?v=F3aCpDeoDBM",
+  "image": "https://i.ytimg.com/vi/F3aCpDeoDBM/hqdefault.jpg",
+  "publishedAt": "2026-11-11T08:10:21.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents",
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xtb3ql",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "We need to be more vocal about the Copilot update",
+  "text": "If, like me, you have been unhappy with the new Copilot update, why not send feedback directly as I have just done. If you open the Copilot window, there is a feedback button there under \"settings\". If enough of us give negative feedback, we might influence the people…",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xtb3ql/we_need_to_be_more_vocal_about_the_copilot_update/",
+  "image": null,
+  "publishedAt": "2026-11-11T07:00:27.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "youtube:KljwhoGbm5E",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Bring your business apps into Microsoft Copilot | Copilot UX components",
+  "text": "Go beyond text in Microsoft Copilot. With Copilot UX components, your key business apps and information come into the Copilot canvas, so every team can act in the flow of work instead of switching between apps, tabs and portals. In this video, one question (\"What needs my…",
+  "url": "https://www.youtube.com/watch?v=KljwhoGbm5E",
+  "image": "https://i.ytimg.com/vi/KljwhoGbm5E/hqdefault.jpg",
+  "publishedAt": "2026-11-11T04:30:20.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "youtube:FFgxPZaXAqQ",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "27 tabs open? Bring it all into Copilot",
+  "text": "Go beyond text in Microsoft 365 Copilot. With Copilot UX components, sales, HR, finance and IT work comes into one canvas, so you act in the flow of work instead of switching tabs. Get started → aka.ms/spfx/copilot #Copilot #Microsoft365 #AIAgents #CopilotUXcomponents",
+  "url": "https://www.youtube.com/watch?v=FFgxPZaXAqQ",
+  "image": "https://i.ytimg.com/vi/FFgxPZaXAqQ/hqdefault.jpg",
+  "publishedAt": "2026-11-11T04:30:05.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "youtube:sDJaEJTMVUY",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Copilot, Microsoft 365 & Power Platform weekly call – 10th of November, 2026",
+  "text": "📺 Copilot, Microsoft 365 & Power Platform community call on November 10th 2026. Recap on news and updates from Microsoft, followed with demos typically by Microsoft presenters. ✨ Call included three demos: • Paolo Pialorsi - Building Copilot Cowork Plugins with WIQD • James…",
+  "url": "https://www.youtube.com/watch?v=sDJaEJTMVUY",
+  "image": "https://i.ytimg.com/vi/sDJaEJTMVUY/hqdefault.jpg",
+  "publishedAt": "2026-11-11T01:36:56.000Z",
+  "topics": [
+   "Copilot",
+   "Cowork",
+   "Power Platform"
+  ]
+ },
+ {
   "id": "reddit:t3_1xt4yj8",
   "type": "reddit",
   "sourceId": "reddit-broad",
@@ -5115,20 +5204,6 @@
    "Copilot",
    "Copilot Studio",
    "Agents"
-  ]
- },
- {
-  "id": "x:2055256884139954188",
-  "type": "x",
-  "sourceId": "x-powerplat",
-  "source": "@MSPowerPlat",
-  "title": null,
-  "text": "The May 2026 Power Platform update is here, and it’s packed with new features, previews, and learning paths to help every maker level up. Check out this month’s roundup to see what’s new: msft.it/6011vRdhH",
-  "url": "https://x.com/MSPowerPlat/status/2055256884139954188",
-  "image": "https://pbs.twimg.com/media/HIVE5a6XgAAYa1W.jpg",
-  "publishedAt": "2026-05-15T12:00:00.000Z",
-  "topics": [
-   "Power Platform"
   ]
  }
 ]
