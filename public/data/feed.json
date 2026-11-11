@@ -1,5 +1,33 @@
 [
  {
+  "id": "reddit:t3_1xt4yj8",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/sharepoint",
+  "title": "“Tenant sites are in read-only right now” on a new M365 Business Standard tenant, storage and locks all look fine",
+  "text": "New small tenant, subscription Active. SharePoint and OneDrive worked normally for about 2 weeks, then suddenly all writes started failing in the browser and in sync. Outlook still works. Billing, subscription and user licences all look right. Microsoft’s tenant storage…",
+  "url": "https://www.reddit.com/r/sharepoint/comments/1xt4yj8/tenant_sites_are_in_readonly_right_now_on_a_new/",
+  "image": null,
+  "publishedAt": "2026-11-11T01:35:56.000Z",
+  "topics": [
+   "SharePoint",
+   "Outlook",
+   "OneDrive"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xt349w",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "is it possible to get invoiced for 365, rather than pay by credit card?",
+  "text": "that's basically, my problem. CEO wants invoices, rather than paying by card, and won't use an msp or partner to do that, so I need MS to invoice us, rather than use a card. Is that even possible?",
+  "url": "https://www.reddit.com/r/Office365/comments/1xt349w/is_it_possible_to_get_invoiced_for_365_rather/",
+  "image": null,
+  "publishedAt": "2026-11-11T00:11:12.000Z",
+  "topics": []
+ },
+ {
   "id": "reddit:t3_1xsuzb8",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -40,6 +68,20 @@
   "topics": [
    "Copilot",
    "Cowork"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xss39r",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/PowerPlatform",
+  "title": "How do you manage Power Platform documentation and ownership across your organization?",
+  "text": "I’m interested in understanding how organizations manage their Power Platform solutions once they move beyond the initial development phase. A few questions for Power Platform admins, consultants and developers: Do you maintain a central inventory of apps, flows, owners and…",
+  "url": "https://www.reddit.com/r/PowerPlatform/comments/1xss39r/how_do_you_manage_power_platform_documentation/",
+  "image": null,
+  "publishedAt": "2026-11-10T16:54:54.000Z",
+  "topics": [
+   "Power Platform"
   ]
  },
  {
@@ -154,6 +196,18 @@
    "Copilot",
    "Word"
   ]
+ },
+ {
+  "id": "reddit:t3_1xs8gi6",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "Inaccurate \"Check Back\" Time ???",
+  "text": "So, I have a free account, and earlier today I hit the Daily Limit. I saw a message telling me to return at a specific time; it is now past that time, but the app is locked, and it's still telling me to come back at said time. I can accept that the app has changed and now has…",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xs8gi6/inaccurate_check_back_time/",
+  "image": null,
+  "publishedAt": "2026-11-10T00:16:36.000Z",
+  "topics": []
  },
  {
   "id": "reddit:t3_1xs4bur",
@@ -3770,11 +3824,13 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": []
+  "topics": [
+   "Copilot"
+  ]
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -3998,7 +4054,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -4044,7 +4100,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -4137,7 +4193,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -4532,7 +4588,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -4701,7 +4757,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
