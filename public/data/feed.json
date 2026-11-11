@@ -1,5 +1,137 @@
 [
  {
+  "id": "x:2120625304712499434",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "More model choice. More ways to get work done with Microsoft Copilot.\n \nAnthropic's Claude Fable 5.2 is rolling out in Copilot Cowork and Copilot Studio, bringing enhanced reasoning and coding capabilities to complex tasks. Combined with Work IQ, Copilot delivers results grounded",
+  "url": "https://x.com/MSFTCopilot/status/2120625304712499434",
+  "image": "https://pbs.twimg.com/media/HW35ecNXEAAtlAI.jpg",
+  "publishedAt": "2026-11-11T21:10:46.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Cowork"
+  ]
+ },
+ {
+  "id": "youtube:CPmeYrazmI4",
+  "type": "youtube",
+  "sourceId": "yt-copilot",
+  "source": "Microsoft Copilot",
+  "title": "Stay on brand with brand kit in Copilot in PowerPoint",
+  "text": "No guesswork needed. Use Brand Kit in Copilot in PowerPoint to always stay on brand. #MicrosoftCopilot #CopilotInPowerPoint",
+  "url": "https://www.youtube.com/watch?v=CPmeYrazmI4",
+  "image": "https://i.ytimg.com/vi/CPmeYrazmI4/hqdefault.jpg",
+  "publishedAt": "2026-11-11T21:00:12.000Z",
+  "topics": [
+   "Copilot",
+   "PowerPoint"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xttdxv",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Teams SIP Gateway Outage DACH",
+  "text": "Is Anyone in the DACH Region Experiencing an Outage of the Teams SIP Gateway?",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xttdxv/teams_sip_gateway_outage_dach/",
+  "image": null,
+  "publishedAt": "2026-11-11T20:55:16.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xtsx1u",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Did Copy Paste behavior change?",
+  "text": "Since yesterday, pasting images into Teams seems to behave differently for a friend of mine. Before: Ctrl+V pasted images directly into chat as \"Image\", with almost instant delivery. Now: Pasted images seem to be uploaded as attachments, showing a loading indicator and retaining…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xtsx1u/did_copy_paste_behavior_change/",
+  "image": null,
+  "publishedAt": "2026-11-11T20:36:36.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xtpl7k",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Teams Phone - Is there a way to test inbound and outbound calling on trail?",
+  "text": "I'm trying to test inbound and outbound calling through Teams Phone via contact center. Is there any trial instance/ sand box setup readily available so that I can understand the workflow, without waiting for acquiring numbers/KYC setup/ license configuration?",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xtpl7k/teams_phone_is_there_a_way_to_test_inbound_and/",
+  "image": null,
+  "publishedAt": "2026-11-11T18:30:33.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/microsoft-copilot-connectors-update-october-2026/ba-p/4572240",
+  "type": "blog",
+  "sourceId": "tc-copilot",
+  "source": "Tech Community: Copilot",
+  "title": "Microsoft Copilot Connectors Update: October 2026",
+  "text": "Your organization's knowledge doesn't live in one place. It's spread across project boards, CRM records, knowledge bases, wikis and specialist research. Microsoft Copilot Connectors bring all of it into Microsoft Copilot, so people get answers grounded in the content that…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/microsoft-copilot-connectors-update-october-2026/ba-p/4572240",
+  "image": null,
+  "publishedAt": "2026-11-11T16:03:15.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xtleap",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/copilotstudio",
+  "title": "How to you use/reference (PDF) files created by agents in a new harness workflow?",
+  "text": "Simple workflow: manual start, give a file -> Agent connector (select an existing one) ask it to create a onepage PDF summary -> outlook send an email (mail the created file to me as PDF attachment) Also tried the Copilot connector to use an existing M365 agent or invoke the…",
+  "url": "https://www.reddit.com/r/copilotstudio/comments/1xtleap/how_to_you_usereference_pdf_files_created_by/",
+  "image": null,
+  "publishedAt": "2026-11-11T15:57:31.000Z",
+  "topics": [
+   "Copilot",
+   "Agents",
+   "Outlook"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xtj5ms",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "Who else is disappointed with CoPilot vs Claude?",
+  "text": "I have been so frustrated with CoPilot lately. Whenever I am working in Word, it just can't do graphical layout, follow branding guides, or even get colours right. Sometimes, when editing, it says it can't save or read the file, and I lose my edits. I ask it to use my document…",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xtj5ms/who_else_is_disappointed_with_copilot_vs_claude/",
+  "image": null,
+  "publishedAt": "2026-11-11T14:29:02.000Z",
+  "topics": [
+   "Copilot",
+   "Word"
+  ]
+ },
+ {
+  "id": "blog:https://devblogs.microsoft.com/microsoft365dev/make-business-content-ready-for-ai-with-m-files-sharepoint-embedded-partner-spotlight",
+  "type": "blog",
+  "sourceId": "m365-dev-blog",
+  "source": "Microsoft 365 Developer Blog",
+  "title": "Make business content ready for AI with M-Files – SharePoint Embedded partner spotlight",
+  "text": "What happens when intelligent information management meets the Microsoft 365 ecosystem? Organizations are looking for better ways to manage growing volumes of business-critical content while preparing that content for AI. As they’re building custom apps, they want strong context…",
+  "url": "https://devblogs.microsoft.com/microsoft365dev/make-business-content-ready-for-ai-with-m-files-sharepoint-embedded-partner-spotlight/",
+  "image": null,
+  "publishedAt": "2026-11-11T14:00:54.000Z",
+  "topics": [
+   "SharePoint"
+  ]
+ },
+ {
   "id": "youtube:-bv9WLqJsEE",
   "type": "youtube",
   "sourceId": "yt-shane",
@@ -11,6 +143,20 @@
   "publishedAt": "2026-11-11T13:30:15.000Z",
   "topics": [
    "Power Platform"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xten4p",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "Investigating new Copilot",
+  "text": "I’ve been trying to pin down exactly why new Copilot is such a soulless item compared with the previous one and I have an insight I think. Going back through chats old Copilot seemed to have a “fine grained” user model of me - forgive the anthropomorphism but alongside being me…",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xten4p/investigating_new_copilot/",
+  "image": null,
+  "publishedAt": "2026-11-11T10:43:19.000Z",
+  "topics": [
+   "Copilot"
   ]
  },
  {
@@ -145,6 +291,20 @@
   ]
  },
  {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/use-connected-financial-intelligence-with-copilot-in-real/ba-p/4571099",
+  "type": "blog",
+  "sourceId": "tc-copilot",
+  "source": "Tech Community: Copilot",
+  "title": "Use connected financial intelligence with Copilot in real financial workflows",
+  "text": "How specialist financial intelligence and organizational context come together in practical financial workflows. A client review is approaching. The latest financial data is only part of the picture. The team also needs to understand what has changed, which assumptions deserve…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/use-connected-financial-intelligence-with-copilot-in-real/ba-p/4571099",
+  "image": null,
+  "publishedAt": "2026-11-10T17:37:34.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
   "id": "youtube:bs0ApxrLDI0",
   "type": "youtube",
   "sourceId": "yt-copilot",
@@ -185,6 +345,20 @@
   "publishedAt": "2026-11-10T16:42:27.000Z",
   "topics": [
    "Agents"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xsq3hk",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Microsoft Teams Calendar Issue",
+  "text": "Anyone else having issues with the calendar within Teams currently? Getting an error that says Teams is unable to access your Calendar.",
+  "url": "https://www.reddit.com/r/Office365/comments/1xsq3hk/microsoft_teams_calendar_issue/",
+  "image": null,
+  "publishedAt": "2026-11-10T15:40:28.000Z",
+  "topics": [
+   "Teams"
   ]
  },
  {
@@ -232,7 +406,7 @@
   "type": "youtube",
   "sourceId": "yt-lisa",
   "source": "Lisa Crosbie",
-  "title": "So You Just Got a Copilot License: Here's What You Need to Know",
+  "title": "You've Got a Copilot License at Work: Watch This First",
   "text": "If you've just been given a Copilot license at work, or you've had it for a while but still aren't quite sure what to do with it, this video is for you. I'll take you through what you actually have with a Copilot license, how Copilot works across your work, and some practical…",
   "url": "https://www.youtube.com/watch?v=EhtnFVFOPz4",
   "image": "https://i.ytimg.com/vi/EhtnFVFOPz4/hqdefault.jpg",
@@ -276,7 +450,7 @@
   "type": "youtube",
   "sourceId": "yt-copilot",
   "source": "Microsoft Copilot",
-  "title": "Beat Procrastination with Copilot in Word",
+  "title": "Beat procrastination with Copilot in Word",
   "text": "Beat writer's block and create a first draft based on previous work with Copilot in Word. #Microsoft #copilot #microsoftcopilot",
   "url": "https://www.youtube.com/watch?v=ATvR8jCgqSQ",
   "image": "https://i.ytimg.com/vi/ATvR8jCgqSQ/hqdefault.jpg",
@@ -327,6 +501,18 @@
    "Copilot Chat",
    "Cowork"
   ]
+ },
+ {
+  "id": "x:2119871769444003936",
+  "type": "x",
+  "sourceId": "x-microsoft",
+  "source": "@Microsoft",
+  "title": null,
+  "text": "Parsing complex financial data doesn't have to take forever. \n \nNorthern Trust and Microsoft Frontier Company cut client onboarding from 2.5 weeks to 3 days, with human expertise still at the center. Here's how they made it happen: msft.it/6000aCPLn",
+  "url": "https://x.com/Microsoft/status/2119871769444003936",
+  "image": "https://pbs.twimg.com/media/HWtMIuQXwAAzjrR.jpg",
+  "publishedAt": "2026-11-09T19:16:29.000Z",
+  "topics": []
  },
  {
   "id": "reddit:t3_1xrzdy6",
@@ -3913,13 +4099,11 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": [
-   "Copilot"
-  ]
+  "topics": []
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -4143,7 +4327,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -4189,7 +4373,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -4282,7 +4466,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -4677,7 +4861,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -4846,7 +5030,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
