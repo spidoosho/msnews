@@ -1,5 +1,33 @@
 [
  {
+  "id": "reddit:t3_1xtwtzl",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "Hitting \"You've used your daily chat limit. Please try again tomorrow\" in less than 1 hour on M365 Business Basic. Is Copilot completely unusable for anyone else?",
+  "text": "Hey everyone, I wanted to check if anyone else has been hitting a wall with Copilot recently. After the quota changes introduced in early November, I am now constantly running into this exact error message during routine daily work: What makes this completely unreasonable is…",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xtwtzl/hitting_youve_used_your_daily_chat_limit_please/",
+  "image": null,
+  "publishedAt": "2026-11-11T23:16:08.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xtuy5l",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "What Teams features do you wish more people knew about? Here are a few I think are badly underused",
+  "text": "I think the most useful bits of Teams are hidden in menus and shortcuts nobody opens. So here's a short list worth knowing, all in the current desktop app. Ctrl+G opens Go to mode. Type a chat or channel name and you're there, no scrolling the sidebar. Shift+Esc marks everything…",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xtuy5l/what_teams_features_do_you_wish_more_people_knew/",
+  "image": null,
+  "publishedAt": "2026-11-11T21:57:39.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
   "id": "x:2120625304712499434",
   "type": "x",
   "sourceId": "x-msftcopilot",
