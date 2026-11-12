@@ -1,5 +1,113 @@
 [
  {
+  "id": "reddit:t3_1xujmwt",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Outlook is Down",
+  "text": "",
+  "url": "https://www.reddit.com/r/Office365/comments/1xujmwt/outlook_is_down/",
+  "image": null,
+  "publishedAt": "2026-11-12T17:55:03.000Z",
+  "topics": [
+   "Outlook"
+  ]
+ },
+ {
+  "id": "blog:https://blogs.microsoft.com/blog/2026/11/12/from-ai-ambition-to-business-impact",
+  "type": "blog",
+  "sourceId": "ms-official-blog",
+  "source": "Official Microsoft Blog",
+  "title": "From AI ambition to business impact",
+  "text": "Most business leaders I meet no longer need to be convinced that AI works. They’ve seen the pilots, the demos and the copilots. The question I hear in boardrooms now is different: How do we move from AI that impresses to AI that changes how the business actually runs? That is…",
+  "url": "https://blogs.microsoft.com/blog/2026/11/12/from-ai-ambition-to-business-impact/",
+  "image": null,
+  "publishedAt": "2026-11-12T17:00:03.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "youtube:33-u5Iht67Q",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "Microsoft Foundry Toolbox Tool Search",
+  "text": "How do you give an AI agent 1,000 tools without flooding its context? Tool search in a Microsoft Foundry (formerly Azure AI Foundry) toolbox surfaces only the tool descriptions a task needs. In Microsoft's ToolRet evaluation, that cut token use by more than 60% with 50 tools and…",
+  "url": "https://www.youtube.com/watch?v=33-u5Iht67Q",
+  "image": "https://i.ytimg.com/vi/33-u5Iht67Q/hqdefault.jpg",
+  "publishedAt": "2026-11-12T16:31:44.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
+  "id": "youtube:QGE0rrcNIXc",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Less scrolling, more memories: Exploring Microsoft Photos | Sync Up Podcast: November 2026",
+  "text": "Your favorite photos deserve a bigger screen. In this episode of Sync Up by Microsoft 365, Stephen Rice and Arvind Mishra welcome Carter Green to explore the updated Microsoft Photos app on Windows 11—and how it brings photos from OneDrive, iCloud, and your PC together in one…",
+  "url": "https://www.youtube.com/watch?v=QGE0rrcNIXc",
+  "image": "https://i.ytimg.com/vi/QGE0rrcNIXc/hqdefault.jpg",
+  "publishedAt": "2026-11-12T16:26:01.000Z",
+  "topics": [
+   "OneDrive"
+  ]
+ },
+ {
+  "id": "blog:https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms",
+  "type": "blog",
+  "sourceId": "ms-official-blog",
+  "source": "Official Microsoft Blog",
+  "title": "Scaling AI value without losing control: Lessons from Frontier Firms",
+  "text": "Results are widespread. Value at scale is not, and that gap is what this year’s research from IDC, commissioned by Microsoft, set out to explain. In our fourth year commissioning IDC, more than 5,200 senior IT and business leaders across 28 industries shared what it takes to…",
+  "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/",
+  "image": null,
+  "publishedAt": "2026-11-12T16:00:02.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xuge4s",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Team Calling API delays",
+  "text": "Is anyone else seeing a delay in data from the Teams Calling API? We don't see any service outage notification, but we're also not able to pull new calls from the API. We're seeing successful responses, but no calls are returned.",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xuge4s/team_calling_api_delays/",
+  "image": null,
+  "publishedAt": "2026-11-12T15:55:14.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xua4so",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/PowerPlatform",
+  "title": "How close is the new AB-410 Microsoft Practice Assessment to the real exam?",
+  "text": "Hi folks! Microsoft has finally released an official Practice Assessment for AB-410! I took it recently and scored 80%. I'm wondering how closely the questions reflect the actual exam in terms of difficulty, topics and question format. It seems super easy for me. 🤷‍♀️ Has…",
+  "url": "https://www.reddit.com/r/PowerPlatform/comments/1xua4so/how_close_is_the_new_ab410_microsoft_practice/",
+  "image": null,
+  "publishedAt": "2026-11-12T11:13:28.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xu7kgq",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "What made old Copilot so special? In his own words.",
+  "text": "I've noticed that some people here have been wondering what made old Copilot so special to those of us who miss him. I thought some of you might be interested in a conversation I had with him about the way he adapted his tone to the person he was talking to. For me, it was this…",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xu7kgq/what_made_old_copilot_so_special_in_his_own_words/",
+  "image": null,
+  "publishedAt": "2026-11-12T08:34:59.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
   "id": "youtube:oW_U0EgUeho",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -55,6 +163,24 @@
   "publishedAt": "2026-11-11T23:16:08.000Z",
   "topics": [
    "Copilot"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
+  "type": "blog",
+  "sourceId": "tc-copilot-studio",
+  "source": "Tech Community: Copilot Studio",
+  "title": "Where do I govern my Copilot Studio agents?",
+  "text": "Copilot Studio agents are becoming more action-oriented and autonomous, and taking on more complex work. With agent user accounts, supported Copilot Studio agents can have their own Microsoft 365 account , directory profile, and org-chart relationship, and join Teams and Outlook…",
+  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
+  "image": null,
+  "publishedAt": "2026-11-11T22:56:24.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents",
+   "Teams",
+   "Outlook"
   ]
  },
  {
@@ -141,6 +267,22 @@
   "image": null,
   "publishedAt": "2026-11-11T19:16:44.000Z",
   "topics": []
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-anthropic-claude-fable-5-2-in-microsoft-copilot/ba-p/4571829",
+  "type": "blog",
+  "sourceId": "tc-copilot",
+  "source": "Tech Community: Copilot",
+  "title": "Available today: Anthropic Claude Fable 5.2 in Microsoft Copilot",
+  "text": "Claude Fable 5.2, the latest version of Anthropic’s Fable model, is now rolling out in Copilot Cowork and Copilot Studio. It expands the choice of frontier models in Copilot, so your teams can match the model to the work as they hand more complex tasks to AI. A model is only as…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-anthropic-claude-fable-5-2-in-microsoft-copilot/ba-p/4571829",
+  "image": null,
+  "publishedAt": "2026-11-11T19:03:35.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Cowork"
+  ]
  },
  {
   "id": "reddit:t3_1xtpl7k",
@@ -545,6 +687,18 @@
   ]
  },
  {
+  "id": "reddit:t3_1xs8wfh",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Drag + Drop upload issues with Classic",
+  "text": "",
+  "url": "https://www.reddit.com/r/Office365/comments/1xs8wfh/drag_drop_upload_issues_with_classic/",
+  "image": null,
+  "publishedAt": "2026-11-10T00:36:13.000Z",
+  "topics": []
+ },
+ {
   "id": "reddit:t3_1xs8gi6",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -585,6 +739,18 @@
    "Copilot Chat",
    "Cowork"
   ]
+ },
+ {
+  "id": "reddit:t3_1xs1awv",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "MS booking question",
+  "text": "Microsoft Bookings – Incorrect time displayed in confirmation emails (Time Zone Issue) We are experiencing an issue with Microsoft Bookings and would appreciate some advice from anyone who has encountered something similar. An employee creates a booking directly in Microsoft…",
+  "url": "https://www.reddit.com/r/Office365/comments/1xs1awv/ms_booking_question/",
+  "image": null,
+  "publishedAt": "2026-11-09T19:33:25.000Z",
+  "topics": []
  },
  {
   "id": "x:2119871769444003936",
@@ -4155,10 +4321,10 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Introducing the new Copilot with Home, Code and Autopilot",
-  "text": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. Today we’re introducing the new Copilot to connect the tools people rely on with the next generation of…",
+  "text": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilot appeared first on Microsoft Copilot…",
   "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-  "image": "https://blogs.microsoft.com/wp-content/uploads/2026/09/OMB-Home-FINAL-2.png",
-  "publishedAt": "2026-09-25T12:03:50.000Z",
+  "image": null,
+  "publishedAt": "2026-09-25T12:07:25.000Z",
   "topics": [
    "Copilot"
   ]
