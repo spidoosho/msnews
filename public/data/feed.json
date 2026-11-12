@@ -1,5 +1,49 @@
 [
  {
+  "id": "youtube:oW_U0EgUeho",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Copilot Extensibility Community Call - November 11th, 2026",
+  "text": "📺 Copilot Extensibility community call on November 11th, 2026. A recap of news and updates on Copilot extensibility from Microsoft, followed by demos typically presented by Microsoft speakers. Topics typically covered in this call include Microsoft 365 Copilot, Copilot Cowork,…",
+  "url": "https://www.youtube.com/watch?v=oW_U0EgUeho",
+  "image": "https://i.ytimg.com/vi/oW_U0EgUeho/hqdefault.jpg",
+  "publishedAt": "2026-11-12T08:32:19.000Z",
+  "topics": [
+   "Copilot",
+   "Cowork"
+  ]
+ },
+ {
+  "id": "youtube:N_3IxobIKjk",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Creating Copilot Components with SPFx - How does that actually work?",
+  "text": "📺 This demo takes a look behind the scenes of Copilot Components built with SharePoint Framework (SPFx). Vesa Juvonen explains how JavaScript and React components become interactive experiences inside the Copilot canvas, then walks through creating, testing, packaging,…",
+  "url": "https://www.youtube.com/watch?v=N_3IxobIKjk",
+  "image": "https://i.ytimg.com/vi/N_3IxobIKjk/hqdefault.jpg",
+  "publishedAt": "2026-11-12T08:10:04.000Z",
+  "topics": [
+   "Copilot",
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xu6vuu",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/sharepoint",
+  "title": "What's on your SharePoint Online pre-migration checklist?",
+  "text": "I work with SharePoint and I'm trying to tighten up the checklist I use before moving file shares and older sites into SharePoint Online . Right now I check who actually owns each site (and whether they still work here), how many sites have unique permissions, what still relies…",
+  "url": "https://www.reddit.com/r/sharepoint/comments/1xu6vuu/whats_on_your_sharepoint_online_premigration/",
+  "image": null,
+  "publishedAt": "2026-11-12T07:51:44.000Z",
+  "topics": [
+   "SharePoint"
+  ]
+ },
+ {
   "id": "reddit:t3_1xtwtzl",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -87,6 +131,18 @@
   ]
  },
  {
+  "id": "reddit:t3_1xtqu21",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "How can i automate Planner notifications with Microsoft Graph?",
+  "text": "Hi there I'm new to managing M365 (i've been set as admin by my boss and i have a M365 Bussiness Premium licence) and i've been tasked with automating certain Planner functions. Basically, i've been tasked with creating automated notifications for when tasks are set as \"Ongoing\"…",
+  "url": "https://www.reddit.com/r/Office365/comments/1xtqu21/how_can_i_automate_planner_notifications_with/",
+  "image": null,
+  "publishedAt": "2026-11-11T19:16:44.000Z",
+  "topics": []
+ },
+ {
   "id": "reddit:t3_1xtpl7k",
   "type": "reddit",
   "sourceId": "reddit-broad",
@@ -164,7 +220,7 @@
   "type": "youtube",
   "sourceId": "yt-shane",
   "source": "Shane Young",
-  "title": "I Built an Entire Power Platform Solution in One Afternoon",
+  "title": "Power Apps Development Will Never Be the Same",
   "text": "What if you could build an entire Power Platform solution in one afternoon instead of spending days or weeks on it? That’s exactly what I did. I started with a 480-word prompt and gave it to GitHub Copilot. About 44 minutes and less than $7 in credits later, I had a working…",
   "url": "https://www.youtube.com/watch?v=-bv9WLqJsEE",
   "image": "https://i.ytimg.com/vi/-bv9WLqJsEE/hqdefault.jpg",
@@ -933,6 +989,21 @@
   "topics": [
    "SharePoint",
    "Excel"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xqchue",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "No Outlook connector/Outlook.com email send/search no longer works in new Copilot",
+  "text": "In the new Copilot, I can no longer search my emails or send emails. It is as if it doesn't know my account is there. Adding/editing Outlook Calendar events still work, but not the emails. I just get this message: \"I can search your email only if I have access to your Outlook…",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xqchue/no_outlook_connectoroutlookcom_email_sendsearch/",
+  "image": null,
+  "publishedAt": "2026-11-07T17:55:35.000Z",
+  "topics": [
+   "Copilot",
+   "Outlook"
   ]
  },
  {
@@ -4127,11 +4198,13 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": []
+  "topics": [
+   "Copilot"
+  ]
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -4355,7 +4428,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -4401,7 +4474,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -4494,7 +4567,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -4889,7 +4962,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -5058,7 +5131,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
