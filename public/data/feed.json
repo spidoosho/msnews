@@ -1,5 +1,93 @@
 [
  {
+  "id": "reddit:t3_1xuz1ye",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Office 364",
+  "text": "Down almost 12 full hours. Maybe their on hold with VMware? I hope they renewed their license and support contract. Man, I bet it would feel good to have an extra 60,000 people working on this issue for you right now, huh...",
+  "url": "https://www.reddit.com/r/Office365/comments/1xuz1ye/office_364/",
+  "image": null,
+  "publishedAt": "2026-11-13T05:03:36.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xuxn9j",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "The person at Microsoft trying to figure out which cord to plug back in to fix Outlook..",
+  "text": "",
+  "url": "https://www.reddit.com/r/Office365/comments/1xuxn9j/the_person_at_microsoft_trying_to_figure_out/",
+  "image": "https://preview.redd.it/w0jpkl5sxa1i1.jpeg?width=640&crop=smart&auto=webp&s=60fb635fad6fa5f9757923aa550aff9c016c699b",
+  "publishedAt": "2026-11-13T03:48:33.000Z",
+  "topics": [
+   "Outlook"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xuxdv8",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "What are the chances MS won't have a full recovery?",
+  "text": "Haven't seen an outage this long with no real progress. Chat, are they cooked?",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xuxdv8/what_are_the_chances_ms_wont_have_a_full_recovery/",
+  "image": null,
+  "publishedAt": "2026-11-13T03:35:03.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xuwum1",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "Today is the day",
+  "text": "",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xuwum1/today_is_the_day/",
+  "image": "https://preview.redd.it/whyjow9pqa1i1.jpeg?width=640&crop=smart&auto=webp&s=3c891619c5237f6654ab110e8f5b18b244dcbe03",
+  "publishedAt": "2026-11-13T03:08:26.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xuuuvt",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Could this be why Outlook is down globally? 🙄🤷‍♀️🫤🤦‍♀️🤣 #outlook #firstworldproblem #whatnext #globalreach #sos",
+  "text": "",
+  "url": "https://www.reddit.com/r/Office365/comments/1xuuuvt/could_this_be_why_outlook_is_down_globally/",
+  "image": "https://preview.redd.it/d2gcptue9a1i1.jpeg?width=640&crop=smart&auto=webp&s=7176affa8ac9d5c96b9d8abeb79d63f4b2d7fe36",
+  "publishedAt": "2026-11-13T01:31:51.000Z",
+  "topics": [
+   "Outlook"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xuu1j5",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "M365 outage (EX1550543 / MO1550821) still not fixed: servers fall over again once they take traffic. Timeline and what's affected",
+  "text": "LIVE: I pieced together Microsoft's updates because they're spread across the admin centre, the public status page, X and news sites. Times are UK (UTC). Latest (04:57, 13 Nov, from Microsoft's status page): Still not fixed. Microsoft says \"we've observed a surge in outbound…",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xuu1j5/m365_outage_ex1550543_mo1550821_still_not_fixed/",
+  "image": null,
+  "publishedAt": "2026-11-13T00:53:23.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xut870",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "Microsoft 365 outage (EX1550543 / MO1550821): Microsoft's status updates so far, in order",
+  "text": "",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xut870/microsoft_365_outage_ex1550543_mo1550821/",
+  "image": null,
+  "publishedAt": "2026-11-13T00:15:41.000Z",
+  "topics": []
+ },
+ {
   "id": "reddit:t3_1xus0cj",
   "type": "reddit",
   "sourceId": "reddit-broad",
@@ -4572,11 +4660,13 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": []
+  "topics": [
+   "Copilot"
+  ]
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -4800,7 +4890,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -4846,7 +4936,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -4939,7 +5029,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -5334,7 +5424,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -5503,7 +5593,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
