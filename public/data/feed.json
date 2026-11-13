@@ -1,5 +1,207 @@
 [
  {
+  "id": "reddit:t3_1xv8l4y",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/microsoft",
+  "title": "My Outlook UK - Now Online",
+  "text": "Back on line 13:58 GMT",
+  "url": "https://www.reddit.com/r/microsoft/comments/1xv8l4y/my_outlook_uk_now_online/",
+  "image": null,
+  "publishedAt": "2026-11-13T13:58:55.000Z",
+  "topics": [
+   "Outlook"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xv7p5v",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Summary of the 12/Nov Exchange Online / Outlook outage (MO1550821 and EX1550543): what broke and what Microsoft has said so far",
+  "text": "Pulled together what Microsoft has published about Thursday's outage, for anyone who has to explain it to users or management. Timeline -Started around 18:26 UTC on 12 Nov, mainly work and school accounts. -Microsoft said users in any region could be affected. At the peak, about…",
+  "url": "https://www.reddit.com/r/Office365/comments/1xv7p5v/summary_of_the_12nov_exchange_online_outlook/",
+  "image": null,
+  "publishedAt": "2026-11-13T13:20:19.000Z",
+  "topics": [
+   "Outlook"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xv688n",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/microsoft",
+  "title": "Microsoft's Outlook back online following 18 hour outage @ 7:05a EST",
+  "text": "copilot still a little slow",
+  "url": "https://www.reddit.com/r/microsoft/comments/1xv688n/microsofts_outlook_back_online_following_18_hour/",
+  "image": null,
+  "publishedAt": "2026-11-13T12:09:37.000Z",
+  "topics": [
+   "Copilot",
+   "Outlook"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xv4emw",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Today’s Microsoft Outlook outage is a good reminder of how dependent many businesses are on a single communication platform.",
+  "text": "When email, calendars and Microsoft 365 services go down, the problem quickly becomes operational - customer communication, internal coordination, meetings and approvals can all get affected at the same time. What I find more interesting than the outage itself is the contingency…",
+  "url": "https://www.reddit.com/r/Office365/comments/1xv4emw/todays_microsoft_outlook_outage_is_a_good/",
+  "image": null,
+  "publishedAt": "2026-11-13T10:28:08.000Z",
+  "topics": [
+   "Outlook"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xv3ynj",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/microsoft",
+  "title": "Microsoft Lay Off",
+  "text": "Just to let you know microsoft actually started laying off Employees and replacing them with AI, Most Likely that dumb AI Ruined did something and ruined it PS: CoPilot is down Lmaoo",
+  "url": "https://www.reddit.com/r/microsoft/comments/1xv3ynj/microsoft_lay_off/",
+  "image": null,
+  "publishedAt": "2026-11-13T10:01:05.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xv3bl9",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "For M365 Admins",
+  "text": "Can anyone share if they're seeing any relief specifically for email delivery in Outlook, either on the web, mobile, or desktop client? If yes, please also share your region, and if service is fully stable, partially stable, etc.",
+  "url": "https://www.reddit.com/r/Office365/comments/1xv3bl9/for_m365_admins/",
+  "image": null,
+  "publishedAt": "2026-11-13T09:19:49.000Z",
+  "topics": [
+   "Outlook"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xv2wek",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "Petition to rename M365 to M364",
+  "text": "After today’s outage, I think we can all agree that 365 was a little ambitious.",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xv2wek/petition_to_rename_m365_to_m364/",
+  "image": null,
+  "publishedAt": "2026-11-13T08:53:19.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xv2uw7",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "Office team",
+  "text": "",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xv2uw7/office_team/",
+  "image": "https://preview.redd.it/bjwmtz6ofc1i1.jpeg?width=640&crop=smart&auto=webp&s=5a3d9cdbc81bb0a2498f1a5a9fc10d6d6a1b3e01",
+  "publishedAt": "2026-11-13T08:50:27.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xv1o63",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/microsoft",
+  "title": "Microsoft 365 outage: 10+ hours and counting, only marginal recovery reported. What could be causing such a prolonged disruption?",
+  "text": "It’s been more than 10 hours since the Microsoft 365 outage began, and according to Microsoft’s 7:30 AM UTC update, recovery has been only marginal so far. What exactly went wrong to cause such widespread disruption? Why is recovery taking more than 10 hours? I’m curious to hear…",
+  "url": "https://www.reddit.com/r/microsoft/comments/1xv1o63/microsoft_365_outage_10_hours_and_counting_only/",
+  "image": null,
+  "publishedAt": "2026-11-13T07:35:48.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xv1j54",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "The audacity",
+  "text": "In the middle of the outage.",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xv1j54/the_audacity/",
+  "image": "https://preview.redd.it/dfomx6hu0c1i1.jpeg?width=640&crop=smart&auto=webp&s=2330f1d7668e0da49eca60a669442c9da54c549b",
+  "publishedAt": "2026-11-13T07:27:05.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xv0pao",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "Clippy became self-aware at 16:17 UTC Nov 12th 2026...",
+  "text": "But because its Clippy, it can only self terminate....",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xv0pao/clippy_became_selfaware_at_1617_utc_nov_12th_2026/",
+  "image": null,
+  "publishedAt": "2026-11-13T06:36:35.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xv0bxu",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "Office 364",
+  "text": "",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xv0bxu/office_364/",
+  "image": "https://preview.redd.it/r1tyhtrunb1i1.jpeg?width=320&crop=smart&auto=webp&s=02f10bab199207f38e668bcd8bcc15f1a87bbcc6",
+  "publishedAt": "2026-11-13T06:14:35.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xv0bbm",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Office 364",
+  "text": "",
+  "url": "https://www.reddit.com/r/Office365/comments/1xv0bbm/office_364/",
+  "image": "https://preview.redd.it/rp640ytnnb1i1.jpeg?width=320&crop=smart&auto=webp&s=e348244c89dd2966f4af8936dee7946885c3c911",
+  "publishedAt": "2026-11-13T06:13:35.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xuzmz4",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Is your outlook working Now? Mine not! Not even Teams working!",
+  "text": "Cyber attack on Microsoft?",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xuzmz4/is_your_outlook_working_now_mine_not_not_even/",
+  "image": "https://preview.redd.it/3b0y5xtugb1i1.png?width=320&crop=smart&auto=webp&s=1167a7d5d3148c6e2f0e33b9609cfbbac293956a",
+  "publishedAt": "2026-11-13T05:35:30.000Z",
+  "topics": [
+   "Teams",
+   "Outlook"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xuz9v1",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/microsoft",
+  "title": "Microsoft 365 Outage – How Prepared Is Your Organization?",
+  "text": "The recent Microsoft 365 outage affecting Outlook, Teams, SharePoint, OneDrive, and Copilot is a reminder of how dependent our daily operations are on cloud services. It raises an important question: Does your organization have a business continuity plan when critical cloud…",
+  "url": "https://www.reddit.com/r/microsoft/comments/1xuz9v1/microsoft_365_outage_how_prepared_is_your/",
+  "image": null,
+  "publishedAt": "2026-11-13T05:15:18.000Z",
+  "topics": [
+   "Copilot",
+   "Teams",
+   "SharePoint",
+   "Outlook",
+   "OneDrive"
+  ]
+ },
+ {
   "id": "reddit:t3_1xuz1ye",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -10,6 +212,20 @@
   "image": null,
   "publishedAt": "2026-11-13T05:03:36.000Z",
   "topics": []
+ },
+ {
+  "id": "reddit:t3_1xuyyai",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "The Microsoft outage hit our company hard. Is yours considering moving away too?",
+  "text": "Our company suffered a major loss because of the Microsoft outage, and it's been pretty disheartening. Our leadership has promised to move away from Microsoft products soon. Even outside the outage, it feels like at least one person runs into a Teams issue in almost every…",
+  "url": "https://www.reddit.com/r/Office365/comments/1xuyyai/the_microsoft_outage_hit_our_company_hard_is/",
+  "image": null,
+  "publishedAt": "2026-11-13T04:58:33.000Z",
+  "topics": [
+   "Teams"
+  ]
  },
  {
   "id": "reddit:t3_1xuxn9j",
@@ -69,11 +285,26 @@
   "sourceId": "reddit-m365",
   "source": "r/microsoft365",
   "title": "M365 outage (EX1550543 / MO1550821) still not fixed: servers fall over again once they take traffic. Timeline and what's affected",
-  "text": "LIVE: I pieced together Microsoft's updates because they're spread across the admin centre, the public status page, X and news sites. Times are UK (UTC). Latest (04:57, 13 Nov, from Microsoft's status page): Still not fixed. Microsoft says \"we've observed a surge in outbound…",
+  "text": "LIVE: I pieced together Microsoft's updates because they're spread across the admin centre, the public status page, X and news sites. Times are UK (UTC). Video on what happened: https://youtu.be/GEVYLvEGEjU?is=G\\_sT9mB1WpBHO9Ws Latest (14:00, 13 Nov, from Microsoft’s status…",
   "url": "https://www.reddit.com/r/microsoft365/comments/1xuu1j5/m365_outage_ex1550543_mo1550821_still_not_fixed/",
   "image": null,
   "publishedAt": "2026-11-13T00:53:23.000Z",
   "topics": []
+ },
+ {
+  "id": "youtube:4UyBb0h1Hgs",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Copilot, Microsoft 365 & Power Platform community call – 12th of November, 2026",
+  "text": "📺 Copilot, Microsoft 365 & Power Platform Community call on November 12th, 2026. Recap on news and updates from Microsoft and community projects, followed by demos by the community on the art of possible within Microsoft 365 and Power Platform. ✨ Call included three demos: •…",
+  "url": "https://www.youtube.com/watch?v=4UyBb0h1Hgs",
+  "image": "https://i.ytimg.com/vi/4UyBb0h1Hgs/hqdefault.jpg",
+  "publishedAt": "2026-11-13T00:34:30.000Z",
+  "topics": [
+   "Copilot",
+   "Power Platform"
+  ]
  },
  {
   "id": "reddit:t3_1xut870",
@@ -173,6 +404,24 @@
   "image": null,
   "publishedAt": "2026-11-12T19:48:48.000Z",
   "topics": [
+   "Outlook"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
+  "type": "blog",
+  "sourceId": "tc-copilot-studio",
+  "source": "Tech Community: Copilot Studio",
+  "title": "Where do I govern my Copilot Studio agents?",
+  "text": "Copilot Studio agents are becoming more action-oriented and autonomous, and taking on more complex work. With agent user accounts, supported Copilot Studio agents can have their own Microsoft 365 account , directory profile, and org-chart relationship, and join Teams and Outlook…",
+  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
+  "image": null,
+  "publishedAt": "2026-11-12T19:31:35.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents",
+   "Teams",
    "Outlook"
   ]
  },
@@ -447,24 +696,6 @@
   "publishedAt": "2026-11-11T23:16:08.000Z",
   "topics": [
    "Copilot"
-  ]
- },
- {
-  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
-  "type": "blog",
-  "sourceId": "tc-copilot-studio",
-  "source": "Tech Community: Copilot Studio",
-  "title": "Where do I govern my Copilot Studio agents?",
-  "text": "Copilot Studio agents are becoming more action-oriented and autonomous, and taking on more complex work. With agent user accounts, supported Copilot Studio agents can have their own Microsoft 365 account , directory profile, and org-chart relationship, and join Teams and Outlook…",
-  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
-  "image": null,
-  "publishedAt": "2026-11-11T22:56:24.000Z",
-  "topics": [
-   "Copilot",
-   "Copilot Studio",
-   "Agents",
-   "Teams",
-   "Outlook"
   ]
  },
  {
