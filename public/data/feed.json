@@ -1,5 +1,201 @@
 [
  {
+  "id": "reddit:t3_1xus0cj",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/microsoft",
+  "title": "Microsoft 365 - Service Health Status - 11:06:31 PM UTC",
+  "text": "User impact: Users may be unable to connect to multiple Microsoft 365 services. More info: Potentially impacted services include: - Exchange Online - Microsoft Teams - SharePoint Online - Microsoft Copilot 365 - Microsoft Defender XDR - Microsoft Planner - Microsoft To Do -…",
+  "url": "https://www.reddit.com/r/microsoft/comments/1xus0cj/microsoft_365_service_health_status_110631_pm_utc/",
+  "image": null,
+  "publishedAt": "2026-11-12T23:22:10.000Z",
+  "topics": [
+   "Copilot",
+   "Teams",
+   "SharePoint",
+   "Security & Admin"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xurwq7",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Outlook is down, no problem. Bring back Monica from The Pitt to run the interoffice mail!",
+  "text": "",
+  "url": "https://www.reddit.com/r/Office365/comments/1xurwq7/outlook_is_down_no_problem_bring_back_monica_from/",
+  "image": "https://preview.redd.it/s10bnrkil91i1.jpeg?width=640&crop=smart&auto=webp&s=89e2c7cef5b523601c7563cde513de388ba1fede",
+  "publishedAt": "2026-11-12T23:17:35.000Z",
+  "topics": [
+   "Outlook"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xup0oq",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "🚨 Microsoft 365 has officially introduced a new feature: Microsoft 0. 😂",
+  "text": "Exchange Online? ❌ Microsoft Teams? ❌ SharePoint Online? ❌ Microsoft Copilot? ❌ Microsoft Defender XDR? ❌ Microsoft 365: All your productivity tools in one place. Also Microsoft 365: What if none of them worked in one place? 💀 And the best part? Microsoft says the affected…",
+  "url": "https://www.reddit.com/r/Office365/comments/1xup0oq/microsoft_365_has_officially_introduced_a_new/",
+  "image": "https://preview.redd.it/w6svtw05091i1.png?width=140&height=96&auto=webp&s=91abae0d6e2cb4d276cd4dce8ce0a7ef9d8ca75f",
+  "publishedAt": "2026-11-12T21:18:06.000Z",
+  "topics": [
+   "Copilot",
+   "Teams",
+   "SharePoint",
+   "Security & Admin"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xuoa4k",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "Today's Microsoft 365 outage: not a traffic spike, a loss of capacity",
+  "text": "The interesting part of today's outage (Exchange Online, with user reports for Teams and Copilot too) isn't the outage itself but the preliminary explanation. According to Microsoft, there was no unusual increase in requests: a large number of servers became unavailable, and the…",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xuoa4k/todays_microsoft_365_outage_not_a_traffic_spike_a/",
+  "image": null,
+  "publishedAt": "2026-11-12T20:48:52.000Z",
+  "topics": [
+   "Copilot",
+   "Teams"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xunz8o",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Unfortunately, my teams is still working during the great Microsoft crash of 2026",
+  "text": "Quiet afternoon at the headquarters I’m sure.",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xunz8o/unfortunately_my_teams_is_still_working_during/",
+  "image": null,
+  "publishedAt": "2026-11-12T20:36:43.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xumqc9",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Outlook down/outage. But Mimecast saving us.",
+  "text": "As everyone else has discovered some major shenanigans has befallen MS O365/Outlook. You cant even log into office.com. We happen to have Mimecast for email security and archiving and \"Email Continuity\" That email continuity mode is saving our bacon by sending and receiving for…",
+  "url": "https://www.reddit.com/r/Office365/comments/1xumqc9/outlook_downoutage_but_mimecast_saving_us/",
+  "image": null,
+  "publishedAt": "2026-11-12T19:48:48.000Z",
+  "topics": [
+   "Outlook"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xulkns",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Outlook and 365 is down November 12th, 2026 ~1:09PM EST",
+  "text": "Anyone have issues or know the cause?",
+  "url": "https://www.reddit.com/r/Office365/comments/1xulkns/outlook_and_365_is_down_november_12th_2026_109pm/",
+  "image": "https://preview.redd.it/y9ndge6oc81i1.jpeg?width=140&height=105&auto=webp&s=2dc8c47db7cbc5a91c334272f404cc6a085de3e7",
+  "publishedAt": "2026-11-12T19:06:15.000Z",
+  "topics": [
+   "Outlook"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xul9xg",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "Update on M365 Outage/Degradation",
+  "text": "",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xul9xg/update_on_m365_outagedegradation/",
+  "image": "https://preview.redd.it/1ao7582qa81i1.jpeg?width=640&crop=smart&auto=webp&s=b73e2f8ac491a32dc775b0259a111bf1a340d692",
+  "publishedAt": "2026-11-12T18:55:19.000Z",
+  "topics": []
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/plugins-at-microsoft-ignite-2026/ba-p/4569951",
+  "type": "blog",
+  "sourceId": "tc-copilot",
+  "source": "Tech Community: Copilot",
+  "title": "Plugins at Microsoft Ignite 2026",
+  "text": "Plugins are becoming a common way across the industry to bring reusable AI capabilities together, and they’re central to how users extend Microsoft Copilot. By bringing skills, tools, and agents into a connected offering, plugins help users complete more workflows in the context…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/plugins-at-microsoft-ignite-2026/ba-p/4569951",
+  "image": null,
+  "publishedAt": "2026-11-12T18:46:59.000Z",
+  "topics": [
+   "Copilot",
+   "Agents"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xukzaj",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "Copilot wider outage !",
+  "text": "",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xukzaj/copilot_wider_outage/",
+  "image": null,
+  "publishedAt": "2026-11-12T18:44:33.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xukxop",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/microsoft",
+  "title": "M365 Status",
+  "text": "Users may be unable to connect to multiple Microsoft 365 services Title: Users may be unable to connect to multiple Microsoft 365 services User impact: Users may be unable to connect to multiple Microsoft 365 services. More info: Potentially impacted services include: - Exchange…",
+  "url": "https://www.reddit.com/r/microsoft/comments/1xukxop/m365_status/",
+  "image": null,
+  "publishedAt": "2026-11-12T18:42:56.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xuk62q",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Outlook not opening - please report if you are also having issues.",
+  "text": "",
+  "url": "https://www.reddit.com/r/Office365/comments/1xuk62q/outlook_not_opening_please_report_if_you_are_also/",
+  "image": null,
+  "publishedAt": "2026-11-12T18:14:29.000Z",
+  "topics": [
+   "Outlook"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xuk5om",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Outlook not opening - please report if you are also having issues.",
+  "text": "",
+  "url": "https://www.reddit.com/r/Office365/comments/1xuk5om/outlook_not_opening_please_report_if_you_are_also/",
+  "image": null,
+  "publishedAt": "2026-11-12T18:14:05.000Z",
+  "topics": [
+   "Outlook"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xujvap",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "Exchange Down",
+  "text": "Anyone have any information on what's going on with M365 hosted exchange?",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xujvap/exchange_down/",
+  "image": null,
+  "publishedAt": "2026-11-12T18:03:24.000Z",
+  "topics": []
+ },
+ {
   "id": "reddit:t3_1xujmwt",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -257,6 +453,22 @@
   ]
  },
  {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-anthropic-claude-fable-5-2-in-microsoft-copilot/ba-p/4571829",
+  "type": "blog",
+  "sourceId": "tc-copilot",
+  "source": "Tech Community: Copilot",
+  "title": "Available today: Anthropic Claude Fable 5.2 in Microsoft Copilot",
+  "text": "Claude Fable 5.2, the latest version of Anthropic’s Fable model, is now rolling out in Copilot Cowork and Copilot Studio. It expands the choice of frontier models in Copilot, so your teams can match the model to the work as they hand more complex tasks to AI. A model is only as…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-anthropic-claude-fable-5-2-in-microsoft-copilot/ba-p/4571829",
+  "image": null,
+  "publishedAt": "2026-11-11T19:34:04.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Cowork"
+  ]
+ },
+ {
   "id": "reddit:t3_1xtqu21",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -267,22 +479,6 @@
   "image": null,
   "publishedAt": "2026-11-11T19:16:44.000Z",
   "topics": []
- },
- {
-  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-anthropic-claude-fable-5-2-in-microsoft-copilot/ba-p/4571829",
-  "type": "blog",
-  "sourceId": "tc-copilot",
-  "source": "Tech Community: Copilot",
-  "title": "Available today: Anthropic Claude Fable 5.2 in Microsoft Copilot",
-  "text": "Claude Fable 5.2, the latest version of Anthropic’s Fable model, is now rolling out in Copilot Cowork and Copilot Studio. It expands the choice of frontier models in Copilot, so your teams can match the model to the work as they hand more complex tasks to AI. A model is only as…",
-  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-anthropic-claude-fable-5-2-in-microsoft-copilot/ba-p/4571829",
-  "image": null,
-  "publishedAt": "2026-11-11T19:03:35.000Z",
-  "topics": [
-   "Copilot",
-   "Copilot Studio",
-   "Cowork"
-  ]
  },
  {
   "id": "reddit:t3_1xtpl7k",
@@ -297,6 +493,18 @@
   "topics": [
    "Teams"
   ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-365-blog/what-you-ll-learn-explore-and-experience-at-espc-2026/ba-p/4572576",
+  "type": "blog",
+  "sourceId": "tc-m365",
+  "source": "Tech Community: Microsoft 365",
+  "title": "What You’ll Learn, Explore, and Experience at ESPC 2026",
+  "text": "AI is changing the way organizations think about productivity, collaboration, knowledge, development, security, and business processes. But keeping up with the pace of change is only part of the challenge. The bigger question is how to turn all that innovation into something…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/what-you-ll-learn-explore-and-experience-at-espc-2026/ba-p/4572576",
+  "image": null,
+  "publishedAt": "2026-11-11T16:18:37.000Z",
+  "topics": []
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/microsoft-copilot-connectors-update-october-2026/ba-p/4572240",
@@ -4364,13 +4572,11 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": [
-   "Copilot"
-  ]
+  "topics": []
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -4594,7 +4800,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -4640,7 +4846,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -4733,7 +4939,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -5128,7 +5334,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -5297,7 +5503,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
