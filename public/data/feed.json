@@ -1,5 +1,58 @@
 [
  {
+  "id": "reddit:t3_1xve38m",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "Microsoft’s Apology",
+  "text": "",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xve38m/microsofts_apology/",
+  "image": "https://preview.redd.it/rsshtw4n0f1i1.jpeg?width=640&crop=smart&auto=webp&s=3883193af85ca27feb873687ca2d8fde9cc6661e",
+  "publishedAt": "2026-11-13T17:31:18.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xvd6ln",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/microsoft",
+  "title": "\"We are deeply sorry\" Microsoft apologizes for major outage that knocked Outlook, Teams, and Microsoft 365 offline for 24 hours – insists it wasn't AI that caused it",
+  "text": "",
+  "url": "https://www.reddit.com/r/microsoft/comments/1xvd6ln/we_are_deeply_sorry_microsoft_apologizes_for/",
+  "image": "https://external-preview.redd.it/53xdW0GXkuPs1uANWMdY4vL7yZiDAutULEaK-DK17d0.jpeg?width=640&crop=smart&auto=webp&s=34c57f71d2397025b6d291757eb2b50d45c2c045",
+  "publishedAt": "2026-11-13T16:58:15.000Z",
+  "topics": [
+   "Teams",
+   "Outlook"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xvblsk",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/sharepoint",
+  "title": "Best workaround (if any) to allow users without an M365 account to access a Sharepoint site",
+  "text": "For context, we are a small manufacturing company. We would like to have this SharePoint site available on all workstations on our floor that direct production / maintenance members to resources such as Work Instructions or HR resources. The issue is that Production employees do…",
+  "url": "https://www.reddit.com/r/sharepoint/comments/1xvblsk/best_workaround_if_any_to_allow_users_without_an/",
+  "image": null,
+  "publishedAt": "2026-11-13T15:59:30.000Z",
+  "topics": [
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xv96v2",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Communication",
+  "text": "Anyone else’s IT dept send an EMAIL to notify staff about the outage???? Ours did. 🤦‍♀️🤣🤦‍♀️🤣🤦‍♀️",
+  "url": "https://www.reddit.com/r/Office365/comments/1xv96v2/communication/",
+  "image": null,
+  "publishedAt": "2026-11-13T14:23:21.000Z",
+  "topics": []
+ },
+ {
   "id": "reddit:t3_1xv8l4y",
   "type": "reddit",
   "sourceId": "reddit-broad",
@@ -43,6 +96,20 @@
   ]
  },
  {
+  "id": "reddit:t3_1xv4gf8",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "Copilot turned from my favorite tool into my least favorite",
+  "text": "I'm not even talking that it is down for several hours, but when it is up. It asks me to sign in via numerous boxes and then I am allowed to ask not more than 1 or 2 questions and then tells me that I asked enough for the day or pay. Is this tool aware that it is replaceable?…",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xv4gf8/copilot_turned_from_my_favorite_tool_into_my/",
+  "image": null,
+  "publishedAt": "2026-11-13T10:31:06.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
   "id": "reddit:t3_1xv4emw",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -83,6 +150,18 @@
   "topics": [
    "Outlook"
   ]
+ },
+ {
+  "id": "reddit:t3_1xv2x19",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "What this M365 outage teach us IT administrator / IT specialist?",
+  "text": "Just had a thought on a worst case scenario. What if a company fully invested in to cloud solution, such as M365, and it is down, with no sight of bringing it back online. I believe we do need to start planning on any alternative during the downtime, or contingency plan if the…",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xv2x19/what_this_m365_outage_teach_us_it_administrator/",
+  "image": null,
+  "publishedAt": "2026-11-13T08:54:27.000Z",
+  "topics": []
  },
  {
   "id": "reddit:t3_1xv2wek",
@@ -408,24 +487,6 @@
   ]
  },
  {
-  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
-  "type": "blog",
-  "sourceId": "tc-copilot-studio",
-  "source": "Tech Community: Copilot Studio",
-  "title": "Where do I govern my Copilot Studio agents?",
-  "text": "Copilot Studio agents are becoming more action-oriented and autonomous, and taking on more complex work. With agent user accounts, supported Copilot Studio agents can have their own Microsoft 365 account , directory profile, and org-chart relationship, and join Teams and Outlook…",
-  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
-  "image": null,
-  "publishedAt": "2026-11-12T19:31:35.000Z",
-  "topics": [
-   "Copilot",
-   "Copilot Studio",
-   "Agents",
-   "Teams",
-   "Outlook"
-  ]
- },
- {
   "id": "reddit:t3_1xulkns",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -696,6 +757,24 @@
   "publishedAt": "2026-11-11T23:16:08.000Z",
   "topics": [
    "Copilot"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
+  "type": "blog",
+  "sourceId": "tc-copilot-studio",
+  "source": "Tech Community: Copilot Studio",
+  "title": "Where do I govern my Copilot Studio agents?",
+  "text": "Copilot Studio agents are becoming more action-oriented and autonomous, and taking on more complex work. With agent user accounts, supported Copilot Studio agents can have their own Microsoft 365 account , directory profile, and org-chart relationship, and join Teams and Outlook…",
+  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
+  "image": null,
+  "publishedAt": "2026-11-11T22:56:24.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents",
+   "Teams",
+   "Outlook"
   ]
  },
  {
@@ -4848,7 +4927,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Introducing the new Copilot with Home, Code and Autopilot",
-  "text": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilot appeared first on Microsoft Copilot…",
+  "text": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilot appeared first on AI at Work Blog .",
   "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
   "image": null,
   "publishedAt": "2026-09-25T12:07:25.000Z",
@@ -4891,13 +4970,11 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": [
-   "Copilot"
-  ]
+  "topics": []
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -5121,7 +5198,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -5167,7 +5244,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -5260,7 +5337,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -5655,7 +5732,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -5824,7 +5901,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
