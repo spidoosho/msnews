@@ -1,5 +1,19 @@
 [
  {
+  "id": "reddit:t3_1xvj349",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "I run ismicrosoft365down.com",
+  "text": "The amount of people signing up with \"@outlook.com\" addresses for email updates on the outage has had my head shaking continuously for the past couple days. That is all.",
+  "url": "https://www.reddit.com/r/Office365/comments/1xvj349/i_run_ismicrosoft365downcom/",
+  "image": null,
+  "publishedAt": "2026-11-13T20:40:44.000Z",
+  "topics": [
+   "Outlook"
+  ]
+ },
+ {
   "id": "reddit:t3_1xve38m",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -364,7 +378,7 @@
   "sourceId": "reddit-m365",
   "source": "r/microsoft365",
   "title": "M365 outage (EX1550543 / MO1550821) still not fixed: servers fall over again once they take traffic. Timeline and what's affected",
-  "text": "LIVE: I pieced together Microsoft's updates because they're spread across the admin centre, the public status page, X and news sites. Times are UK (UTC). Video on what happened: https://youtu.be/GEVYLvEGEjU?is=G\\_sT9mB1WpBHO9Ws Latest (14:00, 13 Nov, from Microsoft’s status…",
+  "text": "LIVE: I pieced together Microsoft's updates because they're spread across the admin centre, the public status page, X and news sites. Times are UK (UTC). Video on what happened: https://youtu.be/GEVYLvEGEjU?is=G_sT9mB1WpBHO9Ws Latest (22:00, 13 Nov, from Microsoft’s status…",
   "url": "https://www.reddit.com/r/microsoft365/comments/1xuu1j5/m365_outage_ex1550543_mo1550821_still_not_fixed/",
   "image": null,
   "publishedAt": "2026-11-13T00:53:23.000Z",
