@@ -1,5 +1,43 @@
 [
  {
+  "id": "youtube:_Onsa5Zr_Xo",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Personal Microsoft IQ Dashboards with the IQ APIs",
+  "text": "📺 This demo explores personal Microsoft IQ dashboards built with the Work IQ APIs. Paolo Pialorsi introduces Work IQ OS, a developer-focused sample application that brings organizational context from Microsoft 365 into custom dashboards instead of keeping it inside Copilot…",
+  "url": "https://www.youtube.com/watch?v=_Onsa5Zr_Xo",
+  "image": "https://i.ytimg.com/vi/_Onsa5Zr_Xo/hqdefault.jpg",
+  "publishedAt": "2026-11-14T08:10:02.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xvpzk2",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "PSA: the 12 Nov outage probably qualifies for an Exchange Online SLA credit. Claims are due by 31 Dec",
+  "text": "https://preview.redd.it/m6y469q0gh1i1.png?width=2160&format=png&auto=webp&s=4bd6699df872f39b929ac65455f839d6d2880dde Now that things are back (Microsoft still hasn’t formally closed MO1550821, because it’s still working through the email backlog), it’s worth claiming the SLA…",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xvpzk2/psa_the_12_nov_outage_probably_qualifies_for_an/",
+  "image": "https://external-preview.redd.it/LTkIS5vpdA6O640Ngadab5J8AM5QtsCwzpPkvvzAIHc.png?width=140&height=73&auto=webp&s=cc7c7266e703ff9d60ed2ceb4f5779f0ad166d37",
+  "publishedAt": "2026-11-14T01:41:21.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xvj66h",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Anyone planning to actually file for SLA credits after this week’s M365 outage?",
+  "text": "We were down from Thursday afternoon until sometime today. Mail is mostly back, but it was a rough ~24h. I did some quick math. If I’m reading the Online Services SLA right, a full day down puts the month around 96–97% uptime. That’s the 50% credit tier, not 25%. But it’s…",
+  "url": "https://www.reddit.com/r/Office365/comments/1xvj66h/anyone_planning_to_actually_file_for_sla_credits/",
+  "image": null,
+  "publishedAt": "2026-11-13T20:44:04.000Z",
+  "topics": []
+ },
+ {
   "id": "reddit:t3_1xvj349",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -11,6 +49,20 @@
   "publishedAt": "2026-11-13T20:40:44.000Z",
   "topics": [
    "Outlook"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-october-2026/ba-p/4568528",
+  "type": "blog",
+  "sourceId": "tc-copilot",
+  "source": "Tech Community: Copilot",
+  "title": "What’s New in Microsoft Copilot | October 2026",
+  "text": "Welcome to the October 2026 edition of What's New in Microsoft Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 customers up to date with Copilot features that help your users be more productive and efficient in the apps they use every day.…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-october-2026/ba-p/4568528",
+  "image": null,
+  "publishedAt": "2026-11-13T19:48:41.000Z",
+  "topics": [
+   "Copilot"
   ]
  },
  {
@@ -501,6 +553,24 @@
   ]
  },
  {
+  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
+  "type": "blog",
+  "sourceId": "tc-copilot-studio",
+  "source": "Tech Community: Copilot Studio",
+  "title": "Where do I govern my Copilot Studio agents?",
+  "text": "Copilot Studio agents are becoming more action-oriented and autonomous, and taking on more complex work. With agent user accounts, supported Copilot Studio agents can have their own Microsoft 365 account , directory profile, and org-chart relationship, and join Teams and Outlook…",
+  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
+  "image": null,
+  "publishedAt": "2026-11-12T19:31:35.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents",
+   "Teams",
+   "Outlook"
+  ]
+ },
+ {
   "id": "reddit:t3_1xulkns",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -771,24 +841,6 @@
   "publishedAt": "2026-11-11T23:16:08.000Z",
   "topics": [
    "Copilot"
-  ]
- },
- {
-  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
-  "type": "blog",
-  "sourceId": "tc-copilot-studio",
-  "source": "Tech Community: Copilot Studio",
-  "title": "Where do I govern my Copilot Studio agents?",
-  "text": "Copilot Studio agents are becoming more action-oriented and autonomous, and taking on more complex work. With agent user accounts, supported Copilot Studio agents can have their own Microsoft 365 account , directory profile, and org-chart relationship, and join Teams and Outlook…",
-  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
-  "image": null,
-  "publishedAt": "2026-11-11T22:56:24.000Z",
-  "topics": [
-   "Copilot",
-   "Copilot Studio",
-   "Agents",
-   "Teams",
-   "Outlook"
   ]
  },
  {
@@ -2600,20 +2652,6 @@
   "topics": [
    "SharePoint",
    "OneDrive"
-  ]
- },
- {
-  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-october-2026/ba-p/4568528",
-  "type": "blog",
-  "sourceId": "tc-copilot",
-  "source": "Tech Community: Copilot",
-  "title": "What’s New in Microsoft Copilot | October 2026",
-  "text": "Welcome to the October 2026 edition of What's New in Microsoft Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 customers up to date with Copilot features that help your users be more productive and efficient in the apps they use every day.…",
-  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-october-2026/ba-p/4568528",
-  "image": null,
-  "publishedAt": "2026-11-03T21:32:55.000Z",
-  "topics": [
-   "Copilot"
   ]
  },
  {
