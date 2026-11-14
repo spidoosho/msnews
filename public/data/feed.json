@@ -38,6 +38,20 @@
   "topics": []
  },
  {
+  "id": "reddit:t3_1xvn1xz",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/sharepoint",
+  "title": "SharePoint RFI register past 5,000 items keeps throwing the list view threshold error: the view fix that works in SharePoint Online",
+  "text": "We've hit this on a few engineering firms' RFI registers in SharePoint Online. Posting the fix because most of what search turns up is SharePoint Server advice. Quick context: 5,000 is the list view threshold. An Online list can hold up to 30 million items. The error fires when…",
+  "url": "https://www.reddit.com/r/sharepoint/comments/1xvn1xz/sharepoint_rfi_register_past_5000_items_keeps/",
+  "image": null,
+  "publishedAt": "2026-11-13T23:24:03.000Z",
+  "topics": [
+   "SharePoint"
+  ]
+ },
+ {
   "id": "reddit:t3_1xvj66h",
   "type": "reddit",
   "sourceId": "reddit-m365",
