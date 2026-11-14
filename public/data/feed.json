@@ -1,5 +1,17 @@
 [
  {
+  "id": "reddit:t3_1xw1rq8",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/microsoft365",
+  "title": "Internal MS Engineer leaked as to why 365 is taking long to fix",
+  "text": "An internal Microsoft India engineer just leaked why the Microsoft 365 outage is taking too long to fix, and it's every software company in 2026: Big Tech executives: https://x.com/tQuietEngineer/status/2121249906132390024 An internal Microsoft India engineer just leaked why the…",
+  "url": "https://www.reddit.com/r/microsoft365/comments/1xw1rq8/internal_ms_engineer_leaked_as_to_why_365_is/",
+  "image": null,
+  "publishedAt": "2026-11-14T12:56:37.000Z",
+  "topics": []
+ },
+ {
   "id": "youtube:_Onsa5Zr_Xo",
   "type": "youtube",
   "sourceId": "yt-community-learning",
