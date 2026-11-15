@@ -32,6 +32,20 @@
   ]
  },
  {
+  "id": "reddit:t3_1xw9mpo",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Copilot",
+  "title": "Copilot won't forget anything, even when chats are deleted",
+  "text": "I found this out when fiddling around with its personalisation settings. I can tell it anything at all (e.g. \"I really like garlic\"), delete that chat, and it will still know that I really like garlic. This strikes me as incredibly careless of MS. Nobody cares about my garlic…",
+  "url": "https://www.reddit.com/r/Copilot/comments/1xw9mpo/copilot_wont_forget_anything_even_when_chats_are/",
+  "image": null,
+  "publishedAt": "2026-11-14T18:31:50.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
   "id": "reddit:t3_1xw1rq8",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -1217,6 +1231,20 @@
   "image": null,
   "publishedAt": "2026-11-11T00:11:12.000Z",
   "topics": []
+ },
+ {
+  "id": "reddit:t3_1xsvn35",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Teams App on iPhone showing notification that doesn't exist",
+  "text": "Feel like I'm losing my mind. I have Team on my iPhone and have two accounts, my main one and a guest account for a different organization. My phone shows me as having a notification over my Teams icon. When I click on it, in the top left corner it shows the red number 1. When I…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xsvn35/teams_app_on_iphone_showing_notification_that/",
+  "image": null,
+  "publishedAt": "2026-11-10T19:07:16.000Z",
+  "topics": [
+   "Teams"
+  ]
  },
  {
   "id": "reddit:t3_1xsuzb8",
@@ -5080,13 +5108,11 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": [
-   "Copilot"
-  ]
+  "topics": []
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -5310,7 +5336,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -5356,7 +5382,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -5449,7 +5475,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -5844,7 +5870,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -6013,7 +6039,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
@@ -6355,22 +6381,6 @@
    "Excel",
    "Word",
    "PowerPoint"
-  ]
- },
- {
-  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/copilot-studio/the-in-depth-guide-to-managing-real-time-voice-agents-at-scale",
-  "type": "blog",
-  "sourceId": "ms-copilot-studio-blog",
-  "source": "Copilot Studio Blog",
-  "title": "The in-depth guide to managing real-time voice agents at scale",
-  "text": "Explore an in-depth guide to managing customer-facing real-time voice agents with Copilot Studio, from governance foundations to production readiness. The post The in-depth guide to managing real-time voice agents at scale appeared first on Microsoft Copilot Blog .",
-  "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/the-in-depth-guide-to-managing-real-time-voice-agents-at-scale/",
-  "image": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/wp-content/uploads/2024/08/Power-Platform-admin-center-1920-1024x628.webp",
-  "publishedAt": "2026-05-19T16:00:00.000Z",
-  "topics": [
-   "Copilot",
-   "Copilot Studio",
-   "Agents"
   ]
  }
 ]
