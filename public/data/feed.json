@@ -1,5 +1,20 @@
 [
  {
+  "id": "reddit:t3_1xwc9gu",
+  "type": "reddit",
+  "sourceId": "reddit-m365",
+  "source": "r/Office365",
+  "title": "Microsoft Restores Outlook and Teams After Global 24-Hour Outage",
+  "text": "Very quick response for such a massive issue.",
+  "url": "https://www.reddit.com/r/Office365/comments/1xwc9gu/microsoft_restores_outlook_and_teams_after_global/",
+  "image": "https://external-preview.redd.it/nhb_onLOL3bZHkZrDAZihth-OIBV5wwOR68YWUwi2js.jpeg?width=640&crop=smart&auto=webp&s=d69c246f8df24f4100df7ed3037c9171fb672086",
+  "publishedAt": "2026-11-14T20:20:34.000Z",
+  "topics": [
+   "Teams",
+   "Outlook"
+  ]
+ },
+ {
   "id": "reddit:t3_1xw1rq8",
   "type": "reddit",
   "sourceId": "reddit-m365",
@@ -75,20 +90,6 @@
   "publishedAt": "2026-11-13T20:40:44.000Z",
   "topics": [
    "Outlook"
-  ]
- },
- {
-  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-october-2026/ba-p/4568528",
-  "type": "blog",
-  "sourceId": "tc-copilot",
-  "source": "Tech Community: Copilot",
-  "title": "What’s New in Microsoft Copilot | October 2026",
-  "text": "Welcome to the October 2026 edition of What's New in Microsoft Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 customers up to date with Copilot features that help your users be more productive and efficient in the apps they use every day.…",
-  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-october-2026/ba-p/4568528",
-  "image": null,
-  "publishedAt": "2026-11-13T19:48:41.000Z",
-  "topics": [
-   "Copilot"
   ]
  },
  {
@@ -2678,6 +2679,20 @@
   "topics": [
    "SharePoint",
    "OneDrive"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-october-2026/ba-p/4568528",
+  "type": "blog",
+  "sourceId": "tc-copilot",
+  "source": "Tech Community: Copilot",
+  "title": "What’s New in Microsoft Copilot | October 2026",
+  "text": "Welcome to the October 2026 edition of What's New in Microsoft Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 customers up to date with Copilot features that help your users be more productive and efficient in the apps they use every day.…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-october-2026/ba-p/4568528",
+  "image": null,
+  "publishedAt": "2026-11-03T21:32:55.000Z",
+  "topics": [
+   "Copilot"
   ]
  },
  {
