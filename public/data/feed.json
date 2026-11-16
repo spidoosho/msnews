@@ -1,5 +1,117 @@
 [
  {
+  "id": "youtube:Mhdv67rcfGU",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "How did your leader's message land? | Go deeper with Viva Engage",
+  "text": "Your leader just shared a big announcement. But how did it really land? 🌊 Deep: Start with post analytics in Viva Engage. See engagement, sentiment, and the themes in the comments. 🐙 Deeper: Use Copilot in Engage to pull out themes and open questions, then turn them into a…",
+  "url": "https://www.youtube.com/watch?v=Mhdv67rcfGU",
+  "image": "https://i.ytimg.com/vi/Mhdv67rcfGU/hqdefault.jpg",
+  "publishedAt": "2026-11-16T19:07:51.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "youtube:NtVw4IQTiOM",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Is your community getting the answers it needs? | Go deeper with Viva Engage",
+  "text": "The questions keep coming, and you're trying to keep up. Is everyone getting the answers they need? 🌊 Deep: Start with community analytics. Check sentiment and themes, then find questions that still need an answer. 🐢 Deeper: Ask Copilot in Engage to sum up the questions people…",
+  "url": "https://www.youtube.com/watch?v=NtVw4IQTiOM",
+  "image": "https://i.ytimg.com/vi/NtVw4IQTiOM/hqdefault.jpg",
+  "publishedAt": "2026-11-16T19:03:12.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "youtube:WrxwBO2iE-0",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Turn a busy week into a great update | Go deeper with Viva Engage",
+  "text": "Big launch, busy week. Now everyone wants to know how it went. 🌊 Deep: Pull together your meeting notes, chats, and files, and write an update in Viva Engage. 🐠 Deeper: Copilot in Engage drafts the update right in the composer, for your audience and in your own voice. You…",
+  "url": "https://www.youtube.com/watch?v=WrxwBO2iE-0",
+  "image": "https://i.ytimg.com/vi/WrxwBO2iE-0/hqdefault.jpg",
+  "publishedAt": "2026-11-16T18:58:52.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xxv3y7",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Calling group forwarding to external service",
+  "text": "Hi everyone- I have a calling group set up to ring three Teams users. If no one answers, they want it to go to one of those external services to answer the call. When I tried to set this up previously, it would ring the users and if no one picked up, it would never forward on…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xxv3y7/calling_group_forwarding_to_external_service/",
+  "image": null,
+  "publishedAt": "2026-11-16T17:15:40.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
+  "id": "blog:https://devblogs.microsoft.com/microsoft365dev/microsoft-365-developer-program-updates-new-sandbox-options-and-retirement-of-legacy-sandboxes",
+  "type": "blog",
+  "sourceId": "m365-dev-blog",
+  "source": "Microsoft 365 Developer Blog",
+  "title": "Microsoft 365 Developer Program updates: new sandbox options and retirement of legacy sandboxes",
+  "text": "The Microsoft 365 Developer Program is moving to a more flexible sandbox model with optional paid add-ons and retiring legacy subscriptions. Learn how to check whether your sandbox is affected, prepare for the transition, and continue developing through eligible program…",
+  "url": "https://devblogs.microsoft.com/microsoft365dev/microsoft-365-developer-program-updates-new-sandbox-options-and-retirement-of-legacy-sandboxes/",
+  "image": "https://learn.microsoft.com/en-us/office/developer-program/images/legacy-sandbox-label.png",
+  "publishedAt": "2026-11-16T15:47:51.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xxqti5",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "A tutorial video on how to use NEW and updated Facilitator in Teams meetings",
+  "text": "A tutorial video on how to use NEW and updated Facilitator in Teams meetings. Facilitator is powered by Copilot and can do time-saving things such as: 📝 Create and organize AI meeting notes ☑️ Capture tasks and action items during meetings 💬 Track key discussion points and…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xxqti5/a_tutorial_video_on_how_to_use_new_and_updated/",
+  "image": "https://preview.redd.it/bl5abglcjz1i1.png?width=640&crop=smart&auto=webp&s=6f988eabf48f3c893e63128a2ef21ceb6f8c270b",
+  "publishedAt": "2026-11-16T14:31:50.000Z",
+  "topics": [
+   "Copilot",
+   "Teams"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xxpl7j",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/sharepoint",
+  "title": "How to export/Download 220GB Folders and Files from Sharepoint online?",
+  "text": "Hello, we try to download around 200GB from a customers Sharepoint site. It´s just one folders with its subfolders and files we need. I tried the E-Discovery export. But we get single zip files. It´s not even zip Split Archives. So we need a Powershell script to extract them all…",
+  "url": "https://www.reddit.com/r/sharepoint/comments/1xxpl7j/how_to_exportdownload_220gb_folders_and_files/",
+  "image": null,
+  "publishedAt": "2026-11-16T13:39:31.000Z",
+  "topics": [
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "youtube:trse5fE_QYU",
+  "type": "youtube",
+  "sourceId": "yt-reza",
+  "source": "Reza Dorrani",
+  "title": "NEW Power Apps Authoring Agent | AI Builds Canvas Apps Inside Studio",
+  "text": "🚀 Power Apps has a NEW AI Authoring Agent that builds Canvas Apps directly inside Power Apps Studio! Describe what you want in plain English, review the AI-generated plan, approve it, and watch the agent create screens, controls, and Power Fx formulas for you. No VS Code, no…",
+  "url": "https://www.youtube.com/watch?v=trse5fE_QYU",
+  "image": "https://i.ytimg.com/vi/trse5fE_QYU/hqdefault.jpg",
+  "publishedAt": "2026-11-16T12:30:15.000Z",
+  "topics": [
+   "Agents",
+   "Power Platform"
+  ]
+ },
+ {
   "id": "youtube:zi91BI5aAqM",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -11,6 +123,20 @@
   "publishedAt": "2026-11-16T08:10:14.000Z",
   "topics": [
    "Copilot",
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xxjks8",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/sharepoint",
+  "title": "Hidden Taxonomy list access",
+  "text": "Hi all, This is going to be something of a strange one because i cant explain it myself. (which doesnt surprise me if im honest). We have a SharePoint based solution for Projects. Essentially its just a bunch of automate that uses xml, term store and content types to make a site…",
+  "url": "https://www.reddit.com/r/sharepoint/comments/1xxjks8/hidden_taxonomy_list_access/",
+  "image": null,
+  "publishedAt": "2026-11-16T07:50:43.000Z",
+  "topics": [
    "SharePoint"
   ]
  },
@@ -1297,6 +1423,18 @@
   "url": "https://www.reddit.com/r/Office365/comments/1xt349w/is_it_possible_to_get_invoiced_for_365_rather/",
   "image": null,
   "publishedAt": "2026-11-11T00:11:12.000Z",
+  "topics": []
+ },
+ {
+  "id": "reddit:t3_1xt2ms0",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Unable to login in Microsoft teams using university mail.(android app)",
+  "text": "Hi, I'm unable to login Microsoft teams android app using my student mail (unina edu mail). I previously used this account in android app. And it is working very well in the web version (pc). But in android app, for some unknown reason it's getting stuck in this sign-page. I'm…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xt2ms0/unable_to_login_in_microsoft_teams_using/",
+  "image": "https://preview.redd.it/s7md0i9rgv0i1.jpeg?width=640&crop=smart&auto=webp&s=2029f4004b1b5ccd448d797902f9cd875bac5898",
+  "publishedAt": "2026-11-10T23:51:12.000Z",
   "topics": []
  },
  {
@@ -5132,7 +5270,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Introducing the new Copilot with Home, Code and Autopilot",
-  "text": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilot appeared first on Microsoft Copilot…",
+  "text": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilot appeared first on AI at Work Blog .",
   "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
   "image": null,
   "publishedAt": "2026-09-25T12:07:25.000Z",
@@ -5175,13 +5313,11 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": [
-   "Copilot"
-  ]
+  "topics": []
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -5405,7 +5541,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -5451,7 +5587,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -5544,7 +5680,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -5939,7 +6075,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -6108,7 +6244,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
