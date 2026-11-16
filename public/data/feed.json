@@ -1,5 +1,34 @@
 [
  {
+  "id": "youtube:zi91BI5aAqM",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Integrating UI elements into Copilot with SPFx",
+  "text": "📺 This demo shows how to bring an existing SharePoint process portal into Copilot without rebuilding its forms, validation, or business logic. Peter Paul Kirschner demonstrates an SPFx process portal built on SharePoint lists and dynamic React forms, then explains how a shared…",
+  "url": "https://www.youtube.com/watch?v=zi91BI5aAqM",
+  "image": "https://i.ytimg.com/vi/zi91BI5aAqM/hqdefault.jpg",
+  "publishedAt": "2026-11-16T08:10:14.000Z",
+  "topics": [
+   "Copilot",
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xxhb17",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Teams not showing caller name",
+  "text": "When getting the popup notification of an incoming call, I used to get the name of the caller, especially if it's a contact I've had saved, but now I just see the phone number and the initials, but since so many of my contacts have the same initials I often don't know who is…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xxhb17/teams_not_showing_caller_name/",
+  "image": null,
+  "publishedAt": "2026-11-16T05:32:38.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
   "id": "reddit:t3_1xx0xhf",
   "type": "reddit",
   "sourceId": "reddit-broad",
