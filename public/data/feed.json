@@ -1,5 +1,34 @@
 [
  {
+  "id": "reddit:t3_1xy6wb2",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Why does Teams on iOS require Local Network access to join meetings over 5G?",
+  "text": "I've been investigating what appears to be a compulsory Local Network permission requirement in the Microsoft Teams iOS application. I use Teams on my personal iPhone and am concerned about why a workplace application requires permission to discover devices on my private local…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xy6wb2/why_does_teams_on_ios_require_local_network/",
+  "image": null,
+  "publishedAt": "2026-11-17T01:03:36.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xy01zi",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/sharepoint",
+  "title": "Microsoft 365 Archive – What happens to locally synced SharePoint files?",
+  "text": "Has anyone tested archiving a SharePoint site using Microsoft 365 Archive (cold storage) while users still have its document libraries synced through OneDrive? My main question is: Can users still open and edit files that were already downloaded locally? If so, do those changes…",
+  "url": "https://www.reddit.com/r/sharepoint/comments/1xy01zi/microsoft_365_archive_what_happens_to_locally/",
+  "image": null,
+  "publishedAt": "2026-11-16T20:19:43.000Z",
+  "topics": [
+   "SharePoint",
+   "OneDrive"
+  ]
+ },
+ {
   "id": "youtube:Mhdv67rcfGU",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -81,6 +110,18 @@
    "Copilot",
    "Teams"
   ]
+ },
+ {
+  "id": "reddit:t3_1xxpyw0",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/microsoft",
+  "title": "Microsoft approved Azure and Microsoft 365 for NATO RESTRICTED workloads",
+  "text": "Microsoft announced today that Azure, its AI infrastructure, and Microsoft 365 have been approved to support NATO RESTRICTED workloads. NATO, its member nations, and defense partners can use those approved services when handling that classification. The approval covers identity…",
+  "url": "https://www.reddit.com/r/microsoft/comments/1xxpyw0/microsoft_approved_azure_and_microsoft_365_for/",
+  "image": null,
+  "publishedAt": "2026-11-16T13:56:35.000Z",
+  "topics": []
  },
  {
   "id": "reddit:t3_1xxpl7j",
@@ -5270,7 +5311,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Introducing the new Copilot with Home, Code and Autopilot",
-  "text": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilot appeared first on AI at Work Blog .",
+  "text": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilot appeared first on Microsoft Copilot…",
   "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
   "image": null,
   "publishedAt": "2026-09-25T12:07:25.000Z",
@@ -5313,11 +5354,13 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": []
+  "topics": [
+   "Copilot"
+  ]
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -5541,7 +5584,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -5587,7 +5630,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -5680,7 +5723,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -6075,7 +6118,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -6244,7 +6287,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
