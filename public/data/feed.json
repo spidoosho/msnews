@@ -1,5 +1,120 @@
 [
  {
+  "id": "youtube:uA1ZaQpIh3Q",
+  "type": "youtube",
+  "sourceId": "yt-copilot",
+  "source": "Microsoft Copilot",
+  "title": "Optimize your AI spend with Microsoft Agent 365",
+  "text": "With new Business Analytics and Cost Management tools, Microsoft Agent 365 enables you to plan ahead, stay in control, and optimize over time—turning your AI investment into business outcomes. Learn more: https://msft.it/6054xEXD0 #MicrosoftAgent365 #Agent365 #MicrosoftAI",
+  "url": "https://www.youtube.com/watch?v=uA1ZaQpIh3Q",
+  "image": "https://i.ytimg.com/vi/uA1ZaQpIh3Q/hqdefault.jpg",
+  "publishedAt": "2026-11-17T18:39:25.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
+  "id": "blog:https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem",
+  "type": "blog",
+  "sourceId": "ms-official-blog",
+  "source": "Official Microsoft Blog",
+  "title": "Ignite 2026: Building the frontier ecosystem",
+  "text": "Satya Nadella, Microsoft Chairman and CEO, delivered the opening keynote at Ignite in San Francisco this morning. Here is an edited version of his remarks. This week is about two things: First is how we capitalize on new capabilities that are growing exponentially. And second is…",
+  "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",
+  "image": "https://blogs.microsoft.com/wp-content/uploads/2026/11/Nadella_11172026_Ignite_OMB_Cobalt_v01-scaled.jpg",
+  "publishedAt": "2026-11-17T18:36:03.000Z",
+  "topics": []
+ },
+ {
+  "id": "youtube:53stVRSReis",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "Manage AI Cost + ROI with Copilot and Agent 365",
+  "text": "Take control of AI spend across Microsoft Copilot, Cowork, and agents inside and outside of Microsoft. Track your own Copilot Credit usage task by task, pin down your top cost drivers by service and model provider in Agent 365 Business Analytics, and weigh each use case’s cost…",
+  "url": "https://www.youtube.com/watch?v=53stVRSReis",
+  "image": "https://i.ytimg.com/vi/53stVRSReis/hqdefault.jpg",
+  "publishedAt": "2026-11-17T18:00:38.000Z",
+  "topics": [
+   "Copilot",
+   "Cowork",
+   "Agents"
+  ]
+ },
+ {
+  "id": "youtube:Q3G7R-VfWhU",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "From Customer Email to Pitch Deck: SharePoint Sales Hub Demo",
+  "text": "How can your sales team build pitch decks faster and walk into every customer conversation prepared? Annemarie Avila, a designer on the Microsoft SharePoint team, shows how Copilot and SharePoint help sales organizations sell at scale. In this demo, you'll see how to: ✅ Ask…",
+  "url": "https://www.youtube.com/watch?v=Q3G7R-VfWhU",
+  "image": "https://i.ytimg.com/vi/Q3G7R-VfWhU/hqdefault.jpg",
+  "publishedAt": "2026-11-17T17:26:22.000Z",
+  "topics": [
+   "Copilot",
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "youtube:kDcYRTKxwPI",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "From Scattered Files to Launch-Ready in Minutes: SharePoint Knowledge Base Demo",
+  "text": "Where does your team's knowledge actually live? Decisions get made in meetings, context gets buried in chats, and answers end up scattered across files. In this demo, Sarah a Principal Product Manager on the SharePoint team, introduces the new SharePoint Knowledge Base: an…",
+  "url": "https://www.youtube.com/watch?v=kDcYRTKxwPI",
+  "image": "https://i.ytimg.com/vi/kDcYRTKxwPI/hqdefault.jpg",
+  "publishedAt": "2026-11-17T17:26:03.000Z",
+  "topics": [
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "youtube:JEewvmqmfZ0",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Automate Contract Management with Copilot and SharePoint",
+  "text": "What if your team could manage thousands of contracts without the manual review? Nate Tennant walks through a real-world contracts and client engagement scenario, showing how Copilot and SharePoint's latest AI features automate everyday business processes. In this demo, you'll…",
+  "url": "https://www.youtube.com/watch?v=JEewvmqmfZ0",
+  "image": "https://i.ytimg.com/vi/JEewvmqmfZ0/hqdefault.jpg",
+  "publishedAt": "2026-11-17T17:25:26.000Z",
+  "topics": [
+   "Copilot",
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "youtube:CWhKzLNYz5E",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "How MAIRE Accelerates Engineering Projects with Copilot in SharePoint",
+  "text": "Discover how MAIRE is transforming engineering workflows with Copilot in SharePoint, helping teams review complex documentation faster, identify missing information earlier, and keep projects moving. Read the full MAIRE customer story: https://aka.ms/MaireCopilotSharepoint…",
+  "url": "https://www.youtube.com/watch?v=CWhKzLNYz5E",
+  "image": "https://i.ytimg.com/vi/CWhKzLNYz5E/hqdefault.jpg",
+  "publishedAt": "2026-11-17T17:00:18.000Z",
+  "topics": [
+   "Copilot",
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "youtube:qv2neL-moNQ",
+  "type": "youtube",
+  "sourceId": "yt-shane",
+  "source": "Shane Young",
+  "title": "Power Apps Just Got Some BIG Updates",
+  "text": "A few weeks ago at the Power Platform Community Conference 2026, I sat down with Tasha Scott and Emily Kessler from Microsoft to talk about what’s changing in Power Apps. And there is a LOT to talk about. In this conversation, we discuss: - New Power Apps modern controls - The…",
+  "url": "https://www.youtube.com/watch?v=qv2neL-moNQ",
+  "image": "https://i.ytimg.com/vi/qv2neL-moNQ/hqdefault.jpg",
+  "publishedAt": "2026-11-17T13:30:38.000Z",
+  "topics": [
+   "Power Platform"
+  ]
+ },
+ {
   "id": "reddit:t3_1xyhjeb",
   "type": "reddit",
   "sourceId": "reddit-broad",
