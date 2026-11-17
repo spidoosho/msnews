@@ -1,5 +1,63 @@
 [
  {
+  "id": "reddit:t3_1xyhjeb",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Teams Gains More Protection Against Impersonation",
+  "text": "There’s been a fair amount of recent fuss and hype about impersonation through federated chat. Some new Teams features aim to block impersonation in meetings by detecting suspicious participants who unexpectedly turn up or by using the Facilitator agent to scan meeting…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xyhjeb/teams_gains_more_protection_against_impersonation/",
+  "image": null,
+  "publishedAt": "2026-11-17T10:57:51.000Z",
+  "topics": [
+   "Agents",
+   "Teams"
+  ]
+ },
+ {
+  "id": "blog:https://devblogs.microsoft.com/microsoft365dev/new-capabilities-for-building-digital-teammates-in-microsoft-teams",
+  "type": "blog",
+  "sourceId": "m365-dev-blog",
+  "source": "Microsoft 365 Developer Blog",
+  "title": "New Capabilities for Building Digital Teammates in Microsoft Teams",
+  "text": "Agents are becoming part of how people work together. In Microsoft Teams, developers can build agents that do more than respond to requests. They can participate in conversations, contribute to shared work and help people move from discussion to decision and action. As part of…",
+  "url": "https://devblogs.microsoft.com/microsoft365dev/new-capabilities-for-building-digital-teammates-in-microsoft-teams/",
+  "image": "https://devblogs.microsoft.com/microsoft365dev/wp-content/uploads/sites/73/2026/11/Supplieranalyst_LPC-1-226x300.webp",
+  "publishedAt": "2026-11-17T10:00:34.000Z",
+  "topics": [
+   "Agents",
+   "Teams"
+  ]
+ },
+ {
+  "id": "reddit:t3_1xyfw0e",
+  "type": "reddit",
+  "sourceId": "reddit-broad",
+  "source": "r/MicrosoftTeams",
+  "title": "Teams Phone - PSTN with Microsoft?",
+  "text": "Hi, We have Teams phone and have an external vendor that connects us to the PSTN network. The vendor charges us per DID number we have. However we don't make that many calls and I think pooled calls would be better. I did look at moving our PSTN calling to Microsoft. They charge…",
+  "url": "https://www.reddit.com/r/MicrosoftTeams/comments/1xyfw0e/teams_phone_pstn_with_microsoft/",
+  "image": null,
+  "publishedAt": "2026-11-17T09:16:18.000Z",
+  "topics": [
+   "Teams"
+  ]
+ },
+ {
+  "id": "youtube:upwueqItz0E",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Introducing the Work IQ Dev Tools",
+  "text": "📺 This demo introduces Work IQ Dev Tools (WIQD, pronounced \"Wicked\"), a developer toolkit for building and deploying Microsoft 365 Copilot extensions. Sébastien Levert shows how skills, plugins, and the WIQD CLI turn a natural-language requirement into a package containing a…",
+  "url": "https://www.youtube.com/watch?v=upwueqItz0E",
+  "image": "https://i.ytimg.com/vi/upwueqItz0E/hqdefault.jpg",
+  "publishedAt": "2026-11-17T08:10:26.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
   "id": "reddit:t3_1xy6wb2",
   "type": "reddit",
   "sourceId": "reddit-broad",
@@ -11,6 +69,35 @@
   "publishedAt": "2026-11-17T01:03:36.000Z",
   "topics": [
    "Teams"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/plugins-at-microsoft-ignite-2026/ba-p/4569951",
+  "type": "blog",
+  "sourceId": "tc-copilot",
+  "source": "Tech Community: Copilot",
+  "title": "Plugins at Microsoft Ignite 2026",
+  "text": "Plugins are becoming a common way across the industry to bring reusable AI capabilities together, and they’re central to how users extend Microsoft Copilot. By bringing skills, tools, and agents into a connected offering, plugins help users complete more workflows in the context…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/plugins-at-microsoft-ignite-2026/ba-p/4569951",
+  "image": null,
+  "publishedAt": "2026-11-16T21:44:43.000Z",
+  "topics": [
+   "Copilot",
+   "Agents"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/copilot-that-understands-your-organization-introducing-people/ba-p/4573356",
+  "type": "blog",
+  "sourceId": "tc-copilot",
+  "source": "Tech Community: Copilot",
+  "title": "Copilot that understands your organization: Introducing people and org context in Work IQ",
+  "text": "Every organization runs on its people—who they are, how teams are structured, what skills they bring, and how work flows between them. Yet when people ask AI about their organization, the answers can fall short when relying on generic knowledge or an incomplete view from limited…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/copilot-that-understands-your-organization-introducing-people/ba-p/4573356",
+  "image": null,
+  "publishedAt": "2026-11-16T21:21:50.000Z",
+  "topics": [
+   "Copilot"
   ]
  },
  {
@@ -71,6 +158,33 @@
   ]
  },
  {
+  "id": "x:2122370155737194964",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Reposted @Microsoft: You're going to want to keep this tab open. 👀 Follow the Microsoft Ignite live blog starting November 17. #MSIgnite msft.it/6001xDgJJ",
+  "url": "https://x.com/Microsoft/status/2122370155737194964",
+  "image": "https://pbs.twimg.com/media/HXQsLmhXAAA0t85.jpg",
+  "publishedAt": "2026-11-16T18:32:17.000Z",
+  "topics": []
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/financebench-the-loop-that-continually-improves-copilot-in-excel/ba-p/4573279",
+  "type": "blog",
+  "sourceId": "tc-copilot",
+  "source": "Tech Community: Copilot",
+  "title": "FinanceBench: The loop that continually improves Copilot in Excel for Finance work",
+  "text": "Welcome to “Raising the Bar,” a new series exploring how rigorous evaluation helps us continuously improve Microsoft Copilot. We’re kicking off with a deep dive into FinanceBench and the loop behind it: learning from real finance work, building representative evaluations,…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/financebench-the-loop-that-continually-improves-copilot-in-excel/ba-p/4573279",
+  "image": null,
+  "publishedAt": "2026-11-16T17:29:58.000Z",
+  "topics": [
+   "Copilot",
+   "Excel"
+  ]
+ },
+ {
   "id": "reddit:t3_1xxv3y7",
   "type": "reddit",
   "sourceId": "reddit-broad",
@@ -82,6 +196,20 @@
   "publishedAt": "2026-11-16T17:15:40.000Z",
   "topics": [
    "Teams"
+  ]
+ },
+ {
+  "id": "x:2122368070014373997",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Using AI tools at work shouldn’t exceed your budget. In partnership with GigaOm, we compared Copilot to several leading tools and found that Copilot was more cost effective without sacrificing quality on both everyday and advanced AI tasks. See how Copilot stacks up in the full",
+  "url": "https://x.com/MSFTCopilot/status/2122368070014373997",
+  "image": "https://pbs.twimg.com/media/HXQqduYWoAAVAUW.jpg",
+  "publishedAt": "2026-11-16T16:35:54.000Z",
+  "topics": [
+   "Copilot"
   ]
  },
  {
@@ -901,21 +1029,6 @@
   "image": "https://preview.redd.it/1ao7582qa81i1.jpeg?width=640&crop=smart&auto=webp&s=b73e2f8ac491a32dc775b0259a111bf1a340d692",
   "publishedAt": "2026-11-12T18:55:19.000Z",
   "topics": []
- },
- {
-  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/plugins-at-microsoft-ignite-2026/ba-p/4569951",
-  "type": "blog",
-  "sourceId": "tc-copilot",
-  "source": "Tech Community: Copilot",
-  "title": "Plugins at Microsoft Ignite 2026",
-  "text": "Plugins are becoming a common way across the industry to bring reusable AI capabilities together, and they’re central to how users extend Microsoft Copilot. By bringing skills, tools, and agents into a connected offering, plugins help users complete more workflows in the context…",
-  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/plugins-at-microsoft-ignite-2026/ba-p/4569951",
-  "image": null,
-  "publishedAt": "2026-11-12T18:46:59.000Z",
-  "topics": [
-   "Copilot",
-   "Agents"
-  ]
  },
  {
   "id": "reddit:t3_1xukzaj",
@@ -5311,7 +5424,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Introducing the new Copilot with Home, Code and Autopilot",
-  "text": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilot appeared first on Microsoft Copilot…",
+  "text": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilot appeared first on AI at Work Blog .",
   "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
   "image": null,
   "publishedAt": "2026-09-25T12:07:25.000Z",
@@ -5354,13 +5467,11 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": [
-   "Copilot"
-  ]
+  "topics": []
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -5584,7 +5695,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -5630,7 +5741,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -5723,7 +5834,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -6118,7 +6229,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -6287,7 +6398,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
