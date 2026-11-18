@@ -1,5 +1,94 @@
 [
  {
+  "id": "youtube:N6vh5MvvW3Y",
+  "type": "youtube",
+  "sourceId": "yt-reza",
+  "source": "Reza Dorrani",
+  "title": "NEW SharePoint HTML List Views: Live Dashboards Built by Copilot",
+  "text": "SharePoint lists have a new view type: Dashboard. Describe what you want in plain words and Copilot builds a live, interactive HTML dashboard as a view of your list, right next to your standard list, board and calendar views. In this video I build a Project Portfolio dashboard…",
+  "url": "https://www.youtube.com/watch?v=N6vh5MvvW3Y",
+  "image": "https://i.ytimg.com/vi/N6vh5MvvW3Y/hqdefault.jpg",
+  "publishedAt": "2026-11-18T13:00:03.000Z",
+  "topics": [
+   "Copilot",
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "blog:https://devblogs.microsoft.com/microsoft365dev/spfx-dev-skills-for-spfx-1-24-1-tested-across-agents-and-models",
+  "type": "blog",
+  "sourceId": "m365-dev-blog",
+  "source": "Microsoft 365 Developer Blog",
+  "title": "SPFx Dev Skills for SPFx 1.24.1: tested across agents and models",
+  "text": "SPFx Dev Skills v1.1.2 adds support for SPFx v1.24.1 and React 18 migration. Across 105 evaluation runs, the updated skill improved upgrade quality for every agent and model combination we tested, with 6 of 7 reaching a 100% mean score. The post SPFx Dev Skills for SPFx 1.24.1:…",
+  "url": "https://devblogs.microsoft.com/microsoft365dev/spfx-dev-skills-for-spfx-1-24-1-tested-across-agents-and-models/",
+  "image": null,
+  "publishedAt": "2026-11-18T11:56:00.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
+  "id": "youtube:YR6PP1z8TjM",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Custom Copilot Agent for Document Generation in SharePoint",
+  "text": "📺 This demo shows how to generate documents on demand in SharePoint using a custom Copilot Studio agent and Plumsail Documents. Katrina Frolkina demonstrates an invoice generator that takes a short natural-language request, retrieves customer and product information from…",
+  "url": "https://www.youtube.com/watch?v=YR6PP1z8TjM",
+  "image": "https://i.ytimg.com/vi/YR6PP1z8TjM/hqdefault.jpg",
+  "publishedAt": "2026-11-18T08:10:04.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents",
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "youtube:ZAMx6gl5BLQ",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Enhanced Microsoft Copilot in Viva Engage",
+  "text": "The enhanced Microsoft 365 Copilot in Viva Engage is designed to understand where you are and help you go beyond finding information. Powered by the Engage plugin for Work IQ, it can synthesize conversations from a community, storyline, campaign, or post, connect those insights…",
+  "url": "https://www.youtube.com/watch?v=ZAMx6gl5BLQ",
+  "image": "https://i.ytimg.com/vi/ZAMx6gl5BLQ/hqdefault.jpg",
+  "publishedAt": "2026-11-18T05:59:50.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "youtube:WaxuoHXFLFE",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Don't read it. Use it. Real UX in Copilot",
+  "text": "Go beyond text in Microsoft 365 Copilot. Same question, two answers: seven steps to read, or one click to act. Copilot UX components put the action right in the conversation. Get started → https://aka.ms/spfx/copilot #Copilot #Microsoft365 #AI #Agents",
+  "url": "https://www.youtube.com/watch?v=WaxuoHXFLFE",
+  "image": "https://i.ytimg.com/vi/WaxuoHXFLFE/hqdefault.jpg",
+  "publishedAt": "2026-11-18T04:30:04.000Z",
+  "topics": [
+   "Copilot",
+   "Agents"
+  ]
+ },
+ {
+  "id": "youtube:d5AZVPQNDNY",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "7 steps or 1 click? Real UX in Microsoft Copilot | Copilot UX components",
+  "text": "Go beyond text in Microsoft 365 Copilot. A text answer tells people what to do. With Copilot UX components, Copilot gives them the action itself, already filled in from the conversation. In this video, one question (\"How do I request access to the finance reports?\") gets two…",
+  "url": "https://www.youtube.com/watch?v=d5AZVPQNDNY",
+  "image": "https://i.ytimg.com/vi/d5AZVPQNDNY/hqdefault.jpg",
+  "publishedAt": "2026-11-18T04:30:00.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
   "id": "youtube:K_DXqbaAdFs",
   "type": "youtube",
   "sourceId": "yt-lisa",
@@ -57,6 +146,35 @@
   ]
  },
  {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-copilot-cowork-at-ignite-2026/ba-p/4572242",
+  "type": "blog",
+  "sourceId": "tc-copilot",
+  "source": "Tech Community: Copilot",
+  "title": "What's new in Copilot Cowork at Ignite 2026",
+  "text": "Copilot Cowork is changing how work gets done. Sellers turn a quarter of account activity into a business review deck and follow-up plan. Finance teams pull forecasts from several workbooks into a board-ready variance memo. HR and learning teams turn thousands of survey comments…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-copilot-cowork-at-ignite-2026/ba-p/4572242",
+  "image": null,
+  "publishedAt": "2026-11-17T22:00:37.000Z",
+  "topics": [
+   "Copilot",
+   "Cowork"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/home-your-starting-place-for-work-in-the-microsoft-copilot-app/ba-p/4573945",
+  "type": "blog",
+  "sourceId": "tc-copilot",
+  "source": "Tech Community: Copilot",
+  "title": "Home: Your starting place for work in the Microsoft Copilot app",
+  "text": "Work rarely begins and ends with a single request. A quick question turns into a document, a launch plan grows into a weeks-long project, and some tasks need to keep moving after you step away. As AI takes on more of that work, using it should get simpler, without making you…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/home-your-starting-place-for-work-in-the-microsoft-copilot-app/ba-p/4573945",
+  "image": null,
+  "publishedAt": "2026-11-17T21:04:54.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/office-at-ignite-2026-from-apps-to-agentic-system-of-work/ba-p/4572226",
   "type": "blog",
   "sourceId": "tc-copilot",
@@ -65,25 +183,10 @@
   "text": "Work no longer happens in a silo. A single project can start as a question in an AI chat, become a Word draft, turn into a PowerPoint deck, and end as a decision in an email thread. People expect their context, and their AI, to come along at every step. At Ignite , we’re excited…",
   "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/office-at-ignite-2026-from-apps-to-agentic-system-of-work/ba-p/4572226",
   "image": null,
-  "publishedAt": "2026-11-17T19:11:01.000Z",
+  "publishedAt": "2026-11-17T20:17:59.000Z",
   "topics": [
    "Word",
    "PowerPoint"
-  ]
- },
- {
-  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-copilot-cowork-at-ignite-2026/ba-p/4572242",
-  "type": "blog",
-  "sourceId": "tc-copilot",
-  "source": "Tech Community: Copilot",
-  "title": "What's new in Copilot Cowork at Ignite 2026",
-  "text": "Copilot Cowork is changing how work gets done. Instead of asking for answers, customers hand off their hardest work and get back finished results. Sellers turn a quarter of account activity into a business review deck and follow-up plan. Finance teams pull forecasts from several…",
-  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-copilot-cowork-at-ignite-2026/ba-p/4572242",
-  "image": null,
-  "publishedAt": "2026-11-17T18:44:09.000Z",
-  "topics": [
-   "Copilot",
-   "Cowork"
   ]
  },
  {
@@ -141,20 +244,6 @@
   "topics": [
    "Teams",
    "Outlook"
-  ]
- },
- {
-  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/home-your-starting-place-for-work-in-the-microsoft-copilot-app/ba-p/4573945",
-  "type": "blog",
-  "sourceId": "tc-copilot",
-  "source": "Tech Community: Copilot",
-  "title": "Home: Your starting place for work in the Microsoft Copilot app",
-  "text": "Work rarely begins and ends with a single request. A quick question turns into a document, a launch plan grows into a weeks-long project, and some tasks need to keep moving after you step away. As AI takes on more of that work, using it should get simpler, without making you…",
-  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/home-your-starting-place-for-work-in-the-microsoft-copilot-app/ba-p/4573945",
-  "image": null,
-  "publishedAt": "2026-11-17T18:00:00.000Z",
-  "topics": [
-   "Copilot"
   ]
  },
  {
@@ -5670,7 +5759,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Introducing the new Copilot with Home, Code and Autopilot",
-  "text": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilot appeared first on Microsoft Copilot…",
+  "text": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilot appeared first on AI at Work Blog .",
   "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
   "image": null,
   "publishedAt": "2026-09-25T12:07:25.000Z",
@@ -5713,13 +5802,11 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": [
-   "Copilot"
-  ]
+  "topics": []
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -5943,7 +6030,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -5989,7 +6076,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -6082,7 +6169,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -6477,7 +6564,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -6646,7 +6733,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
