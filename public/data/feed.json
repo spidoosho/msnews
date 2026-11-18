@@ -1,5 +1,60 @@
 [
  {
+  "id": "youtube:N7TglyZkBiY",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "How Softcat Scaled Microsoft Copilot Adoption | Microsoft Champion Stories",
+  "text": "How do you turn Microsoft 365 Copilot adoption into lasting business impact? Meet Amanda Valentine, Learning & Development Executive at Softcat, who shares how her organization scaled Copilot adoption to approximately 2,700 licenses through practical training, collaboration, and…",
+  "url": "https://www.youtube.com/watch?v=N7TglyZkBiY",
+  "image": "https://i.ytimg.com/vi/N7TglyZkBiY/hqdefault.jpg",
+  "publishedAt": "2026-11-18T17:00:09.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "youtube:KtV_f3chj9A",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "Introducing Autopilot, your personal and proactive agent",
+  "text": "Put an AI teammate to work around the clock with Autopilot in Microsoft Copilot, a persistent, proactive and personal agent that runs in the cloud and keeps working after you power off your laptop. Describe your goals in plain language, and your Autopilot watches for updates in…",
+  "url": "https://www.youtube.com/watch?v=KtV_f3chj9A",
+  "image": "https://i.ytimg.com/vi/KtV_f3chj9A/hqdefault.jpg",
+  "publishedAt": "2026-11-18T16:06:42.000Z",
+  "topics": [
+   "Copilot",
+   "Agents"
+  ]
+ },
+ {
+  "id": "blog:https://devblogs.microsoft.com/microsoft365dev/frontier-tuning-opens-to-more-customers-with-new-tools-for-your-teams",
+  "type": "blog",
+  "sourceId": "m365-dev-blog",
+  "source": "Microsoft 365 Developer Blog",
+  "title": "Frontier Tuning opens to more customers, with new tools for your teams",
+  "text": "Frontier Tuning is expanding its private preview, giving makers, developers, and subject-matter experts new tools to tune AI for specialized work using their organization’s own expertise and standards. See what’s new, how EY is putting Frontier Tuning to work, and how your…",
+  "url": "https://devblogs.microsoft.com/microsoft365dev/frontier-tuning-opens-to-more-customers-with-new-tools-for-your-teams/",
+  "image": "https://devblogs.microsoft.com/microsoft365dev/wp-content/uploads/sites/73/2026/11/Picture1-1-300x108.webp",
+  "publishedAt": "2026-11-18T16:00:06.000Z",
+  "topics": []
+ },
+ {
+  "id": "youtube:b5ZSPULTrz8",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "Build apps by describing what you want | Copilot Code",
+  "text": "Turn your app idea into a working, interactive web app with Copilot Code. Describe what you want in plain language, ground it in your work data with Work IQ, build what-if modeling from your own business logic, and refine it prompt by prompt. Publish and share cloud projects…",
+  "url": "https://www.youtube.com/watch?v=b5ZSPULTrz8",
+  "image": "https://i.ytimg.com/vi/b5ZSPULTrz8/hqdefault.jpg",
+  "publishedAt": "2026-11-18T15:58:05.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
   "id": "youtube:N6vh5MvvW3Y",
   "type": "youtube",
   "sourceId": "yt-reza",
