@@ -1,5 +1,34 @@
 [
  {
+  "id": "youtube:meVsuyn6XJg",
+  "type": "youtube",
+  "sourceId": "yt-kevin",
+  "source": "Kevin Stratvert",
+  "title": "How to Build an App with Microsoft Copilot (No Coding!)",
+  "text": "Learn how to build an app with Microsoft Copilot without writing a single line of code. For this video, I used Microsoft Copilot Code in Frontier. In this step-by-step Copilot Code tutorial, we'll turn an Excel spreadsheet into an interactive order management app for the Kevin…",
+  "url": "https://www.youtube.com/watch?v=meVsuyn6XJg",
+  "image": "https://i.ytimg.com/vi/meVsuyn6XJg/hqdefault.jpg",
+  "publishedAt": "2026-11-19T20:37:27.000Z",
+  "topics": [
+   "Copilot",
+   "Excel"
+  ]
+ },
+ {
+  "id": "youtube:12mJ2DyTz2s",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "Bring Your Own Agent Harness",
+  "text": "Can you run your own agent harness in Microsoft Foundry? Hosted agents in Microsoft Foundry (formerly Azure AI Foundry) Agent Service run a finance agent written against the Claude Agent SDK, with your code controlling the loop, tools, and middleware. Each session gets its own…",
+  "url": "https://www.youtube.com/watch?v=12mJ2DyTz2s",
+  "image": "https://i.ytimg.com/vi/12mJ2DyTz2s/hqdefault.jpg",
+  "publishedAt": "2026-11-19T15:45:20.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
   "id": "youtube:CR3KXSgAXDY",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -24,6 +53,20 @@
   "url": "https://www.youtube.com/watch?v=pmdrmOgoaMM",
   "image": "https://i.ytimg.com/vi/pmdrmOgoaMM/hqdefault.jpg",
   "publishedAt": "2026-11-19T04:00:38.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-365-blog/what-s-new-in-work-iq-at-ignite-2026-agents-that-get-work-done/ba-p/4572219",
+  "type": "blog",
+  "sourceId": "tc-m365",
+  "source": "Tech Community: Microsoft 365",
+  "title": "What's new in Work IQ at Ignite 2026: agents that get work done",
+  "text": "Every team has someone who remembers the backstory. They know why a decision was made, and they know who you should talk to. That knowledge is invaluable. It can also bury them in everyone else’s work. Agents have the opposite problem-- not enough context. Frontier models are…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/what-s-new-in-work-iq-at-ignite-2026-agents-that-get-work-done/ba-p/4572219",
+  "image": null,
+  "publishedAt": "2026-11-18T23:16:46.000Z",
   "topics": [
    "Agents"
   ]
@@ -328,20 +371,6 @@
   "url": "https://www.youtube.com/watch?v=uA1ZaQpIh3Q",
   "image": "https://i.ytimg.com/vi/uA1ZaQpIh3Q/hqdefault.jpg",
   "publishedAt": "2026-11-17T18:39:25.000Z",
-  "topics": [
-   "Agents"
-  ]
- },
- {
-  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-365-blog/what-s-new-in-work-iq-at-ignite-2026-agents-that-get-work-done/ba-p/4572219",
-  "type": "blog",
-  "sourceId": "tc-m365",
-  "source": "Tech Community: Microsoft 365",
-  "title": "What's new in Work IQ at Ignite 2026: agents that get work done",
-  "text": "Every team has someone who remembers the backstory. They know why a decision was made, and they know who you should talk to. That knowledge is invaluable. It can also bury them in everyone else’s work. Agents have the opposite problem-- not enough context. Frontier models are…",
-  "url": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/what-s-new-in-work-iq-at-ignite-2026-agents-that-get-work-done/ba-p/4572219",
-  "image": null,
-  "publishedAt": "2026-11-17T18:38:12.000Z",
   "topics": [
    "Agents"
   ]
