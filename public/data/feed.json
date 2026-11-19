@@ -1,5 +1,21 @@
 [
  {
+  "id": "youtube:yEfMYDCsV8k",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Microsoft Copilot Studio & Power Platform community call – November 2026",
+  "text": "📺 Microsoft Power Platform community call on November 18th, 2026. Recap on news and updates from Microsoft, followed by demos by the community. ✨ Call included three demos: • Heather Zigli​ - Missing your Repeating Rows from InfoPath? Give Power Apps and the Modern Data Grid…",
+  "url": "https://www.youtube.com/watch?v=yEfMYDCsV8k",
+  "image": "https://i.ytimg.com/vi/yEfMYDCsV8k/hqdefault.jpg",
+  "publishedAt": "2026-11-18T22:13:57.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Power Platform"
+  ]
+ },
+ {
   "id": "youtube:N7TglyZkBiY",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -245,6 +261,20 @@
   ]
  },
  {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-365-blog/multi-tenant-management-tenants-agents-and-ai-spend-in-one-place/ba-p/4573372",
+  "type": "blog",
+  "sourceId": "tc-m365",
+  "source": "Tech Community: Microsoft 365",
+  "title": "Multi-tenant management: Tenants, agents, and AI spend in one place",
+  "text": "As AI adoption accelerates, enterprises and managed service providers are managing more Microsoft 365 tenants across subsidiaries, regions, business units, and customers, each with its own configurations, policies, and agents. Every added tenant multiplies the work: repeated…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/multi-tenant-management-tenants-agents-and-ai-spend-in-one-place/ba-p/4573372",
+  "image": null,
+  "publishedAt": "2026-11-17T18:40:48.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
   "id": "youtube:uA1ZaQpIh3Q",
   "type": "youtube",
   "sourceId": "yt-copilot",
@@ -254,6 +284,20 @@
   "url": "https://www.youtube.com/watch?v=uA1ZaQpIh3Q",
   "image": "https://i.ytimg.com/vi/uA1ZaQpIh3Q/hqdefault.jpg",
   "publishedAt": "2026-11-17T18:39:25.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-365-blog/what-s-new-in-work-iq-at-ignite-2026-agents-that-get-work-done/ba-p/4572219",
+  "type": "blog",
+  "sourceId": "tc-m365",
+  "source": "Tech Community: Microsoft 365",
+  "title": "What's new in Work IQ at Ignite 2026: agents that get work done",
+  "text": "Every team has someone who remembers the backstory. They know why a decision was made, and they know who you should talk to. That knowledge is invaluable. It can also bury them in everyone else’s work. Agents have the opposite problem-- not enough context. Frontier models are…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/what-s-new-in-work-iq-at-ignite-2026-agents-that-get-work-done/ba-p/4572219",
+  "image": null,
+  "publishedAt": "2026-11-17T18:38:12.000Z",
   "topics": [
    "Agents"
   ]
@@ -388,6 +432,18 @@
    "Copilot",
    "SharePoint"
   ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-365-blog/ignite-26-spotlight-announcing-microsoft-baseline-security-mode/ba-p/4572694",
+  "type": "blog",
+  "sourceId": "tc-m365",
+  "source": "Tech Community: Microsoft 365",
+  "title": "Ignite’26 Spotlight: Announcing Microsoft Baseline security mode 2026 General Availability",
+  "text": "Security is Microsoft’s top priority At Microsoft, security is our top priority. Through the Secure Future Initiative (SFI) , we're turning lessons learned into stronger security across everything we build and deliver. Customers consistently ask three questions: What is…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/ignite-26-spotlight-announcing-microsoft-baseline-security-mode/ba-p/4572694",
+  "image": null,
+  "publishedAt": "2026-11-17T17:00:00.000Z",
+  "topics": []
  },
  {
   "id": "youtube:qv2neL-moNQ",
