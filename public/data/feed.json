@@ -1,5 +1,48 @@
 [
  {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-openai-s-gpt-6-2-sol-and-gpt-6-2-astra-in/ba-p/4574229",
+  "type": "blog",
+  "sourceId": "tc-copilot",
+  "source": "Tech Community: Copilot",
+  "title": "Available today: OpenAI's GPT-6.2 Sol and GPT-6.2 Astra in Microsoft Copilot",
+  "text": "OpenAI's GPT-6.2 Sol and GPT-6.2 Astra are now joining the frontier models available in Microsoft Copilot, giving customers more choice as they delegate more complex tasks to AI. With both models in Copilot, you can match the model to the work in front of you, from a draft in…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-openai-s-gpt-6-2-sol-and-gpt-6-2-astra-in/ba-p/4574229",
+  "image": null,
+  "publishedAt": "2026-11-20T20:07:04.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "x:2123823798159917268",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Copilot meets @salesforce. The new Salesforce plugin brings customer data and sales capabilities into Copilot, helping sellers manage opportunities, identify risks, and take action.\n\nLearn more: msft.it/6014xGY70",
+  "url": "https://x.com/MSFTCopilot/status/2123823798159917268",
+  "image": "https://pbs.twimg.com/media/HXlWfUgXYAA_BAn.png",
+  "publishedAt": "2026-11-20T17:00:26.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "youtube:L0LMTqUHkLQ",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "Microsoft Copilot Harness in Microsoft Foundry",
+  "text": "What changes when the same agent moves onto the Microsoft Copilot harness? With the same definition and managed runtime in Microsoft Foundry (formerly Azure AI Foundry), the agent plans its work, pulls data, runs analysis, loops through skills, and calls subagents, all inside a…",
+  "url": "https://www.youtube.com/watch?v=L0LMTqUHkLQ",
+  "image": "https://i.ytimg.com/vi/L0LMTqUHkLQ/hqdefault.jpg",
+  "publishedAt": "2026-11-20T15:15:26.000Z",
+  "topics": [
+   "Copilot",
+   "Agents"
+  ]
+ },
+ {
   "id": "youtube:TXmbnm4c9VY",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -85,6 +128,20 @@
   "publishedAt": "2026-11-19T19:53:36.000Z",
   "topics": [
    "Agents"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-teams-blog/the-designs-we-didn-t-ship-how-user-feedback-shaped-the-new/ba-p/4573046",
+  "type": "blog",
+  "sourceId": "tc-teams",
+  "source": "Tech Community: Teams",
+  "title": "The designs we didn't ship: How user feedback shaped the new Teams meeting controls",
+  "text": "Some of the most important product decisions we've made weren't about what to ship. They were about what not to ship. When we began rethinking the meeting controls in Microsoft Teams, the challenge was clear. Meetings had become more capable, and the interface had grown along…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/the-designs-we-didn-t-ship-how-user-feedback-shaped-the-new/ba-p/4573046",
+  "image": null,
+  "publishedAt": "2026-11-19T18:12:44.000Z",
+  "topics": [
+   "Teams"
   ]
  },
  {
