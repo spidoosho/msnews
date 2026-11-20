@@ -1,5 +1,35 @@
 [
  {
+  "id": "youtube:TXmbnm4c9VY",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Using Copilot Cowork for Dynamics 365 Finance and Operations",
+  "text": "📺 This demo explores using Copilot Cowork with Dynamics 365 Finance and Operations to prepare for customer meetings and work with ERP data. Billur Şamdancıoğlu demonstrates the Dynamics 365 ERP plugin, reusable skills, and a customer meeting workflow that produces briefings,…",
+  "url": "https://www.youtube.com/watch?v=TXmbnm4c9VY",
+  "image": "https://i.ytimg.com/vi/TXmbnm4c9VY/hqdefault.jpg",
+  "publishedAt": "2026-11-20T08:10:02.000Z",
+  "topics": [
+   "Copilot",
+   "Cowork"
+  ]
+ },
+ {
+  "id": "youtube:f5XVyW_Bjmo",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "Microsoft Entra Agent ID and Egress Rules",
+  "text": "What controls does an enterprise AI agent need? Three: who the agent is, what it can and can't do, and visibility into everything it does. In Microsoft Foundry (formerly Azure AI Foundry), Microsoft Entra Agent ID gives every agent its own enterprise identity the moment it's…",
+  "url": "https://www.youtube.com/watch?v=f5XVyW_Bjmo",
+  "image": "https://i.ytimg.com/vi/f5XVyW_Bjmo/hqdefault.jpg",
+  "publishedAt": "2026-11-20T03:45:28.000Z",
+  "topics": [
+   "Agents",
+   "Security & Admin"
+  ]
+ },
+ {
   "id": "youtube:T8ZJNlZmz6E",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -41,6 +71,34 @@
   "topics": [
    "Copilot",
    "Excel"
+  ]
+ },
+ {
+  "id": "x:2123481166737289514",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Reposted @nicbstme: I can finally share what I’ve been working on at @Microsoft. I lead Today, the product you saw all over the Ignite conference this week.\n\nToday is a new form factor for work. It’s not a chat box it’s a Feed. While you sleep, an AI agent works in the background on your email, your",
+  "url": "https://x.com/nicbstme/status/2123481166737289514",
+  "image": "https://pbs.twimg.com/amplify_video_thumb/2123481053193248768/img/g4NaF9mnOHTs2qC1.jpg",
+  "publishedAt": "2026-11-19T19:53:36.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
+  "id": "x:2123461299543720370",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Introducing Agent 365 Business Analytics. Connect AI spend, adoption, and ROI to business outcomes. Now rolling out in Frontier Public. \n\nExplore the latest from Ignite here: msft.it/6016x1t6i",
+  "url": "https://x.com/MSFTCopilot/status/2123461299543720370",
+  "image": "https://pbs.twimg.com/media/HXfnWzwXoAAscvk.png",
+  "publishedAt": "2026-11-19T17:00:00.000Z",
+  "topics": [
+   "Agents"
   ]
  },
  {
@@ -87,6 +145,34 @@
   ]
  },
  {
+  "id": "x:2123119560803176533",
+  "type": "x",
+  "sourceId": "x-microsoft",
+  "source": "@Microsoft",
+  "title": null,
+  "text": "Reposted @satyanadella: Bringing Salesforce to Copilot as we build Copilot as the OS for work!",
+  "url": "https://x.com/satyanadella/status/2123119560803176533",
+  "image": null,
+  "publishedAt": "2026-11-18T23:48:42.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-365-blog/what-s-new-in-work-iq-at-ignite-2026-agents-that-get-work-done/ba-p/4572219",
+  "type": "blog",
+  "sourceId": "tc-m365",
+  "source": "Tech Community: Microsoft 365",
+  "title": "What's new in Work IQ at Ignite 2026: agents that get work done",
+  "text": "Every team has someone who remembers the backstory. They know why a decision was made, and they know who you should talk to. That knowledge is invaluable. It can also bury them in everyone else’s work. Agents have the opposite problem-- not enough context. Frontier models are…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/what-s-new-in-work-iq-at-ignite-2026-agents-that-get-work-done/ba-p/4572219",
+  "image": null,
+  "publishedAt": "2026-11-18T23:16:46.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
   "id": "youtube:yEfMYDCsV8k",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -100,6 +186,20 @@
    "Copilot",
    "Copilot Studio",
    "Power Platform"
+  ]
+ },
+ {
+  "id": "x:2123165679020810397",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Copilot goes multiplayer. @jacobandreou shows how Autopilot is starting to roll out in Frontier, and Copilot Workspaces is now available in Frontier. \n\nExplore the latest Ignite announcements here: msft.it/6018x1TNe",
+  "url": "https://x.com/MSFTCopilot/status/2123165679020810397",
+  "image": "https://pbs.twimg.com/amplify_video_thumb/2123165609890308097/img/uIbsto-98fpZCySK.jpg",
+  "publishedAt": "2026-11-18T21:25:19.000Z",
+  "topics": [
+   "Copilot"
   ]
  },
  {
@@ -292,6 +392,18 @@
   ]
  },
  {
+  "id": "x:2122874904903397495",
+  "type": "x",
+  "sourceId": "x-microsoft",
+  "source": "@Microsoft",
+  "title": null,
+  "text": "Reposted @satyanadella: Highlights from my opening of the Ignite keynote this morning on how we’re building a frontier ecosystem to turn advances in AI into real-world impact.",
+  "url": "https://x.com/satyanadella/status/2122874904903397495",
+  "image": "https://pbs.twimg.com/amplify_video_thumb/2122873218650550272/img/EdDSRmgPVeZegVZm.jpg",
+  "publishedAt": "2026-11-18T02:16:10.000Z",
+  "topics": []
+ },
+ {
   "id": "youtube:J4U4_OyINw8",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -320,6 +432,123 @@
   "topics": []
  },
  {
+  "id": "x:2122751940035772480",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Reposted @sumit_c: At @Microsoft Ignite, we’re sharing our next chapter, as Office and @MSFTCopilot evolve from a set of applications into a human-led, agentic system of work.\n\nWe’re making Word, Excel, PowerPoint, and Outlook more intelligent and introducing three new experiences: Today, Pages,",
+  "url": "https://x.com/sumit_c/status/2122751940035772480",
+  "image": "https://pbs.twimg.com/amplify_video_thumb/2122746567082061824/img/9s1kUog_vqh0csPF.jpg",
+  "publishedAt": "2026-11-18T01:14:08.000Z",
+  "topics": [
+   "Copilot",
+   "Outlook",
+   "Excel",
+   "Word",
+   "PowerPoint"
+  ]
+ },
+ {
+  "id": "x:2122800609288188041",
+  "type": "x",
+  "sourceId": "x-microsoft",
+  "source": "@Microsoft",
+  "title": null,
+  "text": "Reposted @windowsdev: Big news from #MSIgnite! 🚀 \n\nSee how Windows brings security and Hybrid Intelligence to the next era of work, with new security features, secure AI agents, local AI, Copilot, and AI infrastructure from PC to Azure.\n\nSee what's new: blogs.windows.com/windowsexperie…",
+  "url": "https://x.com/windowsdev/status/2122800609288188041",
+  "image": "https://pbs.twimg.com/media/HXWzT0YXUAEKHo9.jpg",
+  "publishedAt": "2026-11-18T00:08:02.000Z",
+  "topics": [
+   "Copilot",
+   "Agents"
+  ]
+ },
+ {
+  "id": "x:2122778863235178806",
+  "type": "x",
+  "sourceId": "x-microsoft",
+  "source": "@Microsoft",
+  "title": null,
+  "text": "Reposted @MicrosoftAI: We urgently need secure, aligned, and contained frontier intelligence at a fraction of today’s prices. \n\nHere are the seven new models we’re launching at #MSIgnite: aka.ms/MAI-Ignite-2026",
+  "url": "https://x.com/MicrosoftAI/status/2122778863235178806",
+  "image": null,
+  "publishedAt": "2026-11-17T23:59:14.000Z",
+  "topics": []
+ },
+ {
+  "id": "x:2122819572340273212",
+  "type": "x",
+  "sourceId": "x-microsoft",
+  "source": "@Microsoft",
+  "title": null,
+  "text": "Reposted @OracleCloud: Agentic AI delivers its greatest value when trusted data and intelligent agents come together.\n\nAt #MSIgnite, we announced that we’re working with @Microsoft to bring agentic AI into the flow of enterprise work with the new Azure Workload Center for Oracle, Microsoft Azure",
+  "url": "https://x.com/OracleCloud/status/2122819572340273212",
+  "image": null,
+  "publishedAt": "2026-11-17T23:54:34.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
+  "id": "x:2122768911749796156",
+  "type": "x",
+  "sourceId": "x-microsoft",
+  "source": "@Microsoft",
+  "title": null,
+  "text": "Reposted @github: Just announced at #MSIgnite: the GitHub Copilot app now has Azure DevOps integration ☁️ \n\nClone an Azure DevOps repo, and see the pull request through to completion right in the app: \n• track its status in the sidebar   \n• click Fix on a review comment to have an agent address",
+  "url": "https://x.com/github/status/2122768911749796156",
+  "image": "https://pbs.twimg.com/media/HXWXE0jXMAASXXS.jpg",
+  "publishedAt": "2026-11-17T23:49:20.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
+  "id": "x:2122779257386725415",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Reposted @jeffteper: #MSIgnite - Copilot Managed Runtime is GA!!!\n\nRead the latest from Ryan Cunningham on how we've built a secure, robust platform for building apps across Copilot, Cowork, Code, Github, Studio and more with support for SharePoint, Dataverse, Fabric, and more -- all on a governable",
+  "url": "https://x.com/jeffteper/status/2122779257386725415",
+  "image": null,
+  "publishedAt": "2026-11-17T23:26:31.000Z",
+  "topics": [
+   "Copilot",
+   "Cowork",
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "x:2122768678391521603",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Reposted @donasarkar: I really like how @jacobandreou and co are showing PRACTICAL Copilot situations (not booking flights!)\n\nHe showed how you can just live in the Copilot app and build all the stuff you need in Word, Excel, PPT without leaving Copilot.\n\nI love how both he and @judsonalthoff are",
+  "url": "https://x.com/donasarkar/status/2122768678391521603",
+  "image": "https://pbs.twimg.com/media/HXWW215bEAATAP9.jpg",
+  "publishedAt": "2026-11-17T23:21:06.000Z",
+  "topics": [
+   "Copilot",
+   "Excel",
+   "Word"
+  ]
+ },
+ {
+  "id": "x:2122768705008599310",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Reposted @OmarShahine: I’m incredibly proud of the Microsoft Autopilot Team. 7 months and 11 days ago our team had zero people and zero lines of code. In a short time we assembled some amazing AI builders in Microsoft to build something new. \n\nToday we are bringing the first enterprise-grade autonomous",
+  "url": "https://x.com/OmarShahine/status/2122768705008599310",
+  "image": null,
+  "publishedAt": "2026-11-17T23:19:10.000Z",
+  "topics": []
+ },
+ {
   "id": "blog:https://devblogs.microsoft.com/microsoft365dev/introducing-the-starter-pack-for-work-iq",
   "type": "blog",
   "sourceId": "m365-dev-blog",
@@ -332,6 +561,30 @@
   "topics": [
    "Copilot"
   ]
+ },
+ {
+  "id": "x:2122793040058442116",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Reposted @satyanadella: Our ambition with everything we are announcing at Ignite today is to parlay technological advances into real outcomes and new points of leverage for people, organizations, and society at large.\n\nJust a few of the things we're announcing:",
+  "url": "https://x.com/satyanadella/status/2122793040058442116",
+  "image": null,
+  "publishedAt": "2026-11-17T23:13:22.000Z",
+  "topics": []
+ },
+ {
+  "id": "x:2122781892214727160",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Reposted @Microsoft: Miss something from Microsoft Ignite? 👀 It’s all in the 2026 Book of News: msft.it/6017xEgnU",
+  "url": "https://x.com/Microsoft/status/2122781892214727160",
+  "image": "https://pbs.twimg.com/media/HXWi4X5WgAAMft0.jpg",
+  "publishedAt": "2026-11-17T23:06:11.000Z",
+  "topics": []
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-copilot-cowork-at-ignite-2026/ba-p/4572242",
@@ -349,6 +602,48 @@
   ]
  },
  {
+  "id": "x:2122812076846363080",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Make the most of your AI investment with Microsoft Agent 365. Plan, control, and optimize your AI spend. \n\nLearn more: msft.it/6010xEltA",
+  "url": "https://x.com/MSFTCopilot/status/2122812076846363080",
+  "image": "https://pbs.twimg.com/media/HXW-VakXsAAeioU.jpg",
+  "publishedAt": "2026-11-17T22:00:13.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
+  "id": "x:2122782972994838781",
+  "type": "x",
+  "sourceId": "x-microsoft",
+  "source": "@Microsoft",
+  "title": null,
+  "text": "Reposted @jayparikh: The best result doesn’t have to cost the most.\n\nGitHub Copilot Fusion chooses and coordinates models for each task, so developers on GitHub can focus on the work.\n\nOn Terminal-Bench 4.1, Copilot Fusion Max achieved a 71.2% resolution rate, 5.4 points ahead of leading frontier",
+  "url": "https://x.com/jayparikh/status/2122782972994838781",
+  "image": "https://pbs.twimg.com/media/HXWjdo3aIAAbT4V.jpg",
+  "publishedAt": "2026-11-17T21:41:37.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "x:2122763641519042587",
+  "type": "x",
+  "sourceId": "x-microsoft",
+  "source": "@Microsoft",
+  "title": null,
+  "text": "Reposted @arunulag: Customers used to ask me which model to choose. Now they ask how to put agents to work, and how to trust them.\n\nAt #MSIgnite, we're making every layer beneath your agents better, from Azure Cobalt 200 and Azure Catalyst to Microsoft IQ.\n\n🔗 My blog: aka.ms/Azure-Ignite26",
+  "url": "https://x.com/arunulag/status/2122763641519042587",
+  "image": null,
+  "publishedAt": "2026-11-17T21:08:12.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/home-your-starting-place-for-work-in-the-microsoft-copilot-app/ba-p/4573945",
   "type": "blog",
   "sourceId": "tc-copilot",
@@ -360,6 +655,88 @@
   "publishedAt": "2026-11-17T21:04:54.000Z",
   "topics": [
    "Copilot"
+  ]
+ },
+ {
+  "id": "x:2122762037927322044",
+  "type": "x",
+  "sourceId": "x-microsoft",
+  "source": "@Microsoft",
+  "title": null,
+  "text": "Reposted @MicrosoftAI: Frontier performance. A fraction of today’s prices. Built to run 24/7. \n\nMeet the new MAI models, launching today at #MSIgnite: aka.ms/MAI-Ignite-2026",
+  "url": "https://x.com/MicrosoftAI/status/2122762037927322044",
+  "image": "https://pbs.twimg.com/media/HXWQ0xcXgAE-LFy.png",
+  "publishedAt": "2026-11-17T20:44:01.000Z",
+  "topics": []
+ },
+ {
+  "id": "x:2122760423699268086",
+  "type": "x",
+  "sourceId": "x-microsoft",
+  "source": "@Microsoft",
+  "title": null,
+  "text": "Reposted @msdev: Introducing MAI Code 2 and Code 2 Flash. \n \nCode 2 brings frontier price-performance for everyday enterprise coding tasks.\n\nCode 2 Flash brings affordable and high-quality coding for routine work at scale.\n \nTry both today in GitHub Copilot.",
+  "url": "https://x.com/msdev/status/2122760423699268086",
+  "image": "https://pbs.twimg.com/amplify_video_thumb/2122758443828387840/img/NwYin-9PtsTenWbl.jpg",
+  "publishedAt": "2026-11-17T20:43:55.000Z",
+  "topics": []
+ },
+ {
+  "id": "x:2122764461136093299",
+  "type": "x",
+  "sourceId": "x-microsoft",
+  "source": "@Microsoft",
+  "title": null,
+  "text": "Reposted @Azure: Introducing continuous improvement in Microsoft Foundry. You establish a baseline. Foundry identifies what to improve, optimizes the agent, validates every change, and repeats. msft.it/6011xEjZP",
+  "url": "https://x.com/Azure/status/2122764461136093299",
+  "image": "https://pbs.twimg.com/media/HXWTBy3WsAANCDK.png",
+  "publishedAt": "2026-11-17T20:43:45.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
+  "id": "x:2122781861432742222",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "With the new @salesforce plugin in Copilot, sellers can manage opportunities, identify risks, and take action directly in Copilot. Learn more: msft.it/6016xEgra",
+  "url": "https://x.com/MSFTCopilot/status/2122781861432742222",
+  "image": "https://pbs.twimg.com/media/HXWi2oqWAAAE5Ro.png",
+  "publishedAt": "2026-11-17T20:00:09.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "x:2122765634174165319",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Microsoft Agent 365 turns your AI investment into business outcomes with the flexibility to plan, control, and optimize your spend.\n\nLearn more: msft.it/X5169602",
+  "url": "https://x.com/MSFTCopilot/status/2122765634174165319",
+  "image": null,
+  "publishedAt": "2026-11-17T18:55:40.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
+  "id": "x:2122763817763635625",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "From shared projects in Copilot Workspaces to working alongside your Autopilot in Microsoft Teams, Copilot is now built for people and agents.\n\nLearn more: msft.it/11172026",
+  "url": "https://x.com/MSFTCopilot/status/2122763817763635625",
+  "image": null,
+  "publishedAt": "2026-11-17T18:48:27.000Z",
+  "topics": [
+   "Copilot",
+   "Agents",
+   "Teams"
   ]
  },
  {
@@ -386,20 +763,6 @@
   "url": "https://www.youtube.com/watch?v=uA1ZaQpIh3Q",
   "image": "https://i.ytimg.com/vi/uA1ZaQpIh3Q/hqdefault.jpg",
   "publishedAt": "2026-11-17T18:39:25.000Z",
-  "topics": [
-   "Agents"
-  ]
- },
- {
-  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-365-blog/what-s-new-in-work-iq-at-ignite-2026-agents-that-get-work-done/ba-p/4572219",
-  "type": "blog",
-  "sourceId": "tc-m365",
-  "source": "Tech Community: Microsoft 365",
-  "title": "What's new in Work IQ at Ignite 2026: agents that get work done",
-  "text": "Every team has someone who remembers the backstory. They know why a decision was made, and they know who you should talk to. That knowledge is invaluable. It can also bury them in everyone else’s work. Agents have the opposite problem-- not enough context. Frontier models are…",
-  "url": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/what-s-new-in-work-iq-at-ignite-2026-agents-that-get-work-done/ba-p/4572219",
-  "image": null,
-  "publishedAt": "2026-11-17T18:38:12.000Z",
   "topics": [
    "Agents"
   ]
@@ -6015,11 +6378,13 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Building the system for AI at work",
-  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
+  "text": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
   "image": null,
   "publishedAt": "2026-09-23T15:00:00.000Z",
-  "topics": []
+  "topics": [
+   "Copilot"
+  ]
  },
  {
   "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035",
@@ -6243,7 +6608,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog .",
+  "text": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
   "image": null,
   "publishedAt": "2026-09-10T16:00:00.000Z",
@@ -6289,7 +6654,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Build apps in Copilot Cowork and Copilot Studio",
-  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
+  "text": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
   "image": null,
   "publishedAt": "2026-09-10T15:00:00.000Z",
@@ -6382,7 +6747,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "PPCC 2026: Bringing AI and your business processes together",
-  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on AI at Work Blog .",
+  "text": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft…",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
   "image": null,
   "publishedAt": "2026-09-03T15:00:00.000Z",
@@ -6777,7 +7142,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "The next measure of AI momentum is work transformed",
-  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on AI at Work Blog .",
+  "text": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
   "image": null,
   "publishedAt": "2026-07-30T13:00:00.000Z",
@@ -6946,7 +7311,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Copilot in Excel: Built for the era of Frontier Finance",
-  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
+  "text": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft Copilot Blog .",
   "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
   "image": null,
   "publishedAt": "2026-06-25T13:00:00.000Z",
