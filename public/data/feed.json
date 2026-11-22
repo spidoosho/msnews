@@ -6449,7 +6449,7 @@
   "sourceId": "ms-365-blog",
   "source": "Microsoft Copilot Blog",
   "title": "Introducing the new Copilot with Home, Code and Autopilot",
-  "text": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilot appeared first on Microsoft Copilot…",
+  "text": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilot appeared first on AI at Work Blog .",
   "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
   "image": null,
   "publishedAt": "2026-09-25T12:07:25.000Z",
@@ -7718,36 +7718,5 @@
   "image": null,
   "publishedAt": "2026-05-27T15:00:00.000Z",
   "topics": []
- },
- {
-  "id": "x:2059313614373233016",
-  "type": "x",
-  "sourceId": "x-powerplat",
-  "source": "@MSPowerPlat",
-  "title": null,
-  "text": "This month in Microsoft Copilot Studio, we’re introducing updates designed to help teams build more connected and adaptive systems.\n\nRead what’s new: msft.it/6016vkyqr",
-  "url": "https://x.com/MSPowerPlat/status/2059313614373233016",
-  "image": "https://pbs.twimg.com/media/HJQg6ZiX0AAMflu.jpg",
-  "publishedAt": "2026-05-26T16:40:00.000Z",
-  "topics": [
-   "Copilot",
-   "Copilot Studio"
-  ]
- },
- {
-  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences",
-  "type": "blog",
-  "sourceId": "ms-copilot-studio-blog",
-  "source": "Copilot Studio Blog",
-  "title": "New and improved: Computer-using agents, a new workflows experience, and real-time voice experiences",
-  "text": "Learn what's new in Copilot Studio, May 2026: computer-using agents are now generally available, plus redesigned workflows and Work IQ extensibility. The post New and improved: Computer-using agents, a new workflows experience, and real-time voice experiences appeared first on…",
-  "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/",
-  "image": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/wp-content/uploads/2024/08/Computer-using-agent-Copilot-Studio-1024x608.webp",
-  "publishedAt": "2026-05-26T16:00:00.000Z",
-  "topics": [
-   "Copilot",
-   "Copilot Studio",
-   "Agents"
-  ]
  }
 ]
