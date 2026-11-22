@@ -1,5 +1,20 @@
 [
  {
+  "id": "youtube:ms483FW3Bu4",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Using the retrieval API with Custom Metadata in SharePoint Embedded",
+  "text": "📺 This demo shows how to use custom metadata with the Microsoft 365 Copilot Retrieval API in SharePoint Embedded. Steve Pucelik walks through creating indexed metadata columns in a container, assigning field values to documents through Microsoft Graph endpoints, and using a…",
+  "url": "https://www.youtube.com/watch?v=ms483FW3Bu4",
+  "image": "https://i.ytimg.com/vi/ms483FW3Bu4/hqdefault.jpg",
+  "publishedAt": "2026-11-22T08:10:17.000Z",
+  "topics": [
+   "Copilot",
+   "SharePoint"
+  ]
+ },
+ {
   "id": "youtube:wUsM1o9MzCE",
   "type": "youtube",
   "sourceId": "yt-community-learning",
