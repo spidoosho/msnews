@@ -1,5 +1,19 @@
 [
  {
+  "id": "youtube:HyA-A3VwSoQ",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Latest features in the flexible sections in SharePoint",
+  "text": "📺 This demo highlights the latest improvements to flexible sections in SharePoint pages and news posts. Katelyn Seemakurti walks through three features: flexible layout guides that make placing web parts more predictable and help preserve layout when content reflows for email…",
+  "url": "https://www.youtube.com/watch?v=HyA-A3VwSoQ",
+  "image": "https://i.ytimg.com/vi/HyA-A3VwSoQ/hqdefault.jpg",
+  "publishedAt": "2026-11-23T08:10:01.000Z",
+  "topics": [
+   "SharePoint"
+  ]
+ },
+ {
   "id": "youtube:ms483FW3Bu4",
   "type": "youtube",
   "sourceId": "yt-community-learning",
