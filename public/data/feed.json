@@ -1,5 +1,64 @@
 [
  {
+  "id": "youtube:11ee9Ckt1A0",
+  "type": "youtube",
+  "sourceId": "yt-copilot",
+  "source": "Microsoft Copilot",
+  "title": "Is your AI spend actually paying off? #MSIgnite",
+  "text": "We've seen what AI can do for productivity, but what about cost? Let's break down the latest from Ignite and how Agent 365 helps your organization stay on track with the bottom line. #Agent365 #MicrosoftIgnite #CostofAI",
+  "url": "https://www.youtube.com/watch?v=11ee9Ckt1A0",
+  "image": "https://i.ytimg.com/vi/11ee9Ckt1A0/hqdefault.jpg",
+  "publishedAt": "2026-11-23T18:03:17.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
+  "id": "youtube:p28Dx8eVQe8",
+  "type": "youtube",
+  "sourceId": "yt-shane",
+  "source": "Shane Young",
+  "title": "GitHub Copilot for Power Apps Beginners: Start Here",
+  "text": "I’ve shown a bunch of things you can build with GitHub Copilot, but I realized I never really showed the full setup from the very beginning. So in this video, we start from scratch and go step by step: - Create a GitHub account - Get access to the free Copilot tier - Install the…",
+  "url": "https://www.youtube.com/watch?v=p28Dx8eVQe8",
+  "image": "https://i.ytimg.com/vi/p28Dx8eVQe8/hqdefault.jpg",
+  "publishedAt": "2026-11-23T13:30:14.000Z",
+  "topics": [
+   "Copilot",
+   "Power Platform"
+  ]
+ },
+ {
+  "id": "youtube:3HC0qMxjo7k",
+  "type": "youtube",
+  "sourceId": "yt-reza",
+  "source": "Reza Dorrani",
+  "title": "Power Apps Start with Data: Build a Modern Responsive Canvas App in Minutes (SharePoint, Dataverse)",
+  "text": "Power Apps Start with Data lets you build a modern responsive canvas app in minutes. Start with data from SharePoint, Dataverse, SQL or Excel, and Power Apps builds a fully responsive canvas app for you, with full CRUD, the modern data grid and more. In this video I build Power…",
+  "url": "https://www.youtube.com/watch?v=3HC0qMxjo7k",
+  "image": "https://i.ytimg.com/vi/3HC0qMxjo7k/hqdefault.jpg",
+  "publishedAt": "2026-11-23T12:30:31.000Z",
+  "topics": [
+   "SharePoint",
+   "Excel",
+   "Power Platform"
+  ]
+ },
+ {
+  "id": "youtube:bXkNj5fDePw",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Introducing Open-Source SharePoint Templates from Microsoft | Demo & Setup Guide",
+  "text": "📺 Bring Microsoft-designed SharePoint demo sites to your own environment with free, open-source templates. Join Vesa Juvonen and Marc Anderson from Sympraxis for a walkthrough of the Contoso template, from a fresh communication site to a fully provisioned experience with pages,…",
+  "url": "https://www.youtube.com/watch?v=bXkNj5fDePw",
+  "image": "https://i.ytimg.com/vi/bXkNj5fDePw/hqdefault.jpg",
+  "publishedAt": "2026-11-23T11:32:37.000Z",
+  "topics": [
+   "SharePoint"
+  ]
+ },
+ {
   "id": "youtube:HyA-A3VwSoQ",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -4997,6 +5056,20 @@
   ]
  },
  {
+  "id": "youtube:5peSjXRwNQ0",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Meet Microsoft's frontier ecosystem | Mondays at Microsoft (Episode 98)",
+  "text": "Start your week with the Microsoft news you actually need to know. Heather Cook and Jonathan Jones unpack the Microsoft Ignite 2026 announcements that matter: Satya Nadella’s frontier ecosystem, Microsoft Perception for agentic security, and the new Copilot experience. Plus, the…",
+  "url": "https://www.youtube.com/watch?v=5peSjXRwNQ0",
+  "image": "https://i.ytimg.com/vi/5peSjXRwNQ0/hqdefault.jpg",
+  "publishedAt": "2026-10-29T17:59:29.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
   "id": "x:2115842462937960820",
   "type": "x",
   "sourceId": "x-msftcopilot",
@@ -7722,17 +7795,5 @@
    "Copilot",
    "Copilot Studio"
   ]
- },
- {
-  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-365-blog/update-health-in-cloud-update-is-now-generally-available/ba-p/4523063",
-  "type": "blog",
-  "sourceId": "tc-m365",
-  "source": "Tech Community: Microsoft 365",
-  "title": "Update Health in Cloud Update is now Generally Available",
-  "text": "Keeping Microsoft 365 Apps up to date is essential for security, reliability, and access to new features. When an update does not complete successfully, however, identifying the issue and understanding its impact across devices can take time. Today, we’re announcing general…",
-  "url": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/update-health-in-cloud-update-is-now-generally-available/ba-p/4523063",
-  "image": null,
-  "publishedAt": "2026-05-27T15:00:00.000Z",
-  "topics": []
  }
 ]
