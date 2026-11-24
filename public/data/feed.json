@@ -1,5 +1,95 @@
 [
  {
+  "id": "youtube:Ki7gMXXePu4",
+  "type": "youtube",
+  "sourceId": "yt-copilot",
+  "source": "Microsoft Copilot",
+  "title": "2 Copilot updates that will change how you work #MSIgnite",
+  "text": "All of your Office apps in one place, working together? Office in Copilot and Today is helping you stay on top of your projects, with less jumping between applications.",
+  "url": "https://www.youtube.com/watch?v=Ki7gMXXePu4",
+  "image": "https://i.ytimg.com/vi/Ki7gMXXePu4/hqdefault.jpg",
+  "publishedAt": "2026-11-24T17:00:06.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "youtube:NDYsS_ucDv4",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "Check Your Copilot Credit Usage in Copilot",
+  "text": "What does a Copilot Credit cost? At the time of recording, one Copilot Credit equals one US cent. After running Cowork, open the More actions menu in Copilot and select Usage details to see seven days of activity, how much of your monthly limit remains, and the credits each task…",
+  "url": "https://www.youtube.com/watch?v=NDYsS_ucDv4",
+  "image": "https://i.ytimg.com/vi/NDYsS_ucDv4/hqdefault.jpg",
+  "publishedAt": "2026-11-24T15:15:33.000Z",
+  "topics": [
+   "Copilot",
+   "Cowork"
+  ]
+ },
+ {
+  "id": "blog:https://devblogs.microsoft.com/microsoft365dev/choose-the-right-document-platform-for-your-app-sharepoint-embedded",
+  "type": "blog",
+  "sourceId": "m365-dev-blog",
+  "source": "Microsoft 365 Developer Blog",
+  "title": "Choose the right document platform for your app: SharePoint Embedded",
+  "text": "Choosing a document platform is an architectural decision—not simply a storage decision. SharePoint Embedded is designed for applications that need Microsoft 365-grade file and document capabilities while keeping the user experience, business logic, and navigation inside the…",
+  "url": "https://devblogs.microsoft.com/microsoft365dev/choose-the-right-document-platform-for-your-app-sharepoint-embedded/",
+  "image": null,
+  "publishedAt": "2026-11-24T14:00:41.000Z",
+  "topics": [
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "blog:https://devblogs.microsoft.com/microsoft365dev/copilot-ux-components-now-available-in-cowork-with-plugins-spfx-roadmap-update-for-november-2026",
+  "type": "blog",
+  "sourceId": "m365-dev-blog",
+  "source": "Microsoft 365 Developer Blog",
+  "title": "Copilot UX components now available in Cowork with plugins – SPFx roadmap update for November 2026",
+  "text": "Copilot UX components are now supported and available in Copilot Cowork as plugins, governed centrally with the admin tools you already use. Plus a first look at single page apps in SharePoint, a new UX model planned for preview in SPFx 1.25. As always, the roadmap is shaped by…",
+  "url": "https://devblogs.microsoft.com/microsoft365dev/copilot-ux-components-now-available-in-cowork-with-plugins-spfx-roadmap-update-for-november-2026/",
+  "image": "https://devblogs.microsoft.com/microsoft365dev/wp-content/uploads/sites/73/2026/11/spfx-single-page-apps-1024x577.webp",
+  "publishedAt": "2026-11-24T11:21:11.000Z",
+  "topics": [
+   "Copilot",
+   "Cowork",
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "youtube:EJskzYACUsA",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Announcing Copilot Cowork and plugin support for Copilot UX components",
+  "text": "📺 Copilot is not just about answers. It is about getting work done. Copilot UX components now support plugins and Copilot Cowork, bringing interactive, purpose-built experiences directly into the conversation. Less wall of text. More action. Join Vesa Juvonen from Microsoft for…",
+  "url": "https://www.youtube.com/watch?v=EJskzYACUsA",
+  "image": "https://i.ytimg.com/vi/EJskzYACUsA/hqdefault.jpg",
+  "publishedAt": "2026-11-24T11:12:57.000Z",
+  "topics": [
+   "Copilot",
+   "Cowork"
+  ]
+ },
+ {
+  "id": "youtube:2z31kag4FkQ",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Building an Agent with Microsoft harness in Copilot Studio",
+  "text": "📺 This demo walks through building an agent in the new Microsoft Copilot harness experience in Copilot Studio. Rémi Dyon introduces the new orchestration model, instructions, on-demand skills, knowledge, tools, user-level memory, and the agent sandbox for working with files and…",
+  "url": "https://www.youtube.com/watch?v=2z31kag4FkQ",
+  "image": "https://i.ytimg.com/vi/2z31kag4FkQ/hqdefault.jpg",
+  "publishedAt": "2026-11-24T08:10:07.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents"
+  ]
+ },
+ {
   "id": "youtube:5peSjXRwNQ0",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -7778,37 +7868,6 @@
    "Cowork",
    "Excel",
    "PowerPoint"
-  ]
- },
- {
-  "id": "x:2060015740787347722",
-  "type": "x",
-  "sourceId": "x-powerplat",
-  "source": "@MSPowerPlat",
-  "title": null,
-  "text": "As AI agents scale, model choice matters more than ever.\n\nMistral Medium 3.5 is now available in Copilot Studio early release cycle environments, giving teams more flexibility to build and orchestrate agents while staying in control of how and where data is processed.\n\nLearn",
-  "url": "https://x.com/MSPowerPlat/status/2060015740787347722",
-  "image": null,
-  "publishedAt": "2026-05-28T15:10:00.000Z",
-  "topics": [
-   "Copilot",
-   "Copilot Studio",
-   "Agents"
-  ]
- },
- {
-  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/copilot-studio/mistral-joins-copilot-studios-growing-lineup-of-model-providers",
-  "type": "blog",
-  "sourceId": "ms-copilot-studio-blog",
-  "source": "Copilot Studio Blog",
-  "title": "Mistral joins Copilot Studio’s growing lineup of model providers",
-  "text": "Copilot Studio adds Mistral Medium 3.5, expanding model choice with in‑region data control, strong multilingual performance, and admin governance. The post Mistral joins Copilot Studio’s growing lineup of model providers appeared first on Microsoft Copilot Blog .",
-  "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/mistral-joins-copilot-studios-growing-lineup-of-model-providers/",
-  "image": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/wp-content/uploads/2024/08/CLO24-Azure-Manufacturing-009-600px.jpg",
-  "publishedAt": "2026-05-28T08:45:00.000Z",
-  "topics": [
-   "Copilot",
-   "Copilot Studio"
   ]
  }
 ]
