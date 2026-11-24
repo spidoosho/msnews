@@ -1,5 +1,34 @@
 [
  {
+  "id": "youtube:5peSjXRwNQ0",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Meet Microsoft's frontier ecosystem | Mondays at Microsoft (Episode 98)",
+  "text": "Start your week with the Microsoft news you actually need to know. Heather Cook and Jonathan Jones unpack the Microsoft Ignite 2026 announcements that matter: Satya Nadella’s frontier ecosystem, Microsoft Perception for agentic security, and the new Copilot experience. Plus, the…",
+  "url": "https://www.youtube.com/watch?v=5peSjXRwNQ0",
+  "image": "https://i.ytimg.com/vi/5peSjXRwNQ0/hqdefault.jpg",
+  "publishedAt": "2026-11-24T04:34:21.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "youtube:KjRCl678hA8",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "Agent 365 Business Analytics AI Value Explained",
+  "text": "How do you know if your AI spend is paying off? In Agent 365 Business Analytics, the Use cases view shows how services like Cowork are being used, with session counts, the cost of identified use cases, and their AI value. AI value is calculated from the time it would take a…",
+  "url": "https://www.youtube.com/watch?v=KjRCl678hA8",
+  "image": "https://i.ytimg.com/vi/KjRCl678hA8/hqdefault.jpg",
+  "publishedAt": "2026-11-24T01:20:20.000Z",
+  "topics": [
+   "Cowork",
+   "Agents"
+  ]
+ },
+ {
   "id": "youtube:11ee9Ckt1A0",
   "type": "youtube",
   "sourceId": "yt-copilot",
@@ -5053,20 +5082,6 @@
   "topics": [
    "Copilot",
    "Cowork"
-  ]
- },
- {
-  "id": "youtube:5peSjXRwNQ0",
-  "type": "youtube",
-  "sourceId": "yt-community-learning",
-  "source": "Microsoft Community Learning",
-  "title": "Meet Microsoft's frontier ecosystem | Mondays at Microsoft (Episode 98)",
-  "text": "Start your week with the Microsoft news you actually need to know. Heather Cook and Jonathan Jones unpack the Microsoft Ignite 2026 announcements that matter: Satya Nadella’s frontier ecosystem, Microsoft Perception for agentic security, and the new Copilot experience. Plus, the…",
-  "url": "https://www.youtube.com/watch?v=5peSjXRwNQ0",
-  "image": "https://i.ytimg.com/vi/5peSjXRwNQ0/hqdefault.jpg",
-  "publishedAt": "2026-10-29T17:59:29.000Z",
-  "topics": [
-   "Copilot"
   ]
  },
  {
