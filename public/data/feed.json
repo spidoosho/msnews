@@ -1,5 +1,37 @@
 [
  {
+  "id": "x:2125348914161422715",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "x.com/i/article/2125…",
+  "url": "https://x.com/MSFTCopilot/status/2125348914161422715",
+  "image": null,
+  "publishedAt": "2026-11-24T22:00:42.000Z",
+  "topics": []
+ },
+ {
+  "id": "x:2125318629600231489",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "The latest from OpenAI, now in Microsoft Copilot.\n \nGPT-6.2 Sol is rolling out in Copilot Chat, Copilot Cowork, Copilot Studio, and Copilot in Word, Excel, and PowerPoint. \n \nGPT-6.2 Astra is rolling out in Copilot Cowork and Copilot Studio, and is available to Frontier users in",
+  "url": "https://x.com/MSFTCopilot/status/2125318629600231489",
+  "image": "https://pbs.twimg.com/media/HX6mB3kXYAAeSde.jpg",
+  "publishedAt": "2026-11-24T20:00:22.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Chat",
+   "Copilot Studio",
+   "Cowork",
+   "Excel",
+   "Word",
+   "PowerPoint"
+  ]
+ },
+ {
   "id": "youtube:Ki7gMXXePu4",
   "type": "youtube",
   "sourceId": "yt-copilot",
@@ -116,6 +148,21 @@
   "topics": [
    "Cowork",
    "Agents"
+  ]
+ },
+ {
+  "id": "x:2124971251777056901",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Keep calm and open Copilot. Jump into Chat for everyday help, or hand off complex tasks to Cowork. It’s all in Home, your new starting point in the Copilot app.",
+  "url": "https://x.com/MSFTCopilot/status/2124971251777056901",
+  "image": "https://pbs.twimg.com/media/HXxtD5EWEAA9WVF.png",
+  "publishedAt": "2026-11-23T21:00:01.000Z",
+  "topics": [
+   "Copilot",
+   "Cowork"
   ]
  },
  {
@@ -7849,25 +7896,6 @@
    "Copilot",
    "Copilot Studio",
    "Agents"
-  ]
- },
- {
-  "id": "x:2060118416959168963",
-  "type": "x",
-  "sourceId": "x-powerplat",
-  "source": "@MSPowerPlat",
-  "title": null,
-  "text": "Reposted @MSFTCopilot: May means more models.\n \nToday we're introducing Anthropic's Claude Opus 4.8, available now in Copilot Cowork (Frontier) and rolling out to Copilot Chat, Excel, PowerPoint, and Copilot Studio early release cycle environments.",
-  "url": "https://x.com/MSFTCopilot/status/2060118416959168963",
-  "image": null,
-  "publishedAt": "2026-05-28T22:14:22.000Z",
-  "topics": [
-   "Copilot",
-   "Copilot Chat",
-   "Copilot Studio",
-   "Cowork",
-   "Excel",
-   "PowerPoint"
   ]
  }
 ]
