@@ -1,5 +1,48 @@
 [
  {
+  "id": "youtube:xACSLzRwhNI",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Microsoft Champions Call | November 2026",
+  "text": "In the November Microsoft Champions Community call, we explored what's new in Flexible sections in SharePoint and recapped the announcements from Microsoft Ignite. Host: Tiffany Lee Guest: Katelyn Seemakurti, Pratyusha Simharaju, Sarah Mathurin Moderator: Jessie Hwang Join the…",
+  "url": "https://www.youtube.com/watch?v=xACSLzRwhNI",
+  "image": "https://i.ytimg.com/vi/xACSLzRwhNI/hqdefault.jpg",
+  "publishedAt": "2026-11-25T22:01:47.000Z",
+  "topics": [
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "youtube:0SYz_kPgZNA",
+  "type": "youtube",
+  "sourceId": "yt-copilot",
+  "source": "Microsoft Copilot",
+  "title": "The skill you need for Wall Street",
+  "text": "Chris Riggs calls Excel the most important tool in finance, and he means it as encouragement, not a warning. Ten years on Wall Street taught him two things: relationships matter, and so does the spreadsheet. On mentors, New York, and why he thinks Copilot gives the next…",
+  "url": "https://www.youtube.com/watch?v=0SYz_kPgZNA",
+  "image": "https://i.ytimg.com/vi/0SYz_kPgZNA/hqdefault.jpg",
+  "publishedAt": "2026-11-25T21:00:08.000Z",
+  "topics": [
+   "Copilot",
+   "Excel"
+  ]
+ },
+ {
+  "id": "youtube:3oyICVKQ6tc",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "Model a Shift to Lower-Cost AI Models",
+  "text": "What happens to your AI bill if you switch to lower-cost models? Cost & Forecast in Agent 365 Business Analytics projects month-end cost and shows what drives increases and decreases by job function, model, and service. Model a spending cap, expanded access, or a different model…",
+  "url": "https://www.youtube.com/watch?v=3oyICVKQ6tc",
+  "image": "https://i.ytimg.com/vi/3oyICVKQ6tc/hqdefault.jpg",
+  "publishedAt": "2026-11-25T15:00:37.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
   "id": "blog:https://devblogs.microsoft.com/microsoft365dev/action-required-update-app-only-permissions-for-sharepoint-tenant-app-catalog-writes",
   "type": "blog",
   "sourceId": "m365-dev-blog",
@@ -457,6 +500,20 @@
   ]
  },
  {
+  "id": "x:2123481166737289514",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Reposted @nicbstme: I can finally share what I’ve been working on at @Microsoft. I lead Today, the product you saw all over the Ignite conference this week.\n\nToday is a new form factor for work. It’s not a chat box it’s a Feed. While you sleep, an AI agent works in the background on your email, your",
+  "url": "https://x.com/nicbstme/status/2123481166737289514",
+  "image": "https://pbs.twimg.com/amplify_video_thumb/2123481053193248768/img/g4NaF9mnOHTs2qC1.jpg",
+  "publishedAt": "2026-11-20T00:35:47.000Z",
+  "topics": [
+   "Agents"
+  ]
+ },
+ {
   "id": "youtube:T8ZJNlZmz6E",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -498,20 +555,6 @@
   "topics": [
    "Copilot",
    "Excel"
-  ]
- },
- {
-  "id": "x:2123481166737289514",
-  "type": "x",
-  "sourceId": "x-msftcopilot",
-  "source": "@MSFTCopilot",
-  "title": null,
-  "text": "Reposted @nicbstme: I can finally share what I’ve been working on at @Microsoft. I lead Today, the product you saw all over the Ignite conference this week.\n\nToday is a new form factor for work. It’s not a chat box it’s a Feed. While you sleep, an AI agent works in the background on your email, your",
-  "url": "https://x.com/nicbstme/status/2123481166737289514",
-  "image": "https://pbs.twimg.com/amplify_video_thumb/2123481053193248768/img/g4NaF9mnOHTs2qC1.jpg",
-  "publishedAt": "2026-11-19T19:53:36.000Z",
-  "topics": [
-   "Agents"
   ]
  },
  {
@@ -889,24 +932,6 @@
   "topics": []
  },
  {
-  "id": "x:2122751940035772480",
-  "type": "x",
-  "sourceId": "x-msftcopilot",
-  "source": "@MSFTCopilot",
-  "title": null,
-  "text": "Reposted @sumit_c: At @Microsoft Ignite, we’re sharing our next chapter, as Office and @MSFTCopilot evolve from a set of applications into a human-led, agentic system of work.\n\nWe’re making Word, Excel, PowerPoint, and Outlook more intelligent and introducing three new experiences: Today, Pages,",
-  "url": "https://x.com/sumit_c/status/2122751940035772480",
-  "image": "https://pbs.twimg.com/amplify_video_thumb/2122746567082061824/img/9s1kUog_vqh0csPF.jpg",
-  "publishedAt": "2026-11-18T01:14:08.000Z",
-  "topics": [
-   "Copilot",
-   "Outlook",
-   "Excel",
-   "Word",
-   "PowerPoint"
-  ]
- },
- {
   "id": "x:2122800609288188041",
   "type": "x",
   "sourceId": "x-microsoft",
@@ -1004,6 +1029,24 @@
   "image": null,
   "publishedAt": "2026-11-17T23:19:10.000Z",
   "topics": []
+ },
+ {
+  "id": "x:2122751940035772480",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Reposted @sumit_c: At @Microsoft Ignite, we’re sharing our next chapter, as Office and @MSFTCopilot evolve from a set of applications into a human-led, agentic system of work.\n\nWe’re making Word, Excel, PowerPoint, and Outlook more intelligent and introducing three new experiences: Today, Pages,",
+  "url": "https://x.com/sumit_c/status/2122751940035772480",
+  "image": "https://pbs.twimg.com/amplify_video_thumb/2122746567082061824/img/9s1kUog_vqh0csPF.jpg",
+  "publishedAt": "2026-11-17T23:17:14.000Z",
+  "topics": [
+   "Copilot",
+   "Outlook",
+   "Excel",
+   "Word",
+   "PowerPoint"
+  ]
  },
  {
   "id": "blog:https://devblogs.microsoft.com/microsoft365dev/introducing-the-starter-pack-for-work-iq",
