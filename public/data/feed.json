@@ -1,5 +1,93 @@
 [
  {
+  "id": "blog:https://devblogs.microsoft.com/microsoft365dev/action-required-update-app-only-permissions-for-sharepoint-tenant-app-catalog-writes",
+  "type": "blog",
+  "sourceId": "m365-dev-blog",
+  "source": "Microsoft 365 Developer Blog",
+  "title": "Action required: Update app-only permissions for SharePoint tenant App Catalog writes",
+  "text": "We are introducing an additional authorization requirement for applications that use app-only authentication to write directly to specific surfaces in the SharePoint tenant App Catalog. Starting January 31, 2027, affected app-only workflows must have the…",
+  "url": "https://devblogs.microsoft.com/microsoft365dev/action-required-update-app-only-permissions-for-sharepoint-tenant-app-catalog-writes/",
+  "image": null,
+  "publishedAt": "2026-11-25T09:01:55.000Z",
+  "topics": [
+   "SharePoint"
+  ]
+ },
+ {
+  "id": "youtube:XJzs0kI_2o8",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Introduction to creating agents with Teams SDK and Agents SDK",
+  "text": "📺 This demo helps developers choose between the Microsoft 365 Agents SDK and the Teams SDK when building agents. Sarah Critchley and Ricky Castaneda explain why the Agents SDK is a strong starting point for multi-channel scenarios, while the Teams SDK is designed for…",
+  "url": "https://www.youtube.com/watch?v=XJzs0kI_2o8",
+  "image": "https://i.ytimg.com/vi/XJzs0kI_2o8/hqdefault.jpg",
+  "publishedAt": "2026-11-25T08:10:33.000Z",
+  "topics": [
+   "Agents",
+   "Teams"
+  ]
+ },
+ {
+  "id": "youtube:79mUOTZKSQs",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "8 ways to ask. 1 precise action in Copilot",
+  "text": "Go beyond text in Microsoft 365 Copilot. Ask for a day off any way you like. Copilot gets the intent, and Copilot UX components turn it into one precise request, every time. Get started → https://aka.ms/spfx/copilot #Copilot #Microsoft365 #AI #Agents",
+  "url": "https://www.youtube.com/watch?v=79mUOTZKSQs",
+  "image": "https://i.ytimg.com/vi/79mUOTZKSQs/hqdefault.jpg",
+  "publishedAt": "2026-11-25T04:30:34.000Z",
+  "topics": [
+   "Copilot",
+   "Agents"
+  ]
+ },
+ {
+  "id": "youtube:ItARHlfAPSo",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "AI understands. UX acts. In Microsoft Copilot | Copilot UX components",
+  "text": "Go beyond text in Microsoft 365 Copilot. People ask in many different ways. Copilot works out what they mean, and Copilot UX components carry out the operation precisely, applying the same balances, policies and approvals every time. In this video, eight ways of asking for a day…",
+  "url": "https://www.youtube.com/watch?v=ItARHlfAPSo",
+  "image": "https://i.ytimg.com/vi/ItARHlfAPSo/hqdefault.jpg",
+  "publishedAt": "2026-11-25T04:30:09.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "youtube:zqGsqVCCvsE",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Copilot, Microsoft 365 & Power Platform weekly call – 24th of November, 2026",
+  "text": "📺 Copilot, Microsoft 365 & Power Platform community call on November 24th, 2026. Recap on news and updates from Microsoft, followed with demos typically by Microsoft presenters. ✨ Call included three demos: • Vesa Juvonen - UX in Copilot - Reuse same components across Microsoft…",
+  "url": "https://www.youtube.com/watch?v=zqGsqVCCvsE",
+  "image": "https://i.ytimg.com/vi/zqGsqVCCvsE/hqdefault.jpg",
+  "publishedAt": "2026-11-25T03:30:15.000Z",
+  "topics": [
+   "Copilot",
+   "Power Platform"
+  ]
+ },
+ {
+  "id": "youtube:bUClGBZ8Vzs",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "Agent 365 Business Analytics: Top AI Cost Drivers",
+  "text": "What's driving your AI spend? In this Agent 365 Business Analytics demo, GitHub Copilot makes up over 42% of total running cost and Cowork more than 40%, broken down by model provider. The combined view shows which models each advanced AI service uses and how that adds up to…",
+  "url": "https://www.youtube.com/watch?v=bUClGBZ8Vzs",
+  "image": "https://i.ytimg.com/vi/bUClGBZ8Vzs/hqdefault.jpg",
+  "publishedAt": "2026-11-25T03:15:35.000Z",
+  "topics": [
+   "Cowork",
+   "Agents"
+  ]
+ },
+ {
   "id": "x:2125348914161422715",
   "type": "x",
   "sourceId": "x-msftcopilot",
@@ -627,6 +715,22 @@
   "topics": []
  },
  {
+  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/copilot-studio/build-and-manage-business-processes-with-microsoft-copilot-studio",
+  "type": "blog",
+  "sourceId": "ms-copilot-studio-blog",
+  "source": "Copilot Studio Blog",
+  "title": "Build and manage business processes with Microsoft Copilot Studio",
+  "text": "Learn how Copilot Studio helps organizations connect agents, workflows, and apps to streamline business processes across teams and systems. The post Build and manage business processes with Microsoft Copilot Studio appeared first on Microsoft Copilot Blog .",
+  "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/build-and-manage-business-processes-with-microsoft-copilot-studio/",
+  "image": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/wp-content/uploads/2026/11/Quality-evals-1024x570.webp",
+  "publishedAt": "2026-11-18T16:00:00.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents"
+  ]
+ },
+ {
   "id": "youtube:b5ZSPULTrz8",
   "type": "youtube",
   "sourceId": "yt-mechanics",
@@ -1133,6 +1237,20 @@
   "topics": []
  },
  {
+  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work",
+  "type": "blog",
+  "sourceId": "ms-365-blog",
+  "source": "Microsoft Copilot Blog",
+  "title": "Copilot at Microsoft Ignite: Expanding what’s possible with intelligence built for work",
+  "text": "Explore new Microsoft Copilot experiences and capabilities announced at Microsoft Ignite 2026, including Home, Autopilot, Workspaces, and Code. The post Copilot at Microsoft Ignite: Expanding what’s possible with intelligence built for work appeared first on Microsoft Copilot…",
+  "url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/",
+  "image": null,
+  "publishedAt": "2026-11-17T18:05:00.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
   "id": "youtube:53stVRSReis",
   "type": "youtube",
   "sourceId": "yt-mechanics",
@@ -1472,6 +1590,20 @@
   "url": "https://x.com/MSFTCopilot/status/2122368070014373997",
   "image": "https://pbs.twimg.com/media/HXQqduYWoAAVAUW.jpg",
   "publishedAt": "2026-11-16T16:35:54.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/2026/11/16/what-ai-at-work-really-costs",
+  "type": "blog",
+  "sourceId": "ms-365-blog",
+  "source": "Microsoft Copilot Blog",
+  "title": "What AI at work really costs",
+  "text": "What does AI at work really cost? New research compares the total cost of leading enterprise AI options and explores the factors that can shape the cost of everyday and advanced AI work. The post What AI at work really costs appeared first on Microsoft Copilot Blog .",
+  "url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/16/what-ai-at-work-really-costs/",
+  "image": null,
+  "publishedAt": "2026-11-16T16:00:00.000Z",
   "topics": [
    "Copilot"
   ]
@@ -3217,6 +3349,22 @@
   ]
  },
  {
+  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/copilot-studio/how-the-microsoft-copilot-harness-in-copilot-studio-helps-agents-finish-the-job",
+  "type": "blog",
+  "sourceId": "ms-copilot-studio-blog",
+  "source": "Copilot Studio Blog",
+  "title": "How the Microsoft Copilot harness in Copilot Studio helps agents finish the job",
+  "text": "Go inside the Microsoft Copilot harness in Copilot Studio and learn how agents complete complex work while navigating failures and uncertainty. The post How the Microsoft Copilot harness in Copilot Studio helps agents finish the job appeared first on Microsoft Copilot Blog .",
+  "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/how-the-microsoft-copilot-harness-in-copilot-studio-helps-agents-finish-the-job/",
+  "image": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/wp-content/uploads/2026/11/CLO20b_Abbi_Kerry_casual_office_004_600.jpg",
+  "publishedAt": "2026-11-09T16:30:00.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents"
+  ]
+ },
+ {
   "id": "youtube:4vCbQMUVV-I",
   "type": "youtube",
   "sourceId": "yt-mechanics",
@@ -3986,6 +4134,20 @@
   ]
  },
  {
+  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/2026/11/05/bringing-claude-models-in-microsoft-copilot-into-the-eu-data-boundary",
+  "type": "blog",
+  "sourceId": "ms-365-blog",
+  "source": "Microsoft Copilot Blog",
+  "title": "Bringing Claude models in Microsoft Copilot into the EU Data Boundary",
+  "text": "Greater model choice, consistent protection. Claude models are coming to the EU Data Boundary in Microsoft Copilot. The post Bringing Claude models in Microsoft Copilot into the EU Data Boundary appeared first on Microsoft Copilot Blog .",
+  "url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/05/bringing-claude-models-in-microsoft-copilot-into-the-eu-data-boundary/",
+  "image": null,
+  "publishedAt": "2026-11-05T16:00:00.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
   "id": "reddit:t3_1xok8p3",
   "type": "reddit",
   "sourceId": "reddit-broad",
@@ -4187,6 +4349,22 @@
   "publishedAt": "2026-11-04T16:30:08.000Z",
   "topics": [
    "Power Platform"
+  ]
+ },
+ {
+  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-agents-that-are-persistent-agents-for-customer-conversations-and-improved-maker-experience-in-microsoft-copilot-studio",
+  "type": "blog",
+  "sourceId": "ms-copilot-studio-blog",
+  "source": "Copilot Studio Blog",
+  "title": "New and improved: Agents that are persistent, agents for customer conversations, and improved maker experience in Microsoft Copilot Studio",
+  "text": "Discover what’s new in Copilot Studio, October 2026: new capabilities for building persistent agents and connecting workflows, customer interactions, and business data. The post New and improved: Agents that are persistent, agents for customer conversations, and improved maker…",
+  "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-agents-that-are-persistent-agents-for-customer-conversations-and-improved-maker-experience-in-microsoft-copilot-studio/",
+  "image": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/wp-content/uploads/2026/11/MCS-MCP-1-1024x470.webp",
+  "publishedAt": "2026-11-04T16:30:00.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents"
   ]
  },
  {
@@ -5252,6 +5430,20 @@
   ]
  },
  {
+  "id": "blog:https://www.microsoft.com/en-us/copilot/blog/2026/10/29/microsoft-copilot-for-finance-purpose-built-for-the-way-finance-teams-work",
+  "type": "blog",
+  "sourceId": "ms-365-blog",
+  "source": "Microsoft Copilot Blog",
+  "title": "Microsoft Copilot for finance: Purpose-built for the way finance teams work",
+  "text": "Discover Microsoft Copilot for finance, purpose-built skills for accounting, capital markets, and broader finance work. The post Microsoft Copilot for finance: Purpose-built for the way finance teams work appeared first on Microsoft Copilot Blog .",
+  "url": "https://www.microsoft.com/en-us/copilot/blog/2026/10/29/microsoft-copilot-for-finance-purpose-built-for-the-way-finance-teams-work/",
+  "image": null,
+  "publishedAt": "2026-10-29T15:00:00.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
   "id": "youtube:eJrjYA-GG3c",
   "type": "youtube",
   "sourceId": "yt-mechanics",
@@ -5578,6 +5770,20 @@
   "url": "https://x.com/MSFTCopilot/status/2113661797567696934",
   "image": "https://pbs.twimg.com/media/HVU8M_XWgAAT36a.png",
   "publishedAt": "2026-10-23T16:00:17.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/introducing-microsoft-copilot-for-legal/4564246",
+  "type": "blog",
+  "sourceId": "ms-365-blog",
+  "source": "Microsoft Copilot Blog",
+  "title": "Introducing Microsoft Copilot for legal",
+  "text": "In legal work, the answer rarely sits neatly in one place. It may depend on precedent, organizational standards, or a regulatory consideration that changes the whole analysis. The post Introducing Microsoft Copilot for legal appeared first on Microsoft Copilot Blog .",
+  "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/introducing-microsoft-copilot-for-legal/4564246",
+  "image": null,
+  "publishedAt": "2026-10-23T15:00:00.000Z",
   "topics": [
    "Copilot"
   ]
