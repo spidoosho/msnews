@@ -31,22 +31,6 @@
   ]
  },
  {
-  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/how-to-manage-costs-for-copilot-studio-agents/ba-p/4576413",
-  "type": "blog",
-  "sourceId": "tc-copilot-studio",
-  "source": "Tech Community: Copilot Studio",
-  "title": "How to manage costs for Copilot Studio agents",
-  "text": "The Microsoft Copilot harness gives agents deeper reasoning: they can plan multistep work and adapt as they go, so an agent can take on a task like researching a customer issue across several systems and drafting the reply, instead of answering one question at a time. Its…",
-  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/how-to-manage-costs-for-copilot-studio-agents/ba-p/4576413",
-  "image": null,
-  "publishedAt": "2026-11-26T00:09:11.000Z",
-  "topics": [
-   "Copilot",
-   "Copilot Studio",
-   "Agents"
-  ]
- },
- {
   "id": "youtube:xACSLzRwhNI",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -73,6 +57,26 @@
   "topics": [
    "Copilot",
    "Excel"
+  ]
+ },
+ {
+  "id": "x:2125318629600231489",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Reposted @MSFTCopilot: The latest from OpenAI, now in Microsoft Copilot.\n \nGPT-6.2 Sol is rolling out in Copilot Chat, Copilot Cowork, Copilot Studio, and Copilot in Word, Excel, and PowerPoint. \n \nGPT-6.2 Astra is rolling out in Copilot Cowork and Copilot Studio, and is available to Frontier users in",
+  "url": "https://x.com/MSFTCopilot/status/2125318629600231489",
+  "image": "https://pbs.twimg.com/media/HX6mB3kXYAAeSde.jpg",
+  "publishedAt": "2026-11-25T16:14:17.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Chat",
+   "Copilot Studio",
+   "Cowork",
+   "Excel",
+   "Word",
+   "PowerPoint"
   ]
  },
  {
@@ -190,23 +194,19 @@
   "topics": []
  },
  {
-  "id": "x:2125318629600231489",
-  "type": "x",
-  "sourceId": "x-msftcopilot",
-  "source": "@MSFTCopilot",
-  "title": null,
-  "text": "The latest from OpenAI, now in Microsoft Copilot.\n \nGPT-6.2 Sol is rolling out in Copilot Chat, Copilot Cowork, Copilot Studio, and Copilot in Word, Excel, and PowerPoint. \n \nGPT-6.2 Astra is rolling out in Copilot Cowork and Copilot Studio, and is available to Frontier users in",
-  "url": "https://x.com/MSFTCopilot/status/2125318629600231489",
-  "image": "https://pbs.twimg.com/media/HX6mB3kXYAAeSde.jpg",
-  "publishedAt": "2026-11-24T20:00:22.000Z",
+  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/how-to-manage-costs-for-copilot-studio-agents/ba-p/4576413",
+  "type": "blog",
+  "sourceId": "tc-copilot-studio",
+  "source": "Tech Community: Copilot Studio",
+  "title": "How to manage costs for Copilot Studio agents",
+  "text": "A practical guide to measuring agent consumption, forecasting demand, and managing usage-based costs across maker and admin experiences. The introduction of the Microsoft Copilot harness for Copilot Studio adds to a broader shift toward usage-based billing. Alongside…",
+  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/how-to-manage-costs-for-copilot-studio-agents/ba-p/4576413",
+  "image": null,
+  "publishedAt": "2026-11-24T20:51:02.000Z",
   "topics": [
    "Copilot",
-   "Copilot Chat",
    "Copilot Studio",
-   "Cowork",
-   "Excel",
-   "Word",
-   "PowerPoint"
+   "Agents"
   ]
  },
  {
@@ -547,20 +547,6 @@
   ]
  },
  {
-  "id": "x:2123481166737289514",
-  "type": "x",
-  "sourceId": "x-msftcopilot",
-  "source": "@MSFTCopilot",
-  "title": null,
-  "text": "Reposted @nicbstme: I can finally share what I’ve been working on at @Microsoft. I lead Today, the product you saw all over the Ignite conference this week.\n\nToday is a new form factor for work. It’s not a chat box it’s a Feed. While you sleep, an AI agent works in the background on your email, your",
-  "url": "https://x.com/nicbstme/status/2123481166737289514",
-  "image": "https://pbs.twimg.com/amplify_video_thumb/2123481053193248768/img/g4NaF9mnOHTs2qC1.jpg",
-  "publishedAt": "2026-11-20T00:35:47.000Z",
-  "topics": [
-   "Agents"
-  ]
- },
- {
   "id": "youtube:T8ZJNlZmz6E",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -602,6 +588,20 @@
   "topics": [
    "Copilot",
    "Excel"
+  ]
+ },
+ {
+  "id": "x:2123481166737289514",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Reposted @nicbstme: I can finally share what I’ve been working on at @Microsoft. I lead Today, the product you saw all over the Ignite conference this week.\n\nToday is a new form factor for work. It’s not a chat box it’s a Feed. While you sleep, an AI agent works in the background on your email, your",
+  "url": "https://x.com/nicbstme/status/2123481166737289514",
+  "image": "https://pbs.twimg.com/amplify_video_thumb/2123481053193248768/img/g4NaF9mnOHTs2qC1.jpg",
+  "publishedAt": "2026-11-19T19:53:36.000Z",
+  "topics": [
+   "Agents"
   ]
  },
  {
@@ -979,6 +979,24 @@
   "topics": []
  },
  {
+  "id": "x:2122751940035772480",
+  "type": "x",
+  "sourceId": "x-msftcopilot",
+  "source": "@MSFTCopilot",
+  "title": null,
+  "text": "Reposted @sumit_c: At @Microsoft Ignite, we’re sharing our next chapter, as Office and @MSFTCopilot evolve from a set of applications into a human-led, agentic system of work.\n\nWe’re making Word, Excel, PowerPoint, and Outlook more intelligent and introducing three new experiences: Today, Pages,",
+  "url": "https://x.com/sumit_c/status/2122751940035772480",
+  "image": "https://pbs.twimg.com/amplify_video_thumb/2122746567082061824/img/9s1kUog_vqh0csPF.jpg",
+  "publishedAt": "2026-11-18T01:14:08.000Z",
+  "topics": [
+   "Copilot",
+   "Outlook",
+   "Excel",
+   "Word",
+   "PowerPoint"
+  ]
+ },
+ {
   "id": "x:2122800609288188041",
   "type": "x",
   "sourceId": "x-microsoft",
@@ -1076,24 +1094,6 @@
   "image": null,
   "publishedAt": "2026-11-17T23:19:10.000Z",
   "topics": []
- },
- {
-  "id": "x:2122751940035772480",
-  "type": "x",
-  "sourceId": "x-msftcopilot",
-  "source": "@MSFTCopilot",
-  "title": null,
-  "text": "Reposted @sumit_c: At @Microsoft Ignite, we’re sharing our next chapter, as Office and @MSFTCopilot evolve from a set of applications into a human-led, agentic system of work.\n\nWe’re making Word, Excel, PowerPoint, and Outlook more intelligent and introducing three new experiences: Today, Pages,",
-  "url": "https://x.com/sumit_c/status/2122751940035772480",
-  "image": "https://pbs.twimg.com/amplify_video_thumb/2122746567082061824/img/9s1kUog_vqh0csPF.jpg",
-  "publishedAt": "2026-11-17T23:17:14.000Z",
-  "topics": [
-   "Copilot",
-   "Outlook",
-   "Excel",
-   "Word",
-   "PowerPoint"
-  ]
  },
  {
   "id": "blog:https://devblogs.microsoft.com/microsoft365dev/introducing-the-starter-pack-for-work-iq",
