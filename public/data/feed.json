@@ -1,5 +1,20 @@
 [
  {
+  "id": "youtube:18E4ZOXBfjY",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "UX in Copilot Canvas – Modernizing your innovation process with agents and UX",
+  "text": "📺 This demo shows how Copilot UX components can bring interactive business applications directly into the Copilot canvas. Vesa Juvonen demonstrates the open-source Zava Innovation Hub scenario, with 17 purpose-built components for submitting innovation ideas, reviewing items…",
+  "url": "https://www.youtube.com/watch?v=18E4ZOXBfjY",
+  "image": "https://i.ytimg.com/vi/18E4ZOXBfjY/hqdefault.jpg",
+  "publishedAt": "2026-11-26T08:10:17.000Z",
+  "topics": [
+   "Copilot",
+   "Agents"
+  ]
+ },
+ {
   "id": "youtube:JQHbHGMVsPY",
   "type": "youtube",
   "sourceId": "yt-mechanics",
@@ -13,6 +28,22 @@
    "Copilot",
    "Agents",
    "Security & Admin"
+  ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/how-to-manage-costs-for-copilot-studio-agents/ba-p/4576413",
+  "type": "blog",
+  "sourceId": "tc-copilot-studio",
+  "source": "Tech Community: Copilot Studio",
+  "title": "How to manage costs for Copilot Studio agents",
+  "text": "The Microsoft Copilot harness gives agents deeper reasoning: they can plan multistep work and adapt as they go, so an agent can take on a task like researching a customer issue across several systems and drafting the reply, instead of answering one question at a time. Its…",
+  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/how-to-manage-costs-for-copilot-studio-agents/ba-p/4576413",
+  "image": null,
+  "publishedAt": "2026-11-26T00:09:11.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents"
   ]
  },
  {
@@ -64,7 +95,7 @@
   "sourceId": "m365-dev-blog",
   "source": "Microsoft 365 Developer Blog",
   "title": "Action required: Update app-only permissions for SharePoint tenant App Catalog writes",
-  "text": "We are introducing an additional authorization requirement for applications that use app-only authentication to write directly to specific surfaces in the SharePoint tenant App Catalog. Starting January 31, 2027, affected app-only workflows must have the…",
+  "text": "Starting January 31, 2027, app-only solutions that write to the SharePoint tenant App Catalog will require the SharePointTenantSettings.ReadWrite.All application permission. Review and update your CI/CD pipelines, unattended scripts, and other automated deployment processes…",
   "url": "https://devblogs.microsoft.com/microsoft365dev/action-required-update-app-only-permissions-for-sharepoint-tenant-app-catalog-writes/",
   "image": null,
   "publishedAt": "2026-11-25T09:01:55.000Z",
