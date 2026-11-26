@@ -1,5 +1,21 @@
 [
  {
+  "id": "youtube:JQHbHGMVsPY",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "Create a Copilot Credit Spending Policy",
+  "text": "How do you cap AI spend in Microsoft 365? In the Microsoft 365 admin center, create a spending policy scoped by identity (users or groups) or by resource, such as a shared agent. Choose the services it covers, then set a cumulative monthly budget limit and, optionally, a…",
+  "url": "https://www.youtube.com/watch?v=JQHbHGMVsPY",
+  "image": "https://i.ytimg.com/vi/JQHbHGMVsPY/hqdefault.jpg",
+  "publishedAt": "2026-11-26T03:00:31.000Z",
+  "topics": [
+   "Copilot",
+   "Agents",
+   "Security & Admin"
+  ]
+ },
+ {
   "id": "youtube:xACSLzRwhNI",
   "type": "youtube",
   "sourceId": "yt-community-learning",
