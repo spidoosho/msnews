@@ -1,5 +1,20 @@
 [
  {
+  "id": "youtube:sqJFBOgHt_4",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "Raise a Copilot Spending Limit in Agent 365",
+  "text": "What happens when a team hits its AI spending limit? Spending policies are hard limits, so the engineering team in this demo is blocked even while AI is streamlining their work. A budget owner with delegated access edits the policy in Agent 365 Business Analytics, raises the…",
+  "url": "https://www.youtube.com/watch?v=sqJFBOgHt_4",
+  "image": "https://i.ytimg.com/vi/sqJFBOgHt_4/hqdefault.jpg",
+  "publishedAt": "2026-11-27T15:30:37.000Z",
+  "topics": [
+   "Copilot",
+   "Agents"
+  ]
+ },
+ {
   "id": "youtube:QnBKEUWcxrw",
   "type": "youtube",
   "sourceId": "yt-community-learning",
