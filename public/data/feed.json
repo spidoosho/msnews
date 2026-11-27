@@ -1,5 +1,35 @@
 [
  {
+  "id": "youtube:QnBKEUWcxrw",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "How to build a Excel charts slider with SPFx",
+  "text": "📺 This demo shows how to build an Excel charts slider with SharePoint Framework. Armin Razic walks through an SPFx 1.22 web part built with React, TypeScript, Microsoft Graph, and Fluent UI that lets users browse SharePoint sites, document libraries, Excel workbooks,…",
+  "url": "https://www.youtube.com/watch?v=QnBKEUWcxrw",
+  "image": "https://i.ytimg.com/vi/QnBKEUWcxrw/hqdefault.jpg",
+  "publishedAt": "2026-11-27T08:10:00.000Z",
+  "topics": [
+   "SharePoint",
+   "Excel"
+  ]
+ },
+ {
+  "id": "youtube:kh_DqE72-Mc",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Copilot, Microsoft 365 & Power Platform community call – 26th of November, 2026",
+  "text": "📺 Copilot, Microsoft 365 & Power Platform Community call on November 26th, 2026. Recap on news and updates from Microsoft and community projects, followed by demos by the community on the art of possible within Microsoft 365 and Power Platform. ✨ Call included three demos: •…",
+  "url": "https://www.youtube.com/watch?v=kh_DqE72-Mc",
+  "image": "https://i.ytimg.com/vi/kh_DqE72-Mc/hqdefault.jpg",
+  "publishedAt": "2026-11-26T23:48:19.000Z",
+  "topics": [
+   "Copilot",
+   "Power Platform"
+  ]
+ },
+ {
   "id": "youtube:18E4ZOXBfjY",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -31,6 +61,22 @@
   ]
  },
  {
+  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/how-to-manage-costs-for-copilot-studio-agents/ba-p/4576413",
+  "type": "blog",
+  "sourceId": "tc-copilot-studio",
+  "source": "Tech Community: Copilot Studio",
+  "title": "How to manage costs for Copilot Studio agents",
+  "text": "The Microsoft Copilot harness gives agents deeper reasoning: they can plan multistep work and adapt as they go, so an agent can take on a task like researching a customer issue across several systems and drafting the reply, instead of answering one question at a time. Its…",
+  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/how-to-manage-costs-for-copilot-studio-agents/ba-p/4576413",
+  "image": null,
+  "publishedAt": "2026-11-26T00:09:11.000Z",
+  "topics": [
+   "Copilot",
+   "Copilot Studio",
+   "Agents"
+  ]
+ },
+ {
   "id": "youtube:xACSLzRwhNI",
   "type": "youtube",
   "sourceId": "yt-community-learning",
@@ -58,6 +104,18 @@
    "Copilot",
    "Excel"
   ]
+ },
+ {
+  "id": "blog:https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-ignite-2026-recap-celebrating-community-connection-and/ba-p/4576748",
+  "type": "blog",
+  "sourceId": "tc-m365",
+  "source": "Tech Community: Microsoft 365",
+  "title": "Microsoft Ignite 2026 Recap: Celebrating Community, Connection, and the Power of Learning Together",
+  "text": "From inspiring conversations to practical AI learning, Microsoft Ignite 2026 reminded us that innovation is even more powerful when we build and learn together. Microsoft Ignite brought the global Microsoft community together in San Francisco, November 16–20, for a week of…",
+  "url": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-ignite-2026-recap-celebrating-community-connection-and/ba-p/4576748",
+  "image": null,
+  "publishedAt": "2026-11-25T18:57:11.000Z",
+  "topics": []
  },
  {
   "id": "x:2125318629600231489",
@@ -192,22 +250,6 @@
   "image": null,
   "publishedAt": "2026-11-24T22:00:42.000Z",
   "topics": []
- },
- {
-  "id": "blog:https://techcommunity.microsoft.com/t5/copilot-studio-blog/how-to-manage-costs-for-copilot-studio-agents/ba-p/4576413",
-  "type": "blog",
-  "sourceId": "tc-copilot-studio",
-  "source": "Tech Community: Copilot Studio",
-  "title": "How to manage costs for Copilot Studio agents",
-  "text": "A practical guide to measuring agent consumption, forecasting demand, and managing usage-based costs across maker and admin experiences. The introduction of the Microsoft Copilot harness for Copilot Studio adds to a broader shift toward usage-based billing. Alongside…",
-  "url": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/how-to-manage-costs-for-copilot-studio-agents/ba-p/4576413",
-  "image": null,
-  "publishedAt": "2026-11-24T20:51:02.000Z",
-  "topics": [
-   "Copilot",
-   "Copilot Studio",
-   "Agents"
-  ]
  },
  {
   "id": "youtube:Ki7gMXXePu4",
