@@ -1,5 +1,33 @@
 [
  {
+  "id": "youtube:WOuPyaLCJJ8",
+  "type": "youtube",
+  "sourceId": "yt-community-learning",
+  "source": "Microsoft Community Learning",
+  "title": "Stop Clicking Through Run History: Build Your Own MCP to Debug Power Automate Flows",
+  "text": "📺 This demo shows how to build and debug Power Automate flows through a custom MCP server instead of clicking through run history. Elliot Margot uses Claude to create a sales digest flow, connect it to Dataverse, run it, inspect a failed execution, apply a fix, and rerun it…",
+  "url": "https://www.youtube.com/watch?v=WOuPyaLCJJ8",
+  "image": "https://i.ytimg.com/vi/WOuPyaLCJJ8/hqdefault.jpg",
+  "publishedAt": "2026-11-28T08:10:16.000Z",
+  "topics": [
+   "Power Platform"
+  ]
+ },
+ {
+  "id": "youtube:-s4sFbPEWSc",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "Copilot Code What-If Sliders Demo",
+  "text": "Which market returns more as marketing spend goes up? This Copilot Code dashboard puts the whole market portfolio on one screen, and its what-if sliders update top-line numbers, map color coding, and revenue uplift per million rankings as investment changes. Adding spend in the…",
+  "url": "https://www.youtube.com/watch?v=-s4sFbPEWSc",
+  "image": "https://i.ytimg.com/vi/-s4sFbPEWSc/hqdefault.jpg",
+  "publishedAt": "2026-11-28T03:45:21.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
   "id": "youtube:sqJFBOgHt_4",
   "type": "youtube",
   "sourceId": "yt-mechanics",
