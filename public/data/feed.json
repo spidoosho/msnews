@@ -1,5 +1,19 @@
 [
  {
+  "id": "youtube:UbKwSlweTho",
+  "type": "youtube",
+  "sourceId": "yt-mechanics",
+  "source": "Microsoft Mechanics",
+  "title": "Copilot Code: Turn Your Idea Into an App",
+  "text": "Have an idea for a dashboard, tracker, or app but no way to build it? Copilot Code in Microsoft Copilot takes a plain-language description and builds an interactive app. It pulls the information you specify from your work data while respecting your company policies, with no…",
+  "url": "https://www.youtube.com/watch?v=UbKwSlweTho",
+  "image": "https://i.ytimg.com/vi/UbKwSlweTho/hqdefault.jpg",
+  "publishedAt": "2026-11-28T16:15:07.000Z",
+  "topics": [
+   "Copilot"
+  ]
+ },
+ {
   "id": "youtube:WOuPyaLCJJ8",
   "type": "youtube",
   "sourceId": "yt-community-learning",
